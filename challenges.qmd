@@ -1,0 +1,416 @@
+---
+title: "Challenges"
+date: last-modified
+format:
+  html:
+    embed-resources: true
+    toc: true
+    number-sections: false
+---
+
+## 1. Early Outbreak Detection from Multi-Source Surveillance Data
+
+**Objective:**  
+Develop models for early detection of emerging animal health events.
+
+**Data:**  
+- WAHIS event notifications (historical)  
+- Syndromic surveillance indicators  
+- Trade/movement proxies  
+- Environmental covariates  
+
+**Methods:**  
+- Bayesian change-point detection  
+- Spatio-temporal models  
+- Anomaly detection  
+- LSTM / transformer-based time series models  
+
+**Deliverable:**  
+End-to-end pipeline producing alerts with uncertainty quantification and interpretability.
+
+---
+
+## 2. Spatio-Temporal Risk Mapping of Priority Transboundary Animal Diseases
+
+**Objective:**  
+Produce dynamic risk maps for a selected priority disease (e.g. ASF, HPAI, FMD).
+
+**Data:**  
+- Historical outbreak locations  
+- Livestock density  
+- Climate data  
+- Trade and movement indicators  
+
+**Methods:**  
+- Hierarchical Bayesian models  
+- Gaussian processes  
+- Spatial ML (e.g. graph neural networks)  
+
+**Deliverable:**  
+Reproducible pipeline generating predictive risk surfaces and validation metrics.
+
+---
+
+## 3. Nowcasting and Forecasting Disease Incidence Under Reporting Delays
+
+**Objective:**  
+Correct for under-reporting and reporting delays in animal disease data.
+
+**Data:**  
+- Time-stamped notification data with known lags  
+- Partial reporting histories  
+
+**Methods:**  
+- Bayesian nowcasting  
+- State-space models  
+- Probabilistic forecasting  
+
+**Deliverable:**  
+Forecasts with credible intervals and comparison of methodological approaches.
+
+---
+
+## 4. AI-Assisted Signal Extraction from Event-Based Surveillance Text
+
+**Objective:**  
+Extract and classify animal health signals from unstructured text sources.
+
+**Data:**  
+- News articles  
+- Official reports  
+- Social media or RSS feeds (curated sample)  
+
+**Methods:**  
+- NLP pipelines  
+- Transformer-based classification  
+- Named entity recognition  
+- Weak supervision  
+
+**Deliverable:**  
+Automated system producing structured signals linked to diseases, species, and locations.
+
+---
+
+## 5. Cross-Country Comparability and Bias Assessment in Surveillance Data
+
+**Objective:**  
+Quantify and adjust for heterogeneity in surveillance capacity and reporting practices.
+
+**Data:**  
+- WAHIS indicators  
+- Country-level metadata (capacity indicators, reporting frequency)  
+
+**Methods:**  
+- Latent variable models  
+- Causal inference  
+- Domain adaptation techniques  
+
+**Deliverable:**  
+Metrics and visualizations highlighting comparability issues and adjusted estimates.
+
+---
+
+## 6. Antimicrobial Use and Resistance: Pattern Discovery and Prediction
+
+**Objective:**  
+Explore relationships between antimicrobial use (AMU) and resistance (AMR) indicators.
+
+**Data:**  
+- Aggregated AMU and AMR datasets (animal sector)  
+- Contextual production data  
+
+**Methods:**  
+- Multivariate analysis  
+- Causal graphs  
+- Machine learning regression and clustering  
+
+**Deliverable:**  
+Analytical pipeline identifying patterns, risk factors, and predictive signals.
+
+---
+
+## 7. One Health Integration: Linking Animal Health, Environment, and Climate Signals
+
+**Objective:**  
+Assess how environmental and climate variables modulate animal disease risk.
+
+**Data:**  
+- Disease occurrence data  
+- Climate variables (temperature, rainfall)  
+- Land-use proxies  
+
+**Methods:**  
+- Joint models  
+- Feature attribution methods  
+- Interpretable ML  
+
+**Deliverable:**  
+Quantitative assessment of environmental drivers with policy-relevant interpretation.
+
+---
+
+## 8. Automated Quality Assessment of Animal Health Data Submissions
+
+**Objective:**  
+Detect inconsistencies, outliers, and implausible values in reported datasets.
+
+**Data:**  
+- Historical surveillance submissions with known data quality issues  
+
+**Methods:**  
+- Rule-based checks combined with ML anomaly detection  
+- Explainable AI  
+
+**Deliverable:**  
+Scalable data quality scoring framework and dashboard-ready outputs.
+
+---
+
+## 9. Scenario Modelling for Disease Spread Under Control Strategies
+
+**Objective:**  
+Compare intervention strategies (movement restrictions, vaccination) using simulation.
+
+**Data:**  
+- Synthetic or pilot outbreak scenarios with parameter ranges  
+
+**Methods:**  
+- Compartmental and agent-based models  
+- Stochastic simulations  
+
+**Deliverable:**  
+Decision-support outputs comparing scenarios under uncertainty.
+
+---
+
+## 10. Translation of Analytical Outputs into Decision-Ready Indicators
+
+**Objective:**  
+Bridge advanced analytics and policy needs by designing interpretable indicators.
+
+**Data:**  
+- Outputs from one or more analytical pipelines above  
+
+**Methods:**  
+- Indicator construction  
+- Uncertainty communication  
+- Visualization science  
+
+**Deliverable:**  
+A reproducible workflow producing indicators aligned with WOAH reporting needs.
+
+---
+
+## 11. Composite Observatory Indicators from Heterogeneous Data Streams  
+*(WOAH Observatory – Core)*
+
+**Challenge:**  
+Design and validate composite indicators to monitor countries’ implementation of WOAH standards.
+
+**Data:**  
+- WAHIS quantitative indicators  
+- Observatory qualitative assessments  
+- Country metadata (income group, livestock sector structure)  
+
+**Methods:**  
+- Latent variable models  
+- Multi-criteria decision analysis  
+- Uncertainty propagation  
+
+**Why it matters:**  
+Directly contributes to the Observatory’s methodological robustness and credibility.
+
+---
+
+## 12. Bias and Signal Separation in Observatory Monitoring Data  
+*(WOAH Observatory – Methodological)*
+
+**Challenge:**  
+Distinguish true performance changes from reporting, compliance, or capacity effects.
+
+**Data:**  
+- Time series of Observatory-related indicators  
+- Reporting histories  
+
+**Methods:**  
+- Hierarchical Bayesian models  
+- Measurement error models  
+- Causal inference / sensitivity analysis  
+
+**Why it matters:**  
+Prevents misinterpretation of Observatory outputs by Members and partners.
+
+---
+
+## 13. Linking Animal Health Performance to Economic Losses  
+*(GBADs – Flagship)*
+
+**Challenge:**  
+Quantify economic losses associated with animal diseases using sparse or partial data.
+
+**Data:**  
+- Disease occurrence (WAHIS)  
+- Livestock population and production proxies  
+- GBADs pilot economic datasets  
+
+**Methods:**  
+- Economic–epidemiological models  
+- Imputation and data fusion  
+- Scenario-based valuation  
+
+**Why it matters:**  
+Central to GBADs’ mission of making losses visible and comparable.
+
+---
+
+## 14. Predictive Modelling of Animal Health Burden Under Alternative Investment Scenarios  
+*(GBADs + Policy)*
+
+**Challenge:**  
+Estimate how changes in surveillance or control investment affect disease burden and losses.
+
+**Data:**  
+- Synthetic or pilot GBADs scenarios  
+- Real surveillance data  
+
+**Methods:**  
+- Counterfactual modelling  
+- Decision analysis  
+- Probabilistic simulations  
+
+**Why it matters:**  
+Directly supports investment cases for animal health systems.
+
+---
+
+## 15. Harmonising Epidemiological and Economic Metrics Across Countries  
+*(GBADs + Observatory)*
+
+**Challenge:**  
+Build a framework linking epidemiological indicators (incidence, mortality) to economic burden metrics.
+
+**Data:**  
+- Multi-country pilot datasets  
+
+**Methods:**  
+- Metric harmonisation  
+- Scaling and standardisation  
+- Cross-country comparability analysis  
+
+**Why it matters:**  
+Bridges the Observatory and GBADs into a coherent evidence framework.
+
+---
+
+# Trade and Animal Health (T-Series)
+
+## T1 — Trade Disruptions Following Animal Health Events
+
+**Problem:**  
+Animal disease outbreaks often lead to asymmetric and poorly quantified trade impacts.
+
+**Objective:**  
+Quantify how outbreaks affect bilateral and regional trade flows over time.
+
+**Data (pilot):**  
+- Disease outbreak timelines  
+- Aggregated livestock/product trade data  
+- Country and product metadata  
+
+**Methods:**  
+- Interrupted time series  
+- Difference-in-differences  
+- Bayesian causal models  
+
+**Why it matters:**  
+Provides evidence for proportional, science-based trade measures.
+
+---
+
+## T2 — Predicting Trade Vulnerability to Animal Health Shocks
+
+**Problem:**  
+Some trade relationships are more fragile than others, but vulnerability is rarely quantified.
+
+**Objective:**  
+Develop indicators of trade vulnerability to animal health events.
+
+**Data (pilot):**  
+- Trade networks  
+- Historical outbreaks  
+- Production and dependency proxies  
+
+**Methods:**  
+- Network analysis  
+- Risk scoring models  
+- Graph-based ML  
+
+**Why it matters:**  
+Supports preparedness and resilience planning.
+
+---
+
+## T3 — Disease Risk Along Trade and Movement Networks
+
+**Problem:**  
+Trade and movement routes can amplify disease spread, but are often treated crudely.
+
+**Objective:**  
+Model disease risk propagation along trade-related networks.
+
+**Data (pilot):**  
+- Livestock/product trade matrices  
+- Outbreak locations  
+- Optional mobility proxies  
+
+**Methods:**  
+- Network epidemiology  
+- Spatio-network models  
+- Simulation approaches  
+
+**Why it matters:**  
+Bridges epidemiology and trade without requiring sensitive microdata.
+
+---
+
+## T4 — Science-Based Regionalisation and Zoning Indicators
+
+**Problem:**  
+Regionalisation decisions are critical but analytically under-supported.
+
+**Objective:**  
+Design quantitative indicators supporting zoning/regionalisation under outbreaks.
+
+**Data (pilot):**  
+- Subnational outbreak data (or synthetic)  
+- Trade exposure proxies  
+- Control measures metadata  
+
+**Methods:**  
+- Spatial risk aggregation  
+- Scenario modelling  
+- Uncertainty-aware indicators  
+
+**Why it matters:**  
+Directly relevant to international trade continuity.
+
+---
+
+## T5 — Consistency of Sanitary Measures with Observed Risk
+
+**Problem:**  
+Trade restrictions may not always align with epidemiological risk.
+
+**Objective:**  
+Compare observed trade measures with estimated disease risk.
+
+**Data (pilot):**  
+- Outbreak and risk estimates  
+- Trade policy proxies (binary/ordinal)  
+
+**Methods:**  
+- Risk–response analysis  
+- Classification and clustering  
+
+**Why it matters:**  
+Encourages transparency and proportionality.
