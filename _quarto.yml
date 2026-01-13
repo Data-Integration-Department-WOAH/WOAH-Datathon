@@ -1,6 +1,6 @@
 project:
   type: website
-  output-dir: "docs"
+  output-dir: .
 website:
   title: "WOAH Datathon"
   navbar:
@@ -15,7 +15,7 @@ format:
       - cosmo
       - brand
     # css: styles.css
-    toc: true
+    toc: true 
  
 
 
