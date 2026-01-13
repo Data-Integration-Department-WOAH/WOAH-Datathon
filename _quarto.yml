@@ -7,20 +7,8 @@ website:
     left:
       - text: "Home"
         href: index.qmd
-      - text: "Data wrangling & plotting with R and Rstudio"
-        href: Notes_session1.qmd
-      - text: "Combining datasets"
-        href: Notes_session3.qmd
-      - text: "Creating content with Quarto"
-        href: quarto.qmd
-      - text: "Statistical thinking"
-        href: stat.qmd
-      - text: "Georeferenced data"
-        href: geo.qmd
-      - text: "Collaborating with Git"
-        href: git.qmd
-      - text: "Leveraging AI"
-        href: AI.qmd
+      - text: "Challenges"
+        href: challenges.qmd  
 format:
   html:
     theme:

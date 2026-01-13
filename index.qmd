@@ -1,43 +1,64 @@
 ---
-title: "Welcome to the WOAH Data Science training program"
-author: "Data Integration Department, WOAH"
+title: "Welcome to the WOAH Datathon web page"
+author: "Data Integration & Analytics Department, WOAH"
 date: last-modified
 format:
   html:
     embed-resources: true
     toc: true
-    number-sections: true
+    number-sections: false
 ---
-   
-This page will be used to share material during the training program. We will work in agile mode and adjust continuously the pace and content of the training sessions based on your feedback and needs. The present document will be continuously updated and used as the main entry point to share information and references throughout the program.
 
-Here is a list of topics that will be covered by the training program:
+# Call for Participation
 
--   The Rstudio and Positron environments
+International Datathon on Animal Health Organised by the World Organisation for Animal Health (WOAH)
 
-- Loading data
+## Overview
+The World Organisation for Animal Health (WOAH) invites multidisciplinary teams to participate in an international datathon on animal health data science, focusing on surveillance, risk, trade, and impact assessment.
 
--   Common data structures, basic of R and dplyr syntax, first look at plotting figures
+Participants will work remotely over several months to address real‑world analytical challenges using pilot datasets provided by WOAH and partners. The datathon aims to stimulate innovation, methodological rigor, and decision‑relevant analytics in animal health.
 
--   Reporting with Quarto
+Winning teams will receive prize money, the opportunity to be featured in Animal Echo, and to present their work at a dedicated side event during the WOAH Global Session 2027.
 
-<!-- -   Reference: [Tutorial: Hello, Quarto](https://quarto.org/docs/get-started/hello/rstudio.html) -->
+## Who Can Participate
 
--   Descriptive statistics and data exploration
+The datathon is open to international, multidisciplinary teams (2–6 members), including but not limited to:
 
--   From description to prediction: fitting statistical models
+-Data scientists and statisticians
 
-- Georeferenced data
+- Epidemiologists
 
--   Leveraging AI
+- Economists
+
+- Computer scientists
+
+- Public health and animal health professionals
+
+Teams may include members from academia (students or faculty), public institutions, international organisations, NGOs, or the private sector.
+
+##  Datathon Format
 
 
+- Launch: Q2 2026
+- Duration: 3–4 months (remote participation)
+- Team work: Independent and asynchronous
+- Support: Documentation, data descriptions, and periodic technical clarifications
 
-<!-- *  Packaging -->
+Final submission: Analytical pipeline + results report on a git repo by September 30, 2026
 
--   Collaborating with git
+## Data & Outputs
 
-**References:** [R for Data Science](https://r4ds.hadley.nz/), 2nd edition, H. Wickham 2023
+Each team will:
 
-**Contact:** dataintegration.dept \@ woah.org or g.guillot \@ woah.rog
+- Select one challenge from the list below
+
+- Develop a complete data science pipeline, including data processing, modelling, and validation
+
+- Produce analytical outputs based on pilot or historical datasets
+
+- Document methods and results in a concise technical report
+
+- All code must be reproducible and submitted in a public or shared repository.
+
+**Contact:** dataintegration.dept \@ woah.org
 
