@@ -81,7 +81,7 @@ Extract and classify animal health signals from unstructured text sources.
 - Social media or RSS feeds (curated sample)  
 
 **Methods:**  
-- NLP pipelines   
+- NLP pipelines  
 - Transformer-based classification  
 - Named entity recognition  
 - Weak supervision  
