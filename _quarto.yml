@@ -9,6 +9,8 @@ website:
         href: index.qmd
       - text: "Challenges"
         href: challenges.qmd  
+      - text: "Assessment criteria"
+        href: criteria.qmd  
 format:
   html:
     theme:

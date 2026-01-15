@@ -1,14 +1,19 @@
 ---
-title: "Challenges"
+title: "List of datathon challenges"
 date: last-modified
 format:
   html:
     embed-resources: true
     toc: true
-    number-sections: false
+    number-sections: true
 ---
 
-## 1. Early Outbreak Detection from Multi-Source Surveillance Data
+Below is a list of challenges that are provided for guidance or source of inspiration.
+Once a topic is chosen by a team, the outline does not have to be followed strictly, excursions in some of the other topics and beyond  are welcome.
+
+
+
+## Early Outbreak Detection from Multi-Source Surveillance Data
 
 **Objective:**  
 Develop models for early detection of emerging animal health events.
@@ -30,7 +35,7 @@ End-to-end pipeline producing alerts with uncertainty quantification and interpr
 
 ---
 
-## 2. Spatio-Temporal Risk Mapping of Priority Transboundary Animal Diseases
+## Spatio-Temporal Risk Mapping of Priority Transboundary Animal Diseases
 
 **Objective:**  
 Produce dynamic risk maps for a selected priority disease (e.g. ASF, HPAI, FMD).
@@ -51,7 +56,7 @@ Reproducible pipeline generating predictive risk surfaces and validation metrics
 
 ---
 
-## 3. Nowcasting and Forecasting Disease Incidence Under Reporting Delays
+## Nowcasting and Forecasting Disease Incidence Under Reporting Delays
 
 **Objective:**  
 Correct for under-reporting and reporting delays in animal disease data.
@@ -70,7 +75,7 @@ Forecasts with credible intervals and comparison of methodological approaches.
 
 ---
 
-## 4. AI-Assisted Signal Extraction from Event-Based Surveillance Text
+## AI-Assisted Signal Extraction from Event-Based Surveillance Text
 
 **Objective:**  
 Extract and classify animal health signals from unstructured text sources.
@@ -81,7 +86,7 @@ Extract and classify animal health signals from unstructured text sources.
 - Social media or RSS feeds (curated sample)  
 
 **Methods:**  
-- NLP pipelines   
+- NLP pipelines  
 - Transformer-based classification  
 - Named entity recognition  
 - Weak supervision  
@@ -91,7 +96,7 @@ Automated system producing structured signals linked to diseases, species, and l
 
 ---
 
-## 5. Cross-Country Comparability and Bias Assessment in Surveillance Data
+## Cross-Country Comparability and Bias Assessment in Surveillance Data
 
 **Objective:**  
 Quantify and adjust for heterogeneity in surveillance capacity and reporting practices.
@@ -110,7 +115,7 @@ Metrics and visualizations highlighting comparability issues and adjusted estima
 
 ---
 
-## 6. Antimicrobial Use and Resistance: Pattern Discovery and Prediction
+## Antimicrobial Use and Resistance: Pattern Discovery and Prediction
 
 **Objective:**  
 Explore relationships between antimicrobial use (AMU) and resistance (AMR) indicators.
@@ -129,7 +134,7 @@ Analytical pipeline identifying patterns, risk factors, and predictive signals.
 
 ---
 
-## 7. One Health Integration: Linking Animal Health, Environment, and Climate Signals
+## One Health Integration: Linking Animal Health, Environment, and Climate Signals
 
 **Objective:**  
 Assess how environmental and climate variables modulate animal disease risk.
@@ -149,7 +154,7 @@ Quantitative assessment of environmental drivers with policy-relevant interpreta
 
 ---
 
-## 8. Automated Quality Assessment of Animal Health Data Submissions
+## Automated Quality Assessment of Animal Health Data Submissions
 
 **Objective:**  
 Detect inconsistencies, outliers, and implausible values in reported datasets.
@@ -166,7 +171,7 @@ Scalable data quality scoring framework and dashboard-ready outputs.
 
 ---
 
-## 9. Scenario Modelling for Disease Spread Under Control Strategies
+## Scenario Modelling for Disease Spread Under Control Strategies
 
 **Objective:**  
 Compare intervention strategies (movement restrictions, vaccination) using simulation.
@@ -183,7 +188,7 @@ Decision-support outputs comparing scenarios under uncertainty.
 
 ---
 
-## 10. Translation of Analytical Outputs into Decision-Ready Indicators
+## Translation of Analytical Outputs into Decision-Ready Indicators
 
 **Objective:**  
 Bridge advanced analytics and policy needs by designing interpretable indicators.
@@ -201,8 +206,8 @@ A reproducible workflow producing indicators aligned with WOAH reporting needs.
 
 ---
 
-## 11. Composite Observatory Indicators from Heterogeneous Data Streams  
-*(WOAH Observatory – Core)*
+## Composite Observatory Indicators from Heterogeneous Data Streams  
+
 
 **Challenge:**  
 Design and validate composite indicators to monitor countries’ implementation of WOAH standards.
@@ -217,13 +222,15 @@ Design and validate composite indicators to monitor countries’ implementation 
 - Multi-criteria decision analysis  
 - Uncertainty propagation  
 
-**Why it matters:**  
-Directly contributes to the Observatory’s methodological robustness and credibility.
+**Deliverables:**  
+- Composite indicator methodology with uncertainty quantification  
+- Sensitivity and robustness analyses  
+- Documentation suitable for Observatory publication
 
 ---
 
-## 12. Bias and Signal Separation in Observatory Monitoring Data  
-*(WOAH Observatory – Methodological)*
+## Bias and Signal Separation in Observatory Monitoring Data  
+
 
 **Challenge:**  
 Distinguish true performance changes from reporting, compliance, or capacity effects.
@@ -237,13 +244,15 @@ Distinguish true performance changes from reporting, compliance, or capacity eff
 - Measurement error models  
 - Causal inference / sensitivity analysis  
 
-**Why it matters:**  
-Prevents misinterpretation of Observatory outputs by Members and partners.
+**Deliverables:**  
+- Bias-adjusted time series  
+- Diagnostic tools for signal vs reporting effects  
+- Methodological guidance for interpretation
 
 ---
 
-## 13. Linking Animal Health Performance to Economic Losses  
-*(GBADs – Flagship)*
+## Linking Animal Health Performance to Economic Losses  
+
 
 **Challenge:**  
 Quantify economic losses associated with animal diseases using sparse or partial data.
@@ -258,13 +267,15 @@ Quantify economic losses associated with animal diseases using sparse or partial
 - Imputation and data fusion  
 - Scenario-based valuation  
 
-**Why it matters:**  
-Central to GBADs’ mission of making losses visible and comparable.
+**Deliverables:**  
+- Loss estimates with uncertainty bounds  
+- Disease-specific economic impact profiles  
+- Reusable valuation framework
 
 ---
 
-## 14. Predictive Modelling of Animal Health Burden Under Alternative Investment Scenarios  
-*(GBADs + Policy)*
+## Predictive Modelling of Animal Health Burden Under Alternative Investment Scenarios  
+
 
 **Challenge:**  
 Estimate how changes in surveillance or control investment affect disease burden and losses.
@@ -278,13 +289,15 @@ Estimate how changes in surveillance or control investment affect disease burden
 - Decision analysis  
 - Probabilistic simulations  
 
-**Why it matters:**  
-Directly supports investment cases for animal health systems.
+**Deliverables:**  
+- Investment–impact scenarios  
+- Comparative burden trajectories  
+- Policy-oriented summary outputs
 
 ---
 
-## 15. Harmonising Epidemiological and Economic Metrics Across Countries  
-*(GBADs + Observatory)*
+## Harmonising Epidemiological and Economic Metrics Across Countries  
+
 
 **Challenge:**  
 Build a framework linking epidemiological indicators (incidence, mortality) to economic burden metrics.
@@ -297,14 +310,16 @@ Build a framework linking epidemiological indicators (incidence, mortality) to e
 - Scaling and standardisation  
 - Cross-country comparability analysis  
 
-**Why it matters:**  
-Bridges the Observatory and GBADs into a coherent evidence framework.
+**Deliverables:**  
+- Harmonised indicator framework  
+- Cross-country comparison tools  
+- Documentation for joint Observatory–GBADs use
 
 ---
 
-# Trade and Animal Health (T-Series)
 
-## T1 — Trade Disruptions Following Animal Health Events
+
+## Trade Disruptions Following Animal Health Events
 
 **Problem:**  
 Animal disease outbreaks often lead to asymmetric and poorly quantified trade impacts.
@@ -322,12 +337,14 @@ Quantify how outbreaks affect bilateral and regional trade flows over time.
 - Difference-in-differences  
 - Bayesian causal models  
 
-**Why it matters:**  
-Provides evidence for proportional, science-based trade measures.
+**Deliverables:**  
+- Quantified trade impact estimates  
+- Visual timelines of disruption and recovery  
+- Methodological note on attribution
 
 ---
 
-## T2 — Predicting Trade Vulnerability to Animal Health Shocks
+## Predicting Trade Vulnerability to Animal Health Shocks
 
 **Problem:**  
 Some trade relationships are more fragile than others, but vulnerability is rarely quantified.
@@ -345,12 +362,14 @@ Develop indicators of trade vulnerability to animal health events.
 - Risk scoring models  
 - Graph-based ML  
 
-**Why it matters:**  
-Supports preparedness and resilience planning.
+**Deliverables:**  
+- Trade vulnerability indicators  
+- Network-based risk visualisations  
+- Ranking of high-risk trade relationships
 
 ---
 
-## T3 — Disease Risk Along Trade and Movement Networks
+## Disease Risk Along Trade and Movement Networks
 
 **Problem:**  
 Trade and movement routes can amplify disease spread, but are often treated crudely.
@@ -368,12 +387,14 @@ Model disease risk propagation along trade-related networks.
 - Spatio-network models  
 - Simulation approaches  
 
-**Why it matters:**  
-Bridges epidemiology and trade without requiring sensitive microdata.
+**Deliverables:**  
+- Risk propagation metrics  
+- Network-informed risk maps  
+- Scenario-based simulations
 
 ---
 
-## T4 — Science-Based Regionalisation and Zoning Indicators
+## Science-Based Regionalisation and Zoning Indicators
 
 **Problem:**  
 Regionalisation decisions are critical but analytically under-supported.
@@ -391,12 +412,14 @@ Design quantitative indicators supporting zoning/regionalisation under outbreaks
 - Scenario modelling  
 - Uncertainty-aware indicators  
 
-**Why it matters:**  
-Directly relevant to international trade continuity.
+**Deliverables:**  
+- Zoning and regionalisation indicators  
+- Scenario comparisons under uncertainty  
+- Decision-support visual outputs
 
 ---
 
-## T5 — Consistency of Sanitary Measures with Observed Risk
+## Consistency of Sanitary Measures with Observed Risk
 
 **Problem:**  
 Trade restrictions may not always align with epidemiological risk.
@@ -412,5 +435,7 @@ Compare observed trade measures with estimated disease risk.
 - Risk–response analysis  
 - Classification and clustering  
 
-**Why it matters:**  
-Encourages transparency and proportionality.
+**Deliverables:**  
+- Risk–response consistency metrics  
+- Typology of trade measures vs risk  
+- Analytical framework for proportionality assessment

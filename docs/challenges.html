@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-01-13">
+<meta name="dcterms.date" content="2026-01-14">
 
-<title>Challenges – WOAH Datathon</title>
+<title>List of datathon challenges – WOAH Datathon</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -3827,6 +3827,10 @@ vertical-align: -.125em;
     <a class="nav-link active" href="./challenges.html" aria-current="page"> 
 <span class="menu-text">Challenges</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./criteria.html"> 
+<span class="menu-text">Assessment criteria</span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -3843,29 +3847,26 @@ vertical-align: -.125em;
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#early-outbreak-detection-from-multi-source-surveillance-data" id="toc-early-outbreak-detection-from-multi-source-surveillance-data" class="nav-link active" data-scroll-target="#early-outbreak-detection-from-multi-source-surveillance-data">1. Early Outbreak Detection from Multi-Source Surveillance Data</a></li>
-  <li><a href="#spatio-temporal-risk-mapping-of-priority-transboundary-animal-diseases" id="toc-spatio-temporal-risk-mapping-of-priority-transboundary-animal-diseases" class="nav-link" data-scroll-target="#spatio-temporal-risk-mapping-of-priority-transboundary-animal-diseases">2. Spatio-Temporal Risk Mapping of Priority Transboundary Animal Diseases</a></li>
-  <li><a href="#nowcasting-and-forecasting-disease-incidence-under-reporting-delays" id="toc-nowcasting-and-forecasting-disease-incidence-under-reporting-delays" class="nav-link" data-scroll-target="#nowcasting-and-forecasting-disease-incidence-under-reporting-delays">3. Nowcasting and Forecasting Disease Incidence Under Reporting Delays</a></li>
-  <li><a href="#ai-assisted-signal-extraction-from-event-based-surveillance-text" id="toc-ai-assisted-signal-extraction-from-event-based-surveillance-text" class="nav-link" data-scroll-target="#ai-assisted-signal-extraction-from-event-based-surveillance-text">4. AI-Assisted Signal Extraction from Event-Based Surveillance Text</a></li>
-  <li><a href="#cross-country-comparability-and-bias-assessment-in-surveillance-data" id="toc-cross-country-comparability-and-bias-assessment-in-surveillance-data" class="nav-link" data-scroll-target="#cross-country-comparability-and-bias-assessment-in-surveillance-data">5. Cross-Country Comparability and Bias Assessment in Surveillance Data</a></li>
-  <li><a href="#antimicrobial-use-and-resistance-pattern-discovery-and-prediction" id="toc-antimicrobial-use-and-resistance-pattern-discovery-and-prediction" class="nav-link" data-scroll-target="#antimicrobial-use-and-resistance-pattern-discovery-and-prediction">6. Antimicrobial Use and Resistance: Pattern Discovery and Prediction</a></li>
-  <li><a href="#one-health-integration-linking-animal-health-environment-and-climate-signals" id="toc-one-health-integration-linking-animal-health-environment-and-climate-signals" class="nav-link" data-scroll-target="#one-health-integration-linking-animal-health-environment-and-climate-signals">7. One Health Integration: Linking Animal Health, Environment, and Climate Signals</a></li>
-  <li><a href="#automated-quality-assessment-of-animal-health-data-submissions" id="toc-automated-quality-assessment-of-animal-health-data-submissions" class="nav-link" data-scroll-target="#automated-quality-assessment-of-animal-health-data-submissions">8. Automated Quality Assessment of Animal Health Data Submissions</a></li>
-  <li><a href="#scenario-modelling-for-disease-spread-under-control-strategies" id="toc-scenario-modelling-for-disease-spread-under-control-strategies" class="nav-link" data-scroll-target="#scenario-modelling-for-disease-spread-under-control-strategies">9. Scenario Modelling for Disease Spread Under Control Strategies</a></li>
-  <li><a href="#translation-of-analytical-outputs-into-decision-ready-indicators" id="toc-translation-of-analytical-outputs-into-decision-ready-indicators" class="nav-link" data-scroll-target="#translation-of-analytical-outputs-into-decision-ready-indicators">10. Translation of Analytical Outputs into Decision-Ready Indicators</a></li>
-  <li><a href="#composite-observatory-indicators-from-heterogeneous-data-streams" id="toc-composite-observatory-indicators-from-heterogeneous-data-streams" class="nav-link" data-scroll-target="#composite-observatory-indicators-from-heterogeneous-data-streams">11. Composite Observatory Indicators from Heterogeneous Data Streams</a></li>
-  <li><a href="#bias-and-signal-separation-in-observatory-monitoring-data" id="toc-bias-and-signal-separation-in-observatory-monitoring-data" class="nav-link" data-scroll-target="#bias-and-signal-separation-in-observatory-monitoring-data">12. Bias and Signal Separation in Observatory Monitoring Data</a></li>
-  <li><a href="#linking-animal-health-performance-to-economic-losses" id="toc-linking-animal-health-performance-to-economic-losses" class="nav-link" data-scroll-target="#linking-animal-health-performance-to-economic-losses">13. Linking Animal Health Performance to Economic Losses</a></li>
-  <li><a href="#predictive-modelling-of-animal-health-burden-under-alternative-investment-scenarios" id="toc-predictive-modelling-of-animal-health-burden-under-alternative-investment-scenarios" class="nav-link" data-scroll-target="#predictive-modelling-of-animal-health-burden-under-alternative-investment-scenarios">14. Predictive Modelling of Animal Health Burden Under Alternative Investment Scenarios</a></li>
-  <li><a href="#harmonising-epidemiological-and-economic-metrics-across-countries" id="toc-harmonising-epidemiological-and-economic-metrics-across-countries" class="nav-link" data-scroll-target="#harmonising-epidemiological-and-economic-metrics-across-countries">15. Harmonising Epidemiological and Economic Metrics Across Countries</a></li>
-  <li><a href="#trade-and-animal-health-t-series" id="toc-trade-and-animal-health-t-series" class="nav-link" data-scroll-target="#trade-and-animal-health-t-series">Trade and Animal Health (T-Series)</a>
-  <ul class="collapse">
-  <li><a href="#t1-trade-disruptions-following-animal-health-events" id="toc-t1-trade-disruptions-following-animal-health-events" class="nav-link" data-scroll-target="#t1-trade-disruptions-following-animal-health-events">T1 — Trade Disruptions Following Animal Health Events</a></li>
-  <li><a href="#t2-predicting-trade-vulnerability-to-animal-health-shocks" id="toc-t2-predicting-trade-vulnerability-to-animal-health-shocks" class="nav-link" data-scroll-target="#t2-predicting-trade-vulnerability-to-animal-health-shocks">T2 — Predicting Trade Vulnerability to Animal Health Shocks</a></li>
-  <li><a href="#t3-disease-risk-along-trade-and-movement-networks" id="toc-t3-disease-risk-along-trade-and-movement-networks" class="nav-link" data-scroll-target="#t3-disease-risk-along-trade-and-movement-networks">T3 — Disease Risk Along Trade and Movement Networks</a></li>
-  <li><a href="#t4-science-based-regionalisation-and-zoning-indicators" id="toc-t4-science-based-regionalisation-and-zoning-indicators" class="nav-link" data-scroll-target="#t4-science-based-regionalisation-and-zoning-indicators">T4 — Science-Based Regionalisation and Zoning Indicators</a></li>
-  <li><a href="#t5-consistency-of-sanitary-measures-with-observed-risk" id="toc-t5-consistency-of-sanitary-measures-with-observed-risk" class="nav-link" data-scroll-target="#t5-consistency-of-sanitary-measures-with-observed-risk">T5 — Consistency of Sanitary Measures with Observed Risk</a></li>
-  </ul></li>
+  <li><a href="#early-outbreak-detection-from-multi-source-surveillance-data" id="toc-early-outbreak-detection-from-multi-source-surveillance-data" class="nav-link active" data-scroll-target="#early-outbreak-detection-from-multi-source-surveillance-data"><span class="header-section-number">1</span> Early Outbreak Detection from Multi-Source Surveillance Data</a></li>
+  <li><a href="#spatio-temporal-risk-mapping-of-priority-transboundary-animal-diseases" id="toc-spatio-temporal-risk-mapping-of-priority-transboundary-animal-diseases" class="nav-link" data-scroll-target="#spatio-temporal-risk-mapping-of-priority-transboundary-animal-diseases"><span class="header-section-number">2</span> Spatio-Temporal Risk Mapping of Priority Transboundary Animal Diseases</a></li>
+  <li><a href="#nowcasting-and-forecasting-disease-incidence-under-reporting-delays" id="toc-nowcasting-and-forecasting-disease-incidence-under-reporting-delays" class="nav-link" data-scroll-target="#nowcasting-and-forecasting-disease-incidence-under-reporting-delays"><span class="header-section-number">3</span> Nowcasting and Forecasting Disease Incidence Under Reporting Delays</a></li>
+  <li><a href="#ai-assisted-signal-extraction-from-event-based-surveillance-text" id="toc-ai-assisted-signal-extraction-from-event-based-surveillance-text" class="nav-link" data-scroll-target="#ai-assisted-signal-extraction-from-event-based-surveillance-text"><span class="header-section-number">4</span> AI-Assisted Signal Extraction from Event-Based Surveillance Text</a></li>
+  <li><a href="#cross-country-comparability-and-bias-assessment-in-surveillance-data" id="toc-cross-country-comparability-and-bias-assessment-in-surveillance-data" class="nav-link" data-scroll-target="#cross-country-comparability-and-bias-assessment-in-surveillance-data"><span class="header-section-number">5</span> Cross-Country Comparability and Bias Assessment in Surveillance Data</a></li>
+  <li><a href="#antimicrobial-use-and-resistance-pattern-discovery-and-prediction" id="toc-antimicrobial-use-and-resistance-pattern-discovery-and-prediction" class="nav-link" data-scroll-target="#antimicrobial-use-and-resistance-pattern-discovery-and-prediction"><span class="header-section-number">6</span> Antimicrobial Use and Resistance: Pattern Discovery and Prediction</a></li>
+  <li><a href="#one-health-integration-linking-animal-health-environment-and-climate-signals" id="toc-one-health-integration-linking-animal-health-environment-and-climate-signals" class="nav-link" data-scroll-target="#one-health-integration-linking-animal-health-environment-and-climate-signals"><span class="header-section-number">7</span> One Health Integration: Linking Animal Health, Environment, and Climate Signals</a></li>
+  <li><a href="#automated-quality-assessment-of-animal-health-data-submissions" id="toc-automated-quality-assessment-of-animal-health-data-submissions" class="nav-link" data-scroll-target="#automated-quality-assessment-of-animal-health-data-submissions"><span class="header-section-number">8</span> Automated Quality Assessment of Animal Health Data Submissions</a></li>
+  <li><a href="#scenario-modelling-for-disease-spread-under-control-strategies" id="toc-scenario-modelling-for-disease-spread-under-control-strategies" class="nav-link" data-scroll-target="#scenario-modelling-for-disease-spread-under-control-strategies"><span class="header-section-number">9</span> Scenario Modelling for Disease Spread Under Control Strategies</a></li>
+  <li><a href="#translation-of-analytical-outputs-into-decision-ready-indicators" id="toc-translation-of-analytical-outputs-into-decision-ready-indicators" class="nav-link" data-scroll-target="#translation-of-analytical-outputs-into-decision-ready-indicators"><span class="header-section-number">10</span> Translation of Analytical Outputs into Decision-Ready Indicators</a></li>
+  <li><a href="#composite-observatory-indicators-from-heterogeneous-data-streams" id="toc-composite-observatory-indicators-from-heterogeneous-data-streams" class="nav-link" data-scroll-target="#composite-observatory-indicators-from-heterogeneous-data-streams"><span class="header-section-number">11</span> Composite Observatory Indicators from Heterogeneous Data Streams</a></li>
+  <li><a href="#bias-and-signal-separation-in-observatory-monitoring-data" id="toc-bias-and-signal-separation-in-observatory-monitoring-data" class="nav-link" data-scroll-target="#bias-and-signal-separation-in-observatory-monitoring-data"><span class="header-section-number">12</span> Bias and Signal Separation in Observatory Monitoring Data</a></li>
+  <li><a href="#linking-animal-health-performance-to-economic-losses" id="toc-linking-animal-health-performance-to-economic-losses" class="nav-link" data-scroll-target="#linking-animal-health-performance-to-economic-losses"><span class="header-section-number">13</span> Linking Animal Health Performance to Economic Losses</a></li>
+  <li><a href="#predictive-modelling-of-animal-health-burden-under-alternative-investment-scenarios" id="toc-predictive-modelling-of-animal-health-burden-under-alternative-investment-scenarios" class="nav-link" data-scroll-target="#predictive-modelling-of-animal-health-burden-under-alternative-investment-scenarios"><span class="header-section-number">14</span> Predictive Modelling of Animal Health Burden Under Alternative Investment Scenarios</a></li>
+  <li><a href="#harmonising-epidemiological-and-economic-metrics-across-countries" id="toc-harmonising-epidemiological-and-economic-metrics-across-countries" class="nav-link" data-scroll-target="#harmonising-epidemiological-and-economic-metrics-across-countries"><span class="header-section-number">15</span> Harmonising Epidemiological and Economic Metrics Across Countries</a></li>
+  <li><a href="#trade-disruptions-following-animal-health-events" id="toc-trade-disruptions-following-animal-health-events" class="nav-link" data-scroll-target="#trade-disruptions-following-animal-health-events"><span class="header-section-number">16</span> Trade Disruptions Following Animal Health Events</a></li>
+  <li><a href="#predicting-trade-vulnerability-to-animal-health-shocks" id="toc-predicting-trade-vulnerability-to-animal-health-shocks" class="nav-link" data-scroll-target="#predicting-trade-vulnerability-to-animal-health-shocks"><span class="header-section-number">17</span> Predicting Trade Vulnerability to Animal Health Shocks</a></li>
+  <li><a href="#disease-risk-along-trade-and-movement-networks" id="toc-disease-risk-along-trade-and-movement-networks" class="nav-link" data-scroll-target="#disease-risk-along-trade-and-movement-networks"><span class="header-section-number">18</span> Disease Risk Along Trade and Movement Networks</a></li>
+  <li><a href="#science-based-regionalisation-and-zoning-indicators" id="toc-science-based-regionalisation-and-zoning-indicators" class="nav-link" data-scroll-target="#science-based-regionalisation-and-zoning-indicators"><span class="header-section-number">19</span> Science-Based Regionalisation and Zoning Indicators</a></li>
+  <li><a href="#consistency-of-sanitary-measures-with-observed-risk" id="toc-consistency-of-sanitary-measures-with-observed-risk" class="nav-link" data-scroll-target="#consistency-of-sanitary-measures-with-observed-risk"><span class="header-section-number">20</span> Consistency of Sanitary Measures with Observed Risk</a></li>
   </ul>
 </nav>
     </div>
@@ -3874,7 +3875,7 @@ vertical-align: -.125em;
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Challenges</h1>
+<h1 class="title">List of datathon challenges</h1>
 </div>
 
 
@@ -3885,7 +3886,7 @@ vertical-align: -.125em;
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">January 13, 2026</p>
+      <p class="date">January 14, 2026</p>
     </div>
   </div>
   
@@ -3897,8 +3898,9 @@ vertical-align: -.125em;
 </header>
 
 
-<section id="early-outbreak-detection-from-multi-source-surveillance-data" class="level2">
-<h2 class="anchored" data-anchor-id="early-outbreak-detection-from-multi-source-surveillance-data">1. Early Outbreak Detection from Multi-Source Surveillance Data</h2>
+<p>Below is a list of challenges that are provided for guidance or source of inspiration. Once a topic is chosen by a team, the outline does not have to be followed strictly, excursions in some of the other topics and beyond are welcome.</p>
+<section id="early-outbreak-detection-from-multi-source-surveillance-data" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="early-outbreak-detection-from-multi-source-surveillance-data"><span class="header-section-number">1</span> Early Outbreak Detection from Multi-Source Surveillance Data</h2>
 <p><strong>Objective:</strong><br>
 Develop models for early detection of emerging animal health events.</p>
 <p><strong>Data:</strong><br>
@@ -3915,8 +3917,8 @@ Develop models for early detection of emerging animal health events.</p>
 End-to-end pipeline producing alerts with uncertainty quantification and interpretability.</p>
 <hr>
 </section>
-<section id="spatio-temporal-risk-mapping-of-priority-transboundary-animal-diseases" class="level2">
-<h2 class="anchored" data-anchor-id="spatio-temporal-risk-mapping-of-priority-transboundary-animal-diseases">2. Spatio-Temporal Risk Mapping of Priority Transboundary Animal Diseases</h2>
+<section id="spatio-temporal-risk-mapping-of-priority-transboundary-animal-diseases" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="spatio-temporal-risk-mapping-of-priority-transboundary-animal-diseases"><span class="header-section-number">2</span> Spatio-Temporal Risk Mapping of Priority Transboundary Animal Diseases</h2>
 <p><strong>Objective:</strong><br>
 Produce dynamic risk maps for a selected priority disease (e.g. ASF, HPAI, FMD).</p>
 <p><strong>Data:</strong><br>
@@ -3932,8 +3934,8 @@ Produce dynamic risk maps for a selected priority disease (e.g. ASF, HPAI, FMD)
 Reproducible pipeline generating predictive risk surfaces and validation metrics.</p>
 <hr>
 </section>
-<section id="nowcasting-and-forecasting-disease-incidence-under-reporting-delays" class="level2">
-<h2 class="anchored" data-anchor-id="nowcasting-and-forecasting-disease-incidence-under-reporting-delays">3. Nowcasting and Forecasting Disease Incidence Under Reporting Delays</h2>
+<section id="nowcasting-and-forecasting-disease-incidence-under-reporting-delays" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="nowcasting-and-forecasting-disease-incidence-under-reporting-delays"><span class="header-section-number">3</span> Nowcasting and Forecasting Disease Incidence Under Reporting Delays</h2>
 <p><strong>Objective:</strong><br>
 Correct for under-reporting and reporting delays in animal disease data.</p>
 <p><strong>Data:</strong><br>
@@ -3947,8 +3949,8 @@ Correct for under-reporting and reporting delays in animal disease data.</p>
 Forecasts with credible intervals and comparison of methodological approaches.</p>
 <hr>
 </section>
-<section id="ai-assisted-signal-extraction-from-event-based-surveillance-text" class="level2">
-<h2 class="anchored" data-anchor-id="ai-assisted-signal-extraction-from-event-based-surveillance-text">4. AI-Assisted Signal Extraction from Event-Based Surveillance Text</h2>
+<section id="ai-assisted-signal-extraction-from-event-based-surveillance-text" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="ai-assisted-signal-extraction-from-event-based-surveillance-text"><span class="header-section-number">4</span> AI-Assisted Signal Extraction from Event-Based Surveillance Text</h2>
 <p><strong>Objective:</strong><br>
 Extract and classify animal health signals from unstructured text sources.</p>
 <p><strong>Data:</strong><br>
@@ -3964,8 +3966,8 @@ Extract and classify animal health signals from unstructured text sources.</p>
 Automated system producing structured signals linked to diseases, species, and locations.</p>
 <hr>
 </section>
-<section id="cross-country-comparability-and-bias-assessment-in-surveillance-data" class="level2">
-<h2 class="anchored" data-anchor-id="cross-country-comparability-and-bias-assessment-in-surveillance-data">5. Cross-Country Comparability and Bias Assessment in Surveillance Data</h2>
+<section id="cross-country-comparability-and-bias-assessment-in-surveillance-data" class="level2" data-number="5">
+<h2 data-number="5" class="anchored" data-anchor-id="cross-country-comparability-and-bias-assessment-in-surveillance-data"><span class="header-section-number">5</span> Cross-Country Comparability and Bias Assessment in Surveillance Data</h2>
 <p><strong>Objective:</strong><br>
 Quantify and adjust for heterogeneity in surveillance capacity and reporting practices.</p>
 <p><strong>Data:</strong><br>
@@ -3979,8 +3981,8 @@ Quantify and adjust for heterogeneity in surveillance capacity and reporting pra
 Metrics and visualizations highlighting comparability issues and adjusted estimates.</p>
 <hr>
 </section>
-<section id="antimicrobial-use-and-resistance-pattern-discovery-and-prediction" class="level2">
-<h2 class="anchored" data-anchor-id="antimicrobial-use-and-resistance-pattern-discovery-and-prediction">6. Antimicrobial Use and Resistance: Pattern Discovery and Prediction</h2>
+<section id="antimicrobial-use-and-resistance-pattern-discovery-and-prediction" class="level2" data-number="6">
+<h2 data-number="6" class="anchored" data-anchor-id="antimicrobial-use-and-resistance-pattern-discovery-and-prediction"><span class="header-section-number">6</span> Antimicrobial Use and Resistance: Pattern Discovery and Prediction</h2>
 <p><strong>Objective:</strong><br>
 Explore relationships between antimicrobial use (AMU) and resistance (AMR) indicators.</p>
 <p><strong>Data:</strong><br>
@@ -3994,8 +3996,8 @@ Explore relationships between antimicrobial use (AMU) and resistance (AMR) indic
 Analytical pipeline identifying patterns, risk factors, and predictive signals.</p>
 <hr>
 </section>
-<section id="one-health-integration-linking-animal-health-environment-and-climate-signals" class="level2">
-<h2 class="anchored" data-anchor-id="one-health-integration-linking-animal-health-environment-and-climate-signals">7. One Health Integration: Linking Animal Health, Environment, and Climate Signals</h2>
+<section id="one-health-integration-linking-animal-health-environment-and-climate-signals" class="level2" data-number="7">
+<h2 data-number="7" class="anchored" data-anchor-id="one-health-integration-linking-animal-health-environment-and-climate-signals"><span class="header-section-number">7</span> One Health Integration: Linking Animal Health, Environment, and Climate Signals</h2>
 <p><strong>Objective:</strong><br>
 Assess how environmental and climate variables modulate animal disease risk.</p>
 <p><strong>Data:</strong><br>
@@ -4010,8 +4012,8 @@ Assess how environmental and climate variables modulate animal disease risk.</p>
 Quantitative assessment of environmental drivers with policy-relevant interpretation.</p>
 <hr>
 </section>
-<section id="automated-quality-assessment-of-animal-health-data-submissions" class="level2">
-<h2 class="anchored" data-anchor-id="automated-quality-assessment-of-animal-health-data-submissions">8. Automated Quality Assessment of Animal Health Data Submissions</h2>
+<section id="automated-quality-assessment-of-animal-health-data-submissions" class="level2" data-number="8">
+<h2 data-number="8" class="anchored" data-anchor-id="automated-quality-assessment-of-animal-health-data-submissions"><span class="header-section-number">8</span> Automated Quality Assessment of Animal Health Data Submissions</h2>
 <p><strong>Objective:</strong><br>
 Detect inconsistencies, outliers, and implausible values in reported datasets.</p>
 <p><strong>Data:</strong><br>
@@ -4023,8 +4025,8 @@ Detect inconsistencies, outliers, and implausible values in reported datasets.</
 Scalable data quality scoring framework and dashboard-ready outputs.</p>
 <hr>
 </section>
-<section id="scenario-modelling-for-disease-spread-under-control-strategies" class="level2">
-<h2 class="anchored" data-anchor-id="scenario-modelling-for-disease-spread-under-control-strategies">9. Scenario Modelling for Disease Spread Under Control Strategies</h2>
+<section id="scenario-modelling-for-disease-spread-under-control-strategies" class="level2" data-number="9">
+<h2 data-number="9" class="anchored" data-anchor-id="scenario-modelling-for-disease-spread-under-control-strategies"><span class="header-section-number">9</span> Scenario Modelling for Disease Spread Under Control Strategies</h2>
 <p><strong>Objective:</strong><br>
 Compare intervention strategies (movement restrictions, vaccination) using simulation.</p>
 <p><strong>Data:</strong><br>
@@ -4036,8 +4038,8 @@ Compare intervention strategies (movement restrictions, vaccination) using simul
 Decision-support outputs comparing scenarios under uncertainty.</p>
 <hr>
 </section>
-<section id="translation-of-analytical-outputs-into-decision-ready-indicators" class="level2">
-<h2 class="anchored" data-anchor-id="translation-of-analytical-outputs-into-decision-ready-indicators">10. Translation of Analytical Outputs into Decision-Ready Indicators</h2>
+<section id="translation-of-analytical-outputs-into-decision-ready-indicators" class="level2" data-number="10">
+<h2 data-number="10" class="anchored" data-anchor-id="translation-of-analytical-outputs-into-decision-ready-indicators"><span class="header-section-number">10</span> Translation of Analytical Outputs into Decision-Ready Indicators</h2>
 <p><strong>Objective:</strong><br>
 Bridge advanced analytics and policy needs by designing interpretable indicators.</p>
 <p><strong>Data:</strong><br>
@@ -4050,9 +4052,8 @@ Bridge advanced analytics and policy needs by designing interpretable indicators
 A reproducible workflow producing indicators aligned with WOAH reporting needs.</p>
 <hr>
 </section>
-<section id="composite-observatory-indicators-from-heterogeneous-data-streams" class="level2">
-<h2 class="anchored" data-anchor-id="composite-observatory-indicators-from-heterogeneous-data-streams">11. Composite Observatory Indicators from Heterogeneous Data Streams</h2>
-<p><em>(WOAH Observatory – Core)</em></p>
+<section id="composite-observatory-indicators-from-heterogeneous-data-streams" class="level2" data-number="11">
+<h2 data-number="11" class="anchored" data-anchor-id="composite-observatory-indicators-from-heterogeneous-data-streams"><span class="header-section-number">11</span> Composite Observatory Indicators from Heterogeneous Data Streams</h2>
 <p><strong>Challenge:</strong><br>
 Design and validate composite indicators to monitor countries’ implementation of WOAH standards.</p>
 <p><strong>Data:</strong><br>
@@ -4063,13 +4064,14 @@ Design and validate composite indicators to monitor countries’ implementation 
 - Latent variable models<br>
 - Multi-criteria decision analysis<br>
 - Uncertainty propagation</p>
-<p><strong>Why it matters:</strong><br>
-Directly contributes to the Observatory’s methodological robustness and credibility.</p>
+<p><strong>Deliverables:</strong><br>
+- Composite indicator methodology with uncertainty quantification<br>
+- Sensitivity and robustness analyses<br>
+- Documentation suitable for Observatory publication</p>
 <hr>
 </section>
-<section id="bias-and-signal-separation-in-observatory-monitoring-data" class="level2">
-<h2 class="anchored" data-anchor-id="bias-and-signal-separation-in-observatory-monitoring-data">12. Bias and Signal Separation in Observatory Monitoring Data</h2>
-<p><em>(WOAH Observatory – Methodological)</em></p>
+<section id="bias-and-signal-separation-in-observatory-monitoring-data" class="level2" data-number="12">
+<h2 data-number="12" class="anchored" data-anchor-id="bias-and-signal-separation-in-observatory-monitoring-data"><span class="header-section-number">12</span> Bias and Signal Separation in Observatory Monitoring Data</h2>
 <p><strong>Challenge:</strong><br>
 Distinguish true performance changes from reporting, compliance, or capacity effects.</p>
 <p><strong>Data:</strong><br>
@@ -4079,13 +4081,14 @@ Distinguish true performance changes from reporting, compliance, or capacity eff
 - Hierarchical Bayesian models<br>
 - Measurement error models<br>
 - Causal inference / sensitivity analysis</p>
-<p><strong>Why it matters:</strong><br>
-Prevents misinterpretation of Observatory outputs by Members and partners.</p>
+<p><strong>Deliverables:</strong><br>
+- Bias-adjusted time series<br>
+- Diagnostic tools for signal vs reporting effects<br>
+- Methodological guidance for interpretation</p>
 <hr>
 </section>
-<section id="linking-animal-health-performance-to-economic-losses" class="level2">
-<h2 class="anchored" data-anchor-id="linking-animal-health-performance-to-economic-losses">13. Linking Animal Health Performance to Economic Losses</h2>
-<p><em>(GBADs – Flagship)</em></p>
+<section id="linking-animal-health-performance-to-economic-losses" class="level2" data-number="13">
+<h2 data-number="13" class="anchored" data-anchor-id="linking-animal-health-performance-to-economic-losses"><span class="header-section-number">13</span> Linking Animal Health Performance to Economic Losses</h2>
 <p><strong>Challenge:</strong><br>
 Quantify economic losses associated with animal diseases using sparse or partial data.</p>
 <p><strong>Data:</strong><br>
@@ -4096,13 +4099,14 @@ Quantify economic losses associated with animal diseases using sparse or partial
 - Economic–epidemiological models<br>
 - Imputation and data fusion<br>
 - Scenario-based valuation</p>
-<p><strong>Why it matters:</strong><br>
-Central to GBADs’ mission of making losses visible and comparable.</p>
+<p><strong>Deliverables:</strong><br>
+- Loss estimates with uncertainty bounds<br>
+- Disease-specific economic impact profiles<br>
+- Reusable valuation framework</p>
 <hr>
 </section>
-<section id="predictive-modelling-of-animal-health-burden-under-alternative-investment-scenarios" class="level2">
-<h2 class="anchored" data-anchor-id="predictive-modelling-of-animal-health-burden-under-alternative-investment-scenarios">14. Predictive Modelling of Animal Health Burden Under Alternative Investment Scenarios</h2>
-<p><em>(GBADs + Policy)</em></p>
+<section id="predictive-modelling-of-animal-health-burden-under-alternative-investment-scenarios" class="level2" data-number="14">
+<h2 data-number="14" class="anchored" data-anchor-id="predictive-modelling-of-animal-health-burden-under-alternative-investment-scenarios"><span class="header-section-number">14</span> Predictive Modelling of Animal Health Burden Under Alternative Investment Scenarios</h2>
 <p><strong>Challenge:</strong><br>
 Estimate how changes in surveillance or control investment affect disease burden and losses.</p>
 <p><strong>Data:</strong><br>
@@ -4112,13 +4116,14 @@ Estimate how changes in surveillance or control investment affect disease burden
 - Counterfactual modelling<br>
 - Decision analysis<br>
 - Probabilistic simulations</p>
-<p><strong>Why it matters:</strong><br>
-Directly supports investment cases for animal health systems.</p>
+<p><strong>Deliverables:</strong><br>
+- Investment–impact scenarios<br>
+- Comparative burden trajectories<br>
+- Policy-oriented summary outputs</p>
 <hr>
 </section>
-<section id="harmonising-epidemiological-and-economic-metrics-across-countries" class="level2">
-<h2 class="anchored" data-anchor-id="harmonising-epidemiological-and-economic-metrics-across-countries">15. Harmonising Epidemiological and Economic Metrics Across Countries</h2>
-<p><em>(GBADs + Observatory)</em></p>
+<section id="harmonising-epidemiological-and-economic-metrics-across-countries" class="level2" data-number="15">
+<h2 data-number="15" class="anchored" data-anchor-id="harmonising-epidemiological-and-economic-metrics-across-countries"><span class="header-section-number">15</span> Harmonising Epidemiological and Economic Metrics Across Countries</h2>
 <p><strong>Challenge:</strong><br>
 Build a framework linking epidemiological indicators (incidence, mortality) to economic burden metrics.</p>
 <p><strong>Data:</strong><br>
@@ -4127,14 +4132,14 @@ Build a framework linking epidemiological indicators (incidence, mortality) to e
 - Metric harmonisation<br>
 - Scaling and standardisation<br>
 - Cross-country comparability analysis</p>
-<p><strong>Why it matters:</strong><br>
-Bridges the Observatory and GBADs into a coherent evidence framework.</p>
+<p><strong>Deliverables:</strong><br>
+- Harmonised indicator framework<br>
+- Cross-country comparison tools<br>
+- Documentation for joint Observatory–GBADs use</p>
 <hr>
 </section>
-<section id="trade-and-animal-health-t-series" class="level1">
-<h1>Trade and Animal Health (T-Series)</h1>
-<section id="t1-trade-disruptions-following-animal-health-events" class="level2">
-<h2 class="anchored" data-anchor-id="t1-trade-disruptions-following-animal-health-events">T1 — Trade Disruptions Following Animal Health Events</h2>
+<section id="trade-disruptions-following-animal-health-events" class="level2" data-number="16">
+<h2 data-number="16" class="anchored" data-anchor-id="trade-disruptions-following-animal-health-events"><span class="header-section-number">16</span> Trade Disruptions Following Animal Health Events</h2>
 <p><strong>Problem:</strong><br>
 Animal disease outbreaks often lead to asymmetric and poorly quantified trade impacts.</p>
 <p><strong>Objective:</strong><br>
@@ -4147,12 +4152,14 @@ Quantify how outbreaks affect bilateral and regional trade flows over time.</p>
 - Interrupted time series<br>
 - Difference-in-differences<br>
 - Bayesian causal models</p>
-<p><strong>Why it matters:</strong><br>
-Provides evidence for proportional, science-based trade measures.</p>
+<p><strong>Deliverables:</strong><br>
+- Quantified trade impact estimates<br>
+- Visual timelines of disruption and recovery<br>
+- Methodological note on attribution</p>
 <hr>
 </section>
-<section id="t2-predicting-trade-vulnerability-to-animal-health-shocks" class="level2">
-<h2 class="anchored" data-anchor-id="t2-predicting-trade-vulnerability-to-animal-health-shocks">T2 — Predicting Trade Vulnerability to Animal Health Shocks</h2>
+<section id="predicting-trade-vulnerability-to-animal-health-shocks" class="level2" data-number="17">
+<h2 data-number="17" class="anchored" data-anchor-id="predicting-trade-vulnerability-to-animal-health-shocks"><span class="header-section-number">17</span> Predicting Trade Vulnerability to Animal Health Shocks</h2>
 <p><strong>Problem:</strong><br>
 Some trade relationships are more fragile than others, but vulnerability is rarely quantified.</p>
 <p><strong>Objective:</strong><br>
@@ -4165,12 +4172,14 @@ Develop indicators of trade vulnerability to animal health events.</p>
 - Network analysis<br>
 - Risk scoring models<br>
 - Graph-based ML</p>
-<p><strong>Why it matters:</strong><br>
-Supports preparedness and resilience planning.</p>
+<p><strong>Deliverables:</strong><br>
+- Trade vulnerability indicators<br>
+- Network-based risk visualisations<br>
+- Ranking of high-risk trade relationships</p>
 <hr>
 </section>
-<section id="t3-disease-risk-along-trade-and-movement-networks" class="level2">
-<h2 class="anchored" data-anchor-id="t3-disease-risk-along-trade-and-movement-networks">T3 — Disease Risk Along Trade and Movement Networks</h2>
+<section id="disease-risk-along-trade-and-movement-networks" class="level2" data-number="18">
+<h2 data-number="18" class="anchored" data-anchor-id="disease-risk-along-trade-and-movement-networks"><span class="header-section-number">18</span> Disease Risk Along Trade and Movement Networks</h2>
 <p><strong>Problem:</strong><br>
 Trade and movement routes can amplify disease spread, but are often treated crudely.</p>
 <p><strong>Objective:</strong><br>
@@ -4183,12 +4192,14 @@ Model disease risk propagation along trade-related networks.</p>
 - Network epidemiology<br>
 - Spatio-network models<br>
 - Simulation approaches</p>
-<p><strong>Why it matters:</strong><br>
-Bridges epidemiology and trade without requiring sensitive microdata.</p>
+<p><strong>Deliverables:</strong><br>
+- Risk propagation metrics<br>
+- Network-informed risk maps<br>
+- Scenario-based simulations</p>
 <hr>
 </section>
-<section id="t4-science-based-regionalisation-and-zoning-indicators" class="level2">
-<h2 class="anchored" data-anchor-id="t4-science-based-regionalisation-and-zoning-indicators">T4 — Science-Based Regionalisation and Zoning Indicators</h2>
+<section id="science-based-regionalisation-and-zoning-indicators" class="level2" data-number="19">
+<h2 data-number="19" class="anchored" data-anchor-id="science-based-regionalisation-and-zoning-indicators"><span class="header-section-number">19</span> Science-Based Regionalisation and Zoning Indicators</h2>
 <p><strong>Problem:</strong><br>
 Regionalisation decisions are critical but analytically under-supported.</p>
 <p><strong>Objective:</strong><br>
@@ -4201,12 +4212,14 @@ Design quantitative indicators supporting zoning/regionalisation under outbreaks
 - Spatial risk aggregation<br>
 - Scenario modelling<br>
 - Uncertainty-aware indicators</p>
-<p><strong>Why it matters:</strong><br>
-Directly relevant to international trade continuity.</p>
+<p><strong>Deliverables:</strong><br>
+- Zoning and regionalisation indicators<br>
+- Scenario comparisons under uncertainty<br>
+- Decision-support visual outputs</p>
 <hr>
 </section>
-<section id="t5-consistency-of-sanitary-measures-with-observed-risk" class="level2">
-<h2 class="anchored" data-anchor-id="t5-consistency-of-sanitary-measures-with-observed-risk">T5 — Consistency of Sanitary Measures with Observed Risk</h2>
+<section id="consistency-of-sanitary-measures-with-observed-risk" class="level2" data-number="20">
+<h2 data-number="20" class="anchored" data-anchor-id="consistency-of-sanitary-measures-with-observed-risk"><span class="header-section-number">20</span> Consistency of Sanitary Measures with Observed Risk</h2>
 <p><strong>Problem:</strong><br>
 Trade restrictions may not always align with epidemiological risk.</p>
 <p><strong>Objective:</strong><br>
@@ -4217,11 +4230,12 @@ Compare observed trade measures with estimated disease risk.</p>
 <p><strong>Methods:</strong><br>
 - Risk–response analysis<br>
 - Classification and clustering</p>
-<p><strong>Why it matters:</strong><br>
-Encourages transparency and proportionality.</p>
+<p><strong>Deliverables:</strong><br>
+- Risk–response consistency metrics<br>
+- Typology of trade measures vs risk<br>
+- Analytical framework for proportionality assessment</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
