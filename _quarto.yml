@@ -11,6 +11,8 @@ website:
         href: challenges.qmd  
       - text: "Assessment criteria"
         href: criteria.qmd  
+      - text: "FAQ"
+        href: faq.qmd          
 format:
   html:
     theme:

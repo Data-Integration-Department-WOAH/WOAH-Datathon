@@ -11,39 +11,36 @@ format:
 
 Welcome to the WOAH Datathon web page!
 
-
-
-
 ## Overview
+
 The World Organisation for Animal Health (WOAH) invites multidisciplinary teams to participate in an international datathon on animal health data science, focusing on surveillance, risk, trade and impact assessment.
 
 Participants will work remotely over several months to address real‑world analytical challenges using pilot datasets provided by WOAH and partners. The datathon aims to stimulate innovation, methodological rigor and decision‑relevant analytics in animal health.
 
-Winning teams will receive prize money, the opportunity to be featured in Animal Echo and to present their work at a dedicated side event during the WOAH Global Session 2027.
+Winning teams will receive prize money, the opportunity to be featured in the Animal Echo and to present their work at a dedicated side event during the WOAH Global Session in 2027.
 
 ## Who Can Participate
 
-The datathon is open to international, multidisciplinary teams (2–6 members), including but not limited to:
+The datathon is open to international, multidisciplinary teams (1–6 members), including but not limited to:
 
-- Data scientists and statisticians
+-   Data scientists and statisticians
 
-- Epidemiologists
+-   Epidemiologists
 
-- Economists
+-   Economists
 
-- Computer scientists 
+-   Computer scientists
 
-- Public health and animal health professionals
+-   Public health and animal health professionals
 
 Teams may include members from academia (students or faculty), public institutions, international organisations, NGOs or the private sector.
 
-##  Datathon Format
+## Datathon Format
 
-
-- Launch: Q2 2026
-- Duration: 3–4 months (remote participation)
-- Team work: Independent and asynchronous
-- Support: Documentation, data descriptions and periodic technical clarifications
+-   Launch: Q2 2026
+-   Duration: 3–4 months (remote participation)
+-   Team work: Independent and asynchronous
+-   Support: Documentation, data descriptions and periodic technical clarifications
 
 Final submission: Analytical pipeline + results report on a git repo by September 30, 2026
 
@@ -51,17 +48,14 @@ Final submission: Analytical pipeline + results report on a git repo by Septembe
 
 Each team will:
 
-- Select one challenge either from the [list](;/challenges.html) or self-proposed (subject to approval)
+-   Select one challenge either from the [list](;/challenges.html) or self-proposed (subject to approval)
 
-- Develop a complete data science pipeline, including data processing, modelling and validation
+-   Develop a complete data science pipeline, including data processing, modelling and validation
 
-- Produce analytical outputs based on pilot or historical datasets
+-   Produce analytical outputs based on pilot or historical datasets
 
-- Document methods and results in a concise technical report
+-   Document methods and results in a concise technical report
 
-- All code must be reproducible and submitted in a public or shared repository.
-
-
+-   All code must be reproducible and submitted in a public or shared repository.
 
 **Contact:** dataintegration.dept \@ woah.org
-

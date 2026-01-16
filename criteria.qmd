@@ -9,7 +9,7 @@ format:
 ---
 
 
-
+The material submitted submitted by each team will be assessed by a panel of experts based on the following criteria:
 
 ## Scientific/Technical Accuracy
 
@@ -17,13 +17,10 @@ Definition: Measures correctness and rigor of the methods and outputs.
 
 Key Points:
 
-Appropriateness of modelling approach for the problem.
-
-Correct handling of data (e.g., preprocessing, imputation, bias correction).
-
-Logical and reproducible workflow from raw data to final output.
-
-Validation against known or simulated benchmarks.
+-   Appropriateness of modelling approach for the problem.
+-   Correct handling of data (e.g., preprocessing, imputation, bias correction).
+-   Logical and reproducible workflow from raw data to final output.
+-   Validation against known or simulated benchmarks.
 
 Scoring Tip: 0–5 scale; 5 = methodologically robust, fully validated, no obvious flaws.
 
@@ -33,13 +30,10 @@ Definition: Measures originality in problem-solving, methodology, or data integr
 
 Key Points:
 
-Novel application of statistical, ML, or network techniques.
-
-Creative integration of multiple data sources.
-
-Unique visualization or decision-support approach.
-
-Evidence of thinking beyond “textbook” solutions.
+-   Novel application of statistical, ML, or network techniques.
+-   Creative integration of multiple data sources.
+-   Unique visualization or decision-support approach.
+-   Evidence of thinking beyond “textbook” solutions.
 
 Scoring Tip: 0–5 scale; 5 = clearly innovative, methodologically or conceptually novel.
 
@@ -49,13 +43,10 @@ Definition: Measures the degree to which outputs address WOAH priorities or real
 
 Key Points:
 
-Alignment with animal health policy, surveillance, or trade risk objectives.
-
-Interpretability for non-technical stakeholders.
-
-Clarity of actionable insights or recommendations.
-
-Responsiveness to intended problem scope.
+-   Alignment with animal health policy, surveillance, or trade risk objectives.
+-   Interpretability for non-technical stakeholders.
+-   Clarity of actionable insights or recommendations.
+-   Responsiveness to intended problem scope.
 
 Scoring Tip: 0–5 scale; 5 = deliverables are directly actionable and relevant.
 
@@ -65,12 +56,9 @@ Definition: Measures clarity and completeness of the workflow, code, and reporti
 
 Key Points:
 
-Availability of scripts/notebooks and clear instructions.
-
-Documentation of data sources, assumptions, and parameters.
-
-Ability for independent evaluators to reproduce results.
-
-Versioning or modular design supporting reuse.
+-   Availability of scripts/notebooks and clear instructions.
+-   Documentation of data sources, assumptions, and parameters.
+-   Ability for independent evaluators to reproduce results.
+-   Versioning or modular design supporting reuse.
 
 Scoring Tip: 0–5 scale; 5 = fully reproducible and well-documented workflow.
