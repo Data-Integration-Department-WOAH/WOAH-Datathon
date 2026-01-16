@@ -2,183 +2,239 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome to the WOAH Datathon web page",
+    "title": "International Datathon on Animal Health Organised by the World Organisation for Animal Health (WOAH)",
     "section": "",
-    "text": "International Datathon on Animal Health Organised by the World Organisation for Animal Health (WOAH)\n\n\nThe World Organisation for Animal Health (WOAH) invites multidisciplinary teams to participate in an international datathon on animal health data science, focusing on surveillance, risk, trade, and impact assessment.\nParticipants will work remotely over several months to address real‑world analytical challenges using pilot datasets provided by WOAH and partners. The datathon aims to stimulate innovation, methodological rigor, and decision‑relevant analytics in animal health.\nWinning teams will receive prize money, the opportunity to be featured in Animal Echo, and to present their work at a dedicated side event during the WOAH Global Session 2027.\n\n\n\nThe datathon is open to international, multidisciplinary teams (2–6 members), including but not limited to:\n-Data scientists and statisticians\n\nEpidemiologists\nEconomists\nComputer scientists\nPublic health and animal health professionals\n\nTeams may include members from academia (students or faculty), public institutions, international organisations, NGOs, or the private sector.\n\n\n\n\nLaunch: Q2 2026\nDuration: 3–4 months (remote participation)\nTeam work: Independent and asynchronous\nSupport: Documentation, data descriptions, and periodic technical clarifications\n\nFinal submission: Analytical pipeline + results report on a git repo by September 30, 2026\n\n\n\nEach team will:\n\nSelect one challenge from the list below\nDevelop a complete data science pipeline, including data processing, modelling, and validation\nProduce analytical outputs based on pilot or historical datasets\nDocument methods and results in a concise technical report\nAll code must be reproducible and submitted in a public or shared repository.\n\nContact: dataintegration.dept @ woah.org"
+    "text": "Welcome to the WOAH Datathon web page!"
   },
   {
     "objectID": "index.html#overview",
     "href": "index.html#overview",
-    "title": "Welcome to the WOAH Datathon web page",
-    "section": "",
-    "text": "The World Organisation for Animal Health (WOAH) invites multidisciplinary teams to participate in an international datathon on animal health data science, focusing on surveillance, risk, trade, and impact assessment.\nParticipants will work remotely over several months to address real‑world analytical challenges using pilot datasets provided by WOAH and partners. The datathon aims to stimulate innovation, methodological rigor, and decision‑relevant analytics in animal health.\nWinning teams will receive prize money, the opportunity to be featured in Animal Echo, and to present their work at a dedicated side event during the WOAH Global Session 2027."
+    "title": "International Datathon on Animal Health Organised by the World Organisation for Animal Health (WOAH)",
+    "section": "Overview",
+    "text": "Overview\nThe World Organisation for Animal Health (WOAH) invites multidisciplinary teams to participate in an international datathon on animal health data science, focusing on surveillance, risk, trade and impact assessment.\nParticipants will work remotely over several months to address real‑world analytical challenges using pilot datasets provided by WOAH and partners. The datathon aims to stimulate innovation, methodological rigor and decision‑relevant analytics in animal health.\nWinning teams will receive prize money, the opportunity to be featured in the Animal Echo and to present their work at a dedicated side event during the WOAH Global Session in 2027."
   },
   {
     "objectID": "index.html#who-can-participate",
     "href": "index.html#who-can-participate",
-    "title": "Welcome to the WOAH Datathon web page",
-    "section": "",
-    "text": "The datathon is open to international, multidisciplinary teams (2–6 members), including but not limited to:\n-Data scientists and statisticians\n\nEpidemiologists\nEconomists\nComputer scientists\nPublic health and animal health professionals\n\nTeams may include members from academia (students or faculty), public institutions, international organisations, NGOs, or the private sector."
+    "title": "International Datathon on Animal Health Organised by the World Organisation for Animal Health (WOAH)",
+    "section": "Who Can Participate",
+    "text": "Who Can Participate\nThe datathon is open to international, multidisciplinary teams (1–6 members), including but not limited to:\n\nData scientists and statisticians\nEpidemiologists\nEconomists\nComputer scientists\nPublic health and animal health professionals\n\nTeams may include members from academia (students or faculty), public institutions, international organisations, NGOs or the private sector."
   },
   {
     "objectID": "index.html#datathon-format",
     "href": "index.html#datathon-format",
-    "title": "Welcome to the WOAH Datathon web page",
-    "section": "",
-    "text": "Launch: Q2 2026\nDuration: 3–4 months (remote participation)\nTeam work: Independent and asynchronous\nSupport: Documentation, data descriptions, and periodic technical clarifications\n\nFinal submission: Analytical pipeline + results report on a git repo by September 30, 2026"
+    "title": "International Datathon on Animal Health Organised by the World Organisation for Animal Health (WOAH)",
+    "section": "Datathon Format",
+    "text": "Datathon Format\n\nLaunch: Q2 2026\nDuration: 3–4 months (remote participation)\nTeam work: Independent and asynchronous\nSupport: Documentation, data descriptions and periodic technical clarifications\n\nFinal submission: Analytical pipeline + results report on a git repo by September 30, 2026"
   },
   {
     "objectID": "index.html#data-outputs",
     "href": "index.html#data-outputs",
-    "title": "Welcome to the WOAH Datathon web page",
+    "title": "International Datathon on Animal Health Organised by the World Organisation for Animal Health (WOAH)",
+    "section": "Data & Outputs",
+    "text": "Data & Outputs\nEach team will:\n\nSelect one challenge either from the list or self-proposed (subject to approval)\nDevelop a complete data science pipeline, including data processing, modelling and validation\nProduce analytical outputs based on pilot or historical datasets\nDocument methods and results in a concise technical report\nAll code must be reproducible and submitted in a public or shared repository.\n\nContact: dataintegration.dept @ woah.org"
+  },
+  {
+    "objectID": "index.html#datathon-deliverable-assessment-criteria",
+    "href": "index.html#datathon-deliverable-assessment-criteria",
+    "title": "International Datathon on Animal Health Organised by the World Organisation for Animal Health (WOAH)",
+    "section": "Datathon Deliverable Assessment Criteria",
+    "text": "Datathon Deliverable Assessment Criteria\n\nScientific/Technical Accuracy\nDefinition: Measures correctness and rigor of the methods and outputs.\nKey Points:\nAppropriateness of modelling approach for the problem.\nCorrect handling of data (e.g., preprocessing, imputation, bias correction).\nLogical and reproducible workflow from raw data to final output.\nValidation against known or simulated benchmarks.\nScoring Tip: 0–5 scale; 5 = methodologically robust, fully validated, no obvious flaws.\n\n\nInnovation and Creativity\nDefinition: Measures originality in problem-solving, methodology, or data integration.\nKey Points:\nNovel application of statistical, ML, or network techniques.\nCreative integration of multiple data sources.\nUnique visualization or decision-support approach.\nEvidence of thinking beyond “textbook” solutions.\nScoring Tip: 0–5 scale; 5 = clearly innovative, methodologically or conceptually novel.\n\n\nPractical Relevance / Policy Impact\nDefinition: Measures the degree to which outputs address WOAH priorities or real-world decision-making needs.\nKey Points:\nAlignment with animal health policy, surveillance, or trade risk objectives.\nInterpretability for non-technical stakeholders.\nClarity of actionable insights or recommendations.\nResponsiveness to intended problem scope.\nScoring Tip: 0–5 scale; 5 = deliverables are directly actionable and relevant.\n\n\nReproducibility and Documentation\nDefinition: Measures clarity and completeness of the workflow, code, and reporting.\nKey Points:\nAvailability of scripts/notebooks and clear instructions.\nDocumentation of data sources, assumptions, and parameters.\nAbility for independent evaluators to reproduce results.\nVersioning or modular design supporting reuse.\nScoring Tip: 0–5 scale; 5 = fully reproducible and well-documented workflow.\nContact: dataintegration.dept @ woah.org"
+  },
+  {
+    "objectID": "criteria.html",
+    "href": "criteria.html",
+    "title": "Datathon Deliverable Assessment Criteria",
     "section": "",
-    "text": "Each team will:\n\nSelect one challenge from the list below\nDevelop a complete data science pipeline, including data processing, modelling, and validation\nProduce analytical outputs based on pilot or historical datasets\nDocument methods and results in a concise technical report\nAll code must be reproducible and submitted in a public or shared repository.\n\nContact: dataintegration.dept @ woah.org"
+    "text": "The material submitted submitted by each team will be assessed by a panel of experts based on the following criteria:"
+  },
+  {
+    "objectID": "criteria.html#scientifictechnical-accuracy",
+    "href": "criteria.html#scientifictechnical-accuracy",
+    "title": "Datathon Deliverable Assessment Criteria",
+    "section": "Scientific/Technical Accuracy",
+    "text": "Scientific/Technical Accuracy\nDefinition: Measures correctness and rigor of the methods and outputs.\nKey Points:\n\nAppropriateness of modelling approach for the problem.\nCorrect handling of data (e.g., preprocessing, imputation, bias correction).\nLogical and reproducible workflow from raw data to final output.\nValidation against known or simulated benchmarks.\n\nScoring Tip: 0–5 scale; 5 = methodologically robust, fully validated, no obvious flaws."
+  },
+  {
+    "objectID": "criteria.html#innovation-and-creativity",
+    "href": "criteria.html#innovation-and-creativity",
+    "title": "Datathon Deliverable Assessment Criteria",
+    "section": "Innovation and Creativity",
+    "text": "Innovation and Creativity\nDefinition: Measures originality in problem-solving, methodology, or data integration.\nKey Points:\n\nNovel application of statistical, ML, or network techniques.\nCreative integration of multiple data sources.\nUnique visualization or decision-support approach.\nEvidence of thinking beyond “textbook” solutions.\n\nScoring Tip: 0–5 scale; 5 = clearly innovative, methodologically or conceptually novel."
+  },
+  {
+    "objectID": "criteria.html#practical-relevance-policy-impact",
+    "href": "criteria.html#practical-relevance-policy-impact",
+    "title": "Datathon Deliverable Assessment Criteria",
+    "section": "Practical Relevance / Policy Impact",
+    "text": "Practical Relevance / Policy Impact\nDefinition: Measures the degree to which outputs address WOAH priorities or real-world decision-making needs.\nKey Points:\n\nAlignment with animal health policy, surveillance, or trade risk objectives.\nInterpretability for non-technical stakeholders.\nClarity of actionable insights or recommendations.\nResponsiveness to intended problem scope.\n\nScoring Tip: 0–5 scale; 5 = deliverables are directly actionable and relevant."
+  },
+  {
+    "objectID": "criteria.html#reproducibility-and-documentation",
+    "href": "criteria.html#reproducibility-and-documentation",
+    "title": "Datathon Deliverable Assessment Criteria",
+    "section": "Reproducibility and Documentation",
+    "text": "Reproducibility and Documentation\nDefinition: Measures clarity and completeness of the workflow, code, and reporting.\nKey Points:\n\nAvailability of scripts/notebooks and clear instructions.\nDocumentation of data sources, assumptions, and parameters.\nAbility for independent evaluators to reproduce results.\nVersioning or modular design supporting reuse.\n\nScoring Tip: 0–5 scale; 5 = fully reproducible and well-documented workflow."
   },
   {
     "objectID": "challenges.html",
     "href": "challenges.html",
-    "title": "Challenges",
+    "title": "List of datathon challenges",
     "section": "",
-    "text": "Objective:\nDevelop models for early detection of emerging animal health events.\nData:\n- WAHIS event notifications (historical)\n- Syndromic surveillance indicators\n- Trade/movement proxies\n- Environmental covariates\nMethods:\n- Bayesian change-point detection\n- Spatio-temporal models\n- Anomaly detection\n- LSTM / transformer-based time series models\nDeliverable:\nEnd-to-end pipeline producing alerts with uncertainty quantification and interpretability."
+    "text": "Below is a list of challenges that are provided for guidance or source of inspiration. Once a topic is chosen by a team, the outline does not have to be followed strictly, excursions in some of the other topics and beyond are welcome."
   },
   {
     "objectID": "challenges.html#early-outbreak-detection-from-multi-source-surveillance-data",
     "href": "challenges.html#early-outbreak-detection-from-multi-source-surveillance-data",
-    "title": "Challenges",
-    "section": "",
-    "text": "Objective:\nDevelop models for early detection of emerging animal health events.\nData:\n- WAHIS event notifications (historical)\n- Syndromic surveillance indicators\n- Trade/movement proxies\n- Environmental covariates\nMethods:\n- Bayesian change-point detection\n- Spatio-temporal models\n- Anomaly detection\n- LSTM / transformer-based time series models\nDeliverable:\nEnd-to-end pipeline producing alerts with uncertainty quantification and interpretability."
+    "title": "List of datathon challenges",
+    "section": "1 Early Outbreak Detection from Multi-Source Surveillance Data",
+    "text": "1 Early Outbreak Detection from Multi-Source Surveillance Data\nObjective: Develop models for early detection of emerging animal health events.\nData:\n\nWAHIS event notifications (historical)\nSyndromic surveillance indicators\nTrade/movement proxies\nEnvironmental covariates\n\nMethods:\n\nBayesian change-point detection\nSpatio-temporal models\nAnomaly detection\n\nLSTM / transformer-based time series models\n\nDeliverable:\nEnd-to-end pipeline producing alerts with uncertainty quantification and interpretability."
   },
   {
     "objectID": "challenges.html#spatio-temporal-risk-mapping-of-priority-transboundary-animal-diseases",
     "href": "challenges.html#spatio-temporal-risk-mapping-of-priority-transboundary-animal-diseases",
-    "title": "Challenges",
-    "section": "2. Spatio-Temporal Risk Mapping of Priority Transboundary Animal Diseases",
-    "text": "2. Spatio-Temporal Risk Mapping of Priority Transboundary Animal Diseases\nObjective:\nProduce dynamic risk maps for a selected priority disease (e.g. ASF, HPAI, FMD).\nData:\n- Historical outbreak locations\n- Livestock density\n- Climate data\n- Trade and movement indicators\nMethods:\n- Hierarchical Bayesian models\n- Gaussian processes\n- Spatial ML (e.g. graph neural networks)\nDeliverable:\nReproducible pipeline generating predictive risk surfaces and validation metrics."
+    "title": "List of datathon challenges",
+    "section": "2 Spatio-Temporal Risk Mapping of Priority Transboundary Animal Diseases",
+    "text": "2 Spatio-Temporal Risk Mapping of Priority Transboundary Animal Diseases\nObjective:\n\nProduce dynamic risk maps for a selected priority disease (e.g. ASF, HPAI, FMD).\nData:\n\n\nHistorical outbreak locations\n\nLivestock density\n\nClimate data\n\nTrade and movement indicators\n\nMethods:\n\n\nHierarchical Bayesian models\n\nGaussian processes\n\nSpatial ML (e.g. graph neural networks)\n\nDeliverable:\n\nReproducible pipeline generating predictive risk surfaces and validation metrics."
   },
   {
     "objectID": "challenges.html#nowcasting-and-forecasting-disease-incidence-under-reporting-delays",
     "href": "challenges.html#nowcasting-and-forecasting-disease-incidence-under-reporting-delays",
-    "title": "Challenges",
-    "section": "3. Nowcasting and Forecasting Disease Incidence Under Reporting Delays",
-    "text": "3. Nowcasting and Forecasting Disease Incidence Under Reporting Delays\nObjective:\nCorrect for under-reporting and reporting delays in animal disease data.\nData:\n- Time-stamped notification data with known lags\n- Partial reporting histories\nMethods:\n- Bayesian nowcasting\n- State-space models\n- Probabilistic forecasting\nDeliverable:\nForecasts with credible intervals and comparison of methodological approaches."
+    "title": "List of datathon challenges",
+    "section": "3 Nowcasting and Forecasting Disease Incidence Under Reporting Delays",
+    "text": "3 Nowcasting and Forecasting Disease Incidence Under Reporting Delays\nObjective:\n\nCorrect for under-reporting and reporting delays in animal disease data.\nData:\n\n\nTime-stamped notification data with known lags\n\nPartial reporting histories\n\nMethods:\n\n\nBayesian nowcasting\n\nState-space models\n\nProbabilistic forecasting\n\nDeliverable:\n\nForecasts with credible intervals and comparison of methodological approaches."
   },
   {
     "objectID": "challenges.html#ai-assisted-signal-extraction-from-event-based-surveillance-text",
     "href": "challenges.html#ai-assisted-signal-extraction-from-event-based-surveillance-text",
-    "title": "Challenges",
-    "section": "4. AI-Assisted Signal Extraction from Event-Based Surveillance Text",
-    "text": "4. AI-Assisted Signal Extraction from Event-Based Surveillance Text\nObjective:\nExtract and classify animal health signals from unstructured text sources.\nData:\n- News articles\n- Official reports\n- Social media or RSS feeds (curated sample)\nMethods:\n- NLP pipelines\n- Transformer-based classification\n- Named entity recognition\n- Weak supervision\nDeliverable:\nAutomated system producing structured signals linked to diseases, species, and locations."
+    "title": "List of datathon challenges",
+    "section": "4 AI-Assisted Signal Extraction from Event-Based Surveillance Text",
+    "text": "4 AI-Assisted Signal Extraction from Event-Based Surveillance Text\nObjective:\n\nExtract and classify animal health signals from unstructured text sources.\nData:\n\n\nNews articles\n\nOfficial reports\n\nSocial media or RSS feeds (curated sample)\n\nMethods:\n\n\nNLP pipelines\n\nTransformer-based classification\n\nNamed entity recognition\n\nWeak supervision\n\nDeliverable:\n\nAutomated system producing structured signals linked to diseases, species, and locations."
   },
   {
     "objectID": "challenges.html#cross-country-comparability-and-bias-assessment-in-surveillance-data",
     "href": "challenges.html#cross-country-comparability-and-bias-assessment-in-surveillance-data",
-    "title": "Challenges",
-    "section": "5. Cross-Country Comparability and Bias Assessment in Surveillance Data",
-    "text": "5. Cross-Country Comparability and Bias Assessment in Surveillance Data\nObjective:\nQuantify and adjust for heterogeneity in surveillance capacity and reporting practices.\nData:\n- WAHIS indicators\n- Country-level metadata (capacity indicators, reporting frequency)\nMethods:\n- Latent variable models\n- Causal inference\n- Domain adaptation techniques\nDeliverable:\nMetrics and visualizations highlighting comparability issues and adjusted estimates."
+    "title": "List of datathon challenges",
+    "section": "5 Cross-Country Comparability and Bias Assessment in Surveillance Data",
+    "text": "5 Cross-Country Comparability and Bias Assessment in Surveillance Data\nObjective:\n\nQuantify and adjust for heterogeneity in surveillance capacity and reporting practices.\nData:\n\n\nWAHIS indicators\n\nCountry-level metadata (capacity indicators, reporting frequency)\n\nMethods:\n\n\nLatent variable models\n\nCausal inference\n\nDomain adaptation techniques\n\nDeliverable:\n\nMetrics and visualizations highlighting comparability issues and adjusted estimates."
   },
   {
     "objectID": "challenges.html#antimicrobial-use-and-resistance-pattern-discovery-and-prediction",
     "href": "challenges.html#antimicrobial-use-and-resistance-pattern-discovery-and-prediction",
-    "title": "Challenges",
-    "section": "6. Antimicrobial Use and Resistance: Pattern Discovery and Prediction",
-    "text": "6. Antimicrobial Use and Resistance: Pattern Discovery and Prediction\nObjective:\nExplore relationships between antimicrobial use (AMU) and resistance (AMR) indicators.\nData:\n- Aggregated AMU and AMR datasets (animal sector)\n- Contextual production data\nMethods:\n- Multivariate analysis\n- Causal graphs\n- Machine learning regression and clustering\nDeliverable:\nAnalytical pipeline identifying patterns, risk factors, and predictive signals."
+    "title": "List of datathon challenges",
+    "section": "6 Antimicrobial Use and Resistance: Pattern Discovery and Prediction",
+    "text": "6 Antimicrobial Use and Resistance: Pattern Discovery and Prediction\nObjective:\n\nExplore relationships between antimicrobial use (AMU) and resistance (AMR) indicators.\nData:\n\n\nAggregated AMU and AMR datasets (animal sector)\n\nContextual production data\n\nMethods:\n\n\nMultivariate analysis\n\nCausal graphs\n\nMachine learning regression and clustering\n\nDeliverable:\n\nAnalytical pipeline identifying patterns, risk factors, and predictive signals."
   },
   {
     "objectID": "challenges.html#one-health-integration-linking-animal-health-environment-and-climate-signals",
     "href": "challenges.html#one-health-integration-linking-animal-health-environment-and-climate-signals",
-    "title": "Challenges",
-    "section": "7. One Health Integration: Linking Animal Health, Environment, and Climate Signals",
-    "text": "7. One Health Integration: Linking Animal Health, Environment, and Climate Signals\nObjective:\nAssess how environmental and climate variables modulate animal disease risk.\nData:\n- Disease occurrence data\n- Climate variables (temperature, rainfall)\n- Land-use proxies\nMethods:\n- Joint models\n- Feature attribution methods\n- Interpretable ML\nDeliverable:\nQuantitative assessment of environmental drivers with policy-relevant interpretation."
+    "title": "List of datathon challenges",
+    "section": "7 One Health Integration: Linking Animal Health, Environment, and Climate Signals",
+    "text": "7 One Health Integration: Linking Animal Health, Environment, and Climate Signals\nObjective:\n\nAssess how environmental and climate variables modulate animal disease risk.\nData:\n\n\nDisease occurrence data\n\nClimate variables (temperature, rainfall)\n\nLand-use proxies\n\nMethods:\n\n\nJoint models\n\nFeature attribution methods\n\nInterpretable ML\n\nDeliverable:\n\nQuantitative assessment of environmental drivers with policy-relevant interpretation."
   },
   {
     "objectID": "challenges.html#automated-quality-assessment-of-animal-health-data-submissions",
     "href": "challenges.html#automated-quality-assessment-of-animal-health-data-submissions",
-    "title": "Challenges",
-    "section": "8. Automated Quality Assessment of Animal Health Data Submissions",
-    "text": "8. Automated Quality Assessment of Animal Health Data Submissions\nObjective:\nDetect inconsistencies, outliers, and implausible values in reported datasets.\nData:\n- Historical surveillance submissions with known data quality issues\nMethods:\n- Rule-based checks combined with ML anomaly detection\n- Explainable AI\nDeliverable:\nScalable data quality scoring framework and dashboard-ready outputs."
+    "title": "List of datathon challenges",
+    "section": "8 Automated Quality Assessment of Animal Health Data Submissions",
+    "text": "8 Automated Quality Assessment of Animal Health Data Submissions\nObjective:\n\nDetect inconsistencies, outliers, and implausible values in reported datasets.\nData:\n\n\nHistorical surveillance submissions with known data quality issues\n\nMethods:\n\n\nRule-based checks combined with ML anomaly detection\n\nExplainable AI\n\nDeliverable:\n\nScalable data quality scoring framework and dashboard-ready outputs."
   },
   {
     "objectID": "challenges.html#scenario-modelling-for-disease-spread-under-control-strategies",
     "href": "challenges.html#scenario-modelling-for-disease-spread-under-control-strategies",
-    "title": "Challenges",
-    "section": "9. Scenario Modelling for Disease Spread Under Control Strategies",
-    "text": "9. Scenario Modelling for Disease Spread Under Control Strategies\nObjective:\nCompare intervention strategies (movement restrictions, vaccination) using simulation.\nData:\n- Synthetic or pilot outbreak scenarios with parameter ranges\nMethods:\n- Compartmental and agent-based models\n- Stochastic simulations\nDeliverable:\nDecision-support outputs comparing scenarios under uncertainty."
+    "title": "List of datathon challenges",
+    "section": "9 Scenario Modelling for Disease Spread Under Control Strategies",
+    "text": "9 Scenario Modelling for Disease Spread Under Control Strategies\nObjective:\n\nCompare intervention strategies (movement restrictions, vaccination) using simulation.\nData:\n\n\nSynthetic or pilot outbreak scenarios with parameter ranges\n\nMethods:\n\n\nCompartmental and agent-based models\n\nStochastic simulations\n\nDeliverable:\n\nDecision-support outputs comparing scenarios under uncertainty."
   },
   {
     "objectID": "challenges.html#translation-of-analytical-outputs-into-decision-ready-indicators",
     "href": "challenges.html#translation-of-analytical-outputs-into-decision-ready-indicators",
-    "title": "Challenges",
-    "section": "10. Translation of Analytical Outputs into Decision-Ready Indicators",
-    "text": "10. Translation of Analytical Outputs into Decision-Ready Indicators\nObjective:\nBridge advanced analytics and policy needs by designing interpretable indicators.\nData:\n- Outputs from one or more analytical pipelines above\nMethods:\n- Indicator construction\n- Uncertainty communication\n- Visualization science\nDeliverable:\nA reproducible workflow producing indicators aligned with WOAH reporting needs."
+    "title": "List of datathon challenges",
+    "section": "10 Translation of Analytical Outputs into Decision-Ready Indicators",
+    "text": "10 Translation of Analytical Outputs into Decision-Ready Indicators\nObjective:\n\nBridge advanced analytics and policy needs by designing interpretable indicators.\nData:\n\n\nOutputs from one or more analytical pipelines above\n\nMethods:\n\n\nIndicator construction\n\nUncertainty communication\n\nVisualization science\n\nDeliverable:\n\nA reproducible workflow producing indicators aligned with WOAH reporting needs."
   },
   {
     "objectID": "challenges.html#composite-observatory-indicators-from-heterogeneous-data-streams",
     "href": "challenges.html#composite-observatory-indicators-from-heterogeneous-data-streams",
-    "title": "Challenges",
-    "section": "11. Composite Observatory Indicators from Heterogeneous Data Streams",
-    "text": "11. Composite Observatory Indicators from Heterogeneous Data Streams\n(WOAH Observatory – Core)\nChallenge:\nDesign and validate composite indicators to monitor countries’ implementation of WOAH standards.\nData:\n- WAHIS quantitative indicators\n- Observatory qualitative assessments\n- Country metadata (income group, livestock sector structure)\nMethods:\n- Latent variable models\n- Multi-criteria decision analysis\n- Uncertainty propagation\nWhy it matters:\nDirectly contributes to the Observatory’s methodological robustness and credibility."
+    "title": "List of datathon challenges",
+    "section": "11 Composite Observatory Indicators from Heterogeneous Data Streams",
+    "text": "11 Composite Observatory Indicators from Heterogeneous Data Streams\nChallenge:\n\nDesign and validate composite indicators to monitor countries’ implementation of WOAH standards.\nData:\n\n\nWAHIS quantitative indicators\n\nObservatory qualitative assessments\n\nCountry metadata (income group, livestock sector structure)\n\nMethods:\n\n\nLatent variable models\n\nMulti-criteria decision analysis\n\nUncertainty propagation\n\nDeliverables:\n\n\nComposite indicator methodology with uncertainty quantification\n\nSensitivity and robustness analyses\n\nDocumentation suitable for Observatory publication"
   },
   {
     "objectID": "challenges.html#bias-and-signal-separation-in-observatory-monitoring-data",
     "href": "challenges.html#bias-and-signal-separation-in-observatory-monitoring-data",
-    "title": "Challenges",
-    "section": "12. Bias and Signal Separation in Observatory Monitoring Data",
-    "text": "12. Bias and Signal Separation in Observatory Monitoring Data\n(WOAH Observatory – Methodological)\nChallenge:\nDistinguish true performance changes from reporting, compliance, or capacity effects.\nData:\n- Time series of Observatory-related indicators\n- Reporting histories\nMethods:\n- Hierarchical Bayesian models\n- Measurement error models\n- Causal inference / sensitivity analysis\nWhy it matters:\nPrevents misinterpretation of Observatory outputs by Members and partners."
+    "title": "List of datathon challenges",
+    "section": "12 Bias and Signal Separation in Observatory Monitoring Data",
+    "text": "12 Bias and Signal Separation in Observatory Monitoring Data\nChallenge:\n\nDistinguish true performance changes from reporting, compliance, or capacity effects.\nData:\n\n\nTime series of Observatory-related indicators\n\nReporting histories\n\nMethods:\n\n\nHierarchical Bayesian models\n\nMeasurement error models\n\nCausal inference / sensitivity analysis\n\nDeliverables:\n\n\nBias-adjusted time series\n\nDiagnostic tools for signal vs reporting effects\n\nMethodological guidance for interpretation"
   },
   {
     "objectID": "challenges.html#linking-animal-health-performance-to-economic-losses",
     "href": "challenges.html#linking-animal-health-performance-to-economic-losses",
-    "title": "Challenges",
-    "section": "13. Linking Animal Health Performance to Economic Losses",
-    "text": "13. Linking Animal Health Performance to Economic Losses\n(GBADs – Flagship)\nChallenge:\nQuantify economic losses associated with animal diseases using sparse or partial data.\nData:\n- Disease occurrence (WAHIS)\n- Livestock population and production proxies\n- GBADs pilot economic datasets\nMethods:\n- Economic–epidemiological models\n- Imputation and data fusion\n- Scenario-based valuation\nWhy it matters:\nCentral to GBADs’ mission of making losses visible and comparable."
+    "title": "List of datathon challenges",
+    "section": "13 Linking Animal Health Performance to Economic Losses",
+    "text": "13 Linking Animal Health Performance to Economic Losses\nChallenge:\n\nQuantify economic losses associated with animal diseases using sparse or partial data.\nData:\n\n\nDisease occurrence (WAHIS)\n\nLivestock population and production proxies\n\nGBADs pilot economic datasets\n\nMethods:\n\n\nEconomic–epidemiological models\n\nImputation and data fusion\n\nScenario-based valuation\n\nDeliverables:\n\n\nLoss estimates with uncertainty bounds\n\nDisease-specific economic impact profiles\n\nReusable valuation framework"
   },
   {
     "objectID": "challenges.html#predictive-modelling-of-animal-health-burden-under-alternative-investment-scenarios",
     "href": "challenges.html#predictive-modelling-of-animal-health-burden-under-alternative-investment-scenarios",
-    "title": "Challenges",
-    "section": "14. Predictive Modelling of Animal Health Burden Under Alternative Investment Scenarios",
-    "text": "14. Predictive Modelling of Animal Health Burden Under Alternative Investment Scenarios\n(GBADs + Policy)\nChallenge:\nEstimate how changes in surveillance or control investment affect disease burden and losses.\nData:\n- Synthetic or pilot GBADs scenarios\n- Real surveillance data\nMethods:\n- Counterfactual modelling\n- Decision analysis\n- Probabilistic simulations\nWhy it matters:\nDirectly supports investment cases for animal health systems."
+    "title": "List of datathon challenges",
+    "section": "14 Predictive Modelling of Animal Health Burden Under Alternative Investment Scenarios",
+    "text": "14 Predictive Modelling of Animal Health Burden Under Alternative Investment Scenarios\nChallenge:\n\nEstimate how changes in surveillance or control investment affect disease burden and losses.\nData:\n\n\nSynthetic or pilot GBADs scenarios\n\nReal surveillance data\n\nMethods:\n\n\nCounterfactual modelling\n\nDecision analysis\n\nProbabilistic simulations\n\nDeliverables:\n\n\nInvestment–impact scenarios\n\nComparative burden trajectories\n\nPolicy-oriented summary outputs"
   },
   {
     "objectID": "challenges.html#harmonising-epidemiological-and-economic-metrics-across-countries",
     "href": "challenges.html#harmonising-epidemiological-and-economic-metrics-across-countries",
-    "title": "Challenges",
-    "section": "15. Harmonising Epidemiological and Economic Metrics Across Countries",
-    "text": "15. Harmonising Epidemiological and Economic Metrics Across Countries\n(GBADs + Observatory)\nChallenge:\nBuild a framework linking epidemiological indicators (incidence, mortality) to economic burden metrics.\nData:\n- Multi-country pilot datasets\nMethods:\n- Metric harmonisation\n- Scaling and standardisation\n- Cross-country comparability analysis\nWhy it matters:\nBridges the Observatory and GBADs into a coherent evidence framework."
+    "title": "List of datathon challenges",
+    "section": "15 Harmonising Epidemiological and Economic Metrics Across Countries",
+    "text": "15 Harmonising Epidemiological and Economic Metrics Across Countries\nChallenge:\n\nBuild a framework linking epidemiological indicators (incidence, mortality) to economic burden metrics.\nData:\n\n\nMulti-country pilot datasets\n\nMethods:\n\n\nMetric harmonisation\n\nScaling and standardisation\n\nCross-country comparability analysis\n\nDeliverables:\n\n\nHarmonised indicator framework\n\nCross-country comparison tools\n\nDocumentation for joint Observatory–GBADs use"
   },
   {
-    "objectID": "challenges.html#t1-trade-disruptions-following-animal-health-events",
-    "href": "challenges.html#t1-trade-disruptions-following-animal-health-events",
-    "title": "Challenges",
-    "section": "T1 — Trade Disruptions Following Animal Health Events",
-    "text": "T1 — Trade Disruptions Following Animal Health Events\nProblem:\nAnimal disease outbreaks often lead to asymmetric and poorly quantified trade impacts.\nObjective:\nQuantify how outbreaks affect bilateral and regional trade flows over time.\nData (pilot):\n- Disease outbreak timelines\n- Aggregated livestock/product trade data\n- Country and product metadata\nMethods:\n- Interrupted time series\n- Difference-in-differences\n- Bayesian causal models\nWhy it matters:\nProvides evidence for proportional, science-based trade measures."
+    "objectID": "challenges.html#trade-disruptions-following-animal-health-events",
+    "href": "challenges.html#trade-disruptions-following-animal-health-events",
+    "title": "List of datathon challenges",
+    "section": "16 Trade Disruptions Following Animal Health Events",
+    "text": "16 Trade Disruptions Following Animal Health Events\nProblem:\n\nAnimal disease outbreaks often lead to asymmetric and poorly quantified trade impacts.\nObjective:\n\nQuantify how outbreaks affect bilateral and regional trade flows over time.\nData (pilot):\n\n\nDisease outbreak timelines\n\nAggregated livestock/product trade data\n\nCountry and product metadata\n\nMethods:\n\n\nInterrupted time series\n\nDifference-in-differences\n\nBayesian causal models\n\nDeliverables:\n\n\nQuantified trade impact estimates\n\nVisual timelines of disruption and recovery\n\nMethodological note on attribution"
   },
   {
-    "objectID": "challenges.html#t2-predicting-trade-vulnerability-to-animal-health-shocks",
-    "href": "challenges.html#t2-predicting-trade-vulnerability-to-animal-health-shocks",
-    "title": "Challenges",
-    "section": "T2 — Predicting Trade Vulnerability to Animal Health Shocks",
-    "text": "T2 — Predicting Trade Vulnerability to Animal Health Shocks\nProblem:\nSome trade relationships are more fragile than others, but vulnerability is rarely quantified.\nObjective:\nDevelop indicators of trade vulnerability to animal health events.\nData (pilot):\n- Trade networks\n- Historical outbreaks\n- Production and dependency proxies\nMethods:\n- Network analysis\n- Risk scoring models\n- Graph-based ML\nWhy it matters:\nSupports preparedness and resilience planning."
+    "objectID": "challenges.html#predicting-trade-vulnerability-to-animal-health-shocks",
+    "href": "challenges.html#predicting-trade-vulnerability-to-animal-health-shocks",
+    "title": "List of datathon challenges",
+    "section": "17 Predicting Trade Vulnerability to Animal Health Shocks",
+    "text": "17 Predicting Trade Vulnerability to Animal Health Shocks\nProblem:\n\nSome trade relationships are more fragile than others, but vulnerability is rarely quantified.\nObjective:\n\nDevelop indicators of trade vulnerability to animal health events.\nData (pilot):\n\n\nTrade networks\n\nHistorical outbreaks\n\nProduction and dependency proxies\n\nMethods:\n\n\nNetwork analysis\n\nRisk scoring models\n\nGraph-based ML\n\nDeliverables:\n\n\nTrade vulnerability indicators\n\nNetwork-based risk visualisations\n\nRanking of high-risk trade relationships"
   },
   {
-    "objectID": "challenges.html#t3-disease-risk-along-trade-and-movement-networks",
-    "href": "challenges.html#t3-disease-risk-along-trade-and-movement-networks",
-    "title": "Challenges",
-    "section": "T3 — Disease Risk Along Trade and Movement Networks",
-    "text": "T3 — Disease Risk Along Trade and Movement Networks\nProblem:\nTrade and movement routes can amplify disease spread, but are often treated crudely.\nObjective:\nModel disease risk propagation along trade-related networks.\nData (pilot):\n- Livestock/product trade matrices\n- Outbreak locations\n- Optional mobility proxies\nMethods:\n- Network epidemiology\n- Spatio-network models\n- Simulation approaches\nWhy it matters:\nBridges epidemiology and trade without requiring sensitive microdata."
+    "objectID": "challenges.html#disease-risk-along-trade-and-movement-networks",
+    "href": "challenges.html#disease-risk-along-trade-and-movement-networks",
+    "title": "List of datathon challenges",
+    "section": "18 Disease Risk Along Trade and Movement Networks",
+    "text": "18 Disease Risk Along Trade and Movement Networks\nProblem:\n\nTrade and movement routes can amplify disease spread, but are often treated crudely.\nObjective:\n\nModel disease risk propagation along trade-related networks.\nData (pilot):\n\n\nLivestock/product trade matrices\n\nOutbreak locations\n\nOptional mobility proxies\n\nMethods:\n\n\nNetwork epidemiology\n\nSpatio-network models\n\nSimulation approaches\n\nDeliverables:\n\n\nRisk propagation metrics\n\nNetwork-informed risk maps\n\nScenario-based simulations"
   },
   {
-    "objectID": "challenges.html#t4-science-based-regionalisation-and-zoning-indicators",
-    "href": "challenges.html#t4-science-based-regionalisation-and-zoning-indicators",
-    "title": "Challenges",
-    "section": "T4 — Science-Based Regionalisation and Zoning Indicators",
-    "text": "T4 — Science-Based Regionalisation and Zoning Indicators\nProblem:\nRegionalisation decisions are critical but analytically under-supported.\nObjective:\nDesign quantitative indicators supporting zoning/regionalisation under outbreaks.\nData (pilot):\n- Subnational outbreak data (or synthetic)\n- Trade exposure proxies\n- Control measures metadata\nMethods:\n- Spatial risk aggregation\n- Scenario modelling\n- Uncertainty-aware indicators\nWhy it matters:\nDirectly relevant to international trade continuity."
+    "objectID": "challenges.html#science-based-regionalisation-and-zoning-indicators",
+    "href": "challenges.html#science-based-regionalisation-and-zoning-indicators",
+    "title": "List of datathon challenges",
+    "section": "19 Science-Based Regionalisation and Zoning Indicators",
+    "text": "19 Science-Based Regionalisation and Zoning Indicators\nProblem:\n\nRegionalisation decisions are critical but analytically under-supported.\nObjective:\n\nDesign quantitative indicators supporting zoning/regionalisation under outbreaks.\nData (pilot):\n\n\nSubnational outbreak data (or synthetic)\n\nTrade exposure proxies\n\nControl measures metadata\n\nMethods:\n\n\nSpatial risk aggregation\n\nScenario modelling\n\nUncertainty-aware indicators\n\nDeliverables:\n\n\nZoning and regionalisation indicators\n\nScenario comparisons under uncertainty\n\nDecision-support visual outputs"
   },
   {
-    "objectID": "challenges.html#t5-consistency-of-sanitary-measures-with-observed-risk",
-    "href": "challenges.html#t5-consistency-of-sanitary-measures-with-observed-risk",
-    "title": "Challenges",
-    "section": "T5 — Consistency of Sanitary Measures with Observed Risk",
-    "text": "T5 — Consistency of Sanitary Measures with Observed Risk\nProblem:\nTrade restrictions may not always align with epidemiological risk.\nObjective:\nCompare observed trade measures with estimated disease risk.\nData (pilot):\n- Outbreak and risk estimates\n- Trade policy proxies (binary/ordinal)\nMethods:\n- Risk–response analysis\n- Classification and clustering\nWhy it matters:\nEncourages transparency and proportionality."
+    "objectID": "challenges.html#consistency-of-sanitary-measures-with-observed-risk",
+    "href": "challenges.html#consistency-of-sanitary-measures-with-observed-risk",
+    "title": "List of datathon challenges",
+    "section": "20 Consistency of Sanitary Measures with Observed Risk",
+    "text": "20 Consistency of Sanitary Measures with Observed Risk\nProblem:\n\nTrade restrictions may not always align with epidemiological risk.\nObjective:\n\nCompare observed trade measures with estimated disease risk.\nData (pilot):\n\n\nOutbreak and risk estimates\n\nTrade policy proxies (binary/ordinal)\n\nMethods:\n\n\nRisk–response analysis\n\nClassification and clustering\n\nDeliverables:\n\n\nRisk–response consistency metrics\n\nTypology of trade measures vs risk\n\nAnalytical framework for proportionality assessment"
+  },
+  {
+    "objectID": "faq.html",
+    "href": "faq.html",
+    "title": "Frequently Asked Questions",
+    "section": "",
+    "text": "Can a team consists of a single person?: yes\nCan team members be from different countries?: yes\nCan team members be from different organizations?: yes"
+  },
+  {
+    "objectID": "faq.html#section",
+    "href": "faq.html#section",
+    "title": "Frequently Asked Questions",
+    "section": "",
+    "text": "Can a team consists of a single person?: yes\nCan team members be from different countries?: yes\nCan team members be from different organizations?: yes"
   }
 ]

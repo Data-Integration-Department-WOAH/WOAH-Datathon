@@ -3906,166 +3906,600 @@ vertical-align: -.125em;
 <section id="early-outbreak-detection-from-multi-source-surveillance-data" class="level2" data-number="1">
 <h2 data-number="1" class="anchored" data-anchor-id="early-outbreak-detection-from-multi-source-surveillance-data"><span class="header-section-number">1</span> Early Outbreak Detection from Multi-Source Surveillance Data</h2>
 <p><strong>Objective:</strong> Develop models for early detection of emerging animal health events.</p>
-<p><strong>Data:</strong> - WAHIS event notifications (historical) - Syndromic surveillance indicators - Trade/movement proxies - Environmental covariates</p>
-<p><strong>Methods:</strong> - Bayesian change-point detection - Spatio-temporal models - Anomaly detection - LSTM / transformer-based time series models</p>
-<p><strong>Deliverable:</strong> End-to-end pipeline producing alerts with uncertainty quantification and interpretability.</p>
+<p><strong>Data:</strong></p>
+<ul>
+<li>WAHIS event notifications (historical)</li>
+<li>Syndromic surveillance indicators</li>
+<li>Trade/movement proxies</li>
+<li>Environmental covariates</li>
+</ul>
+<p><strong>Methods:</strong></p>
+<ul>
+<li>Bayesian change-point detection</li>
+<li>Spatio-temporal models</li>
+<li>Anomaly detection<br>
+</li>
+<li>LSTM / transformer-based time series models</li>
+</ul>
+<p><strong>Deliverable:</strong></p>
+<p>End-to-end pipeline producing alerts with uncertainty quantification and interpretability.</p>
 <hr>
 </section>
 <section id="spatio-temporal-risk-mapping-of-priority-transboundary-animal-diseases" class="level2" data-number="2">
 <h2 data-number="2" class="anchored" data-anchor-id="spatio-temporal-risk-mapping-of-priority-transboundary-animal-diseases"><span class="header-section-number">2</span> Spatio-Temporal Risk Mapping of Priority Transboundary Animal Diseases</h2>
-<p><strong>Objective:</strong> Produce dynamic risk maps for a selected priority disease (e.g. ASF, HPAI, FMD).</p>
-<p><strong>Data:</strong> - Historical outbreak locations - Livestock density - Climate data - Trade and movement indicators</p>
-<p><strong>Methods:</strong> - Hierarchical Bayesian models - Gaussian processes - Spatial ML (e.g. graph neural networks)</p>
-<p><strong>Deliverable:</strong> Reproducible pipeline generating predictive risk surfaces and validation metrics.</p>
+<p><strong>Objective:</strong><br>
+</p>
+<p>Produce dynamic risk maps for a selected priority disease (e.g. ASF, HPAI, FMD).</p>
+<p><strong>Data:</strong><br>
+</p>
+<ul>
+<li>Historical outbreak locations<br>
+</li>
+<li>Livestock density<br>
+</li>
+<li>Climate data<br>
+</li>
+<li>Trade and movement indicators</li>
+</ul>
+<p><strong>Methods:</strong><br>
+</p>
+<ul>
+<li>Hierarchical Bayesian models<br>
+</li>
+<li>Gaussian processes<br>
+</li>
+<li>Spatial ML (e.g. graph neural networks)</li>
+</ul>
+<p><strong>Deliverable:</strong><br>
+</p>
+<p>Reproducible pipeline generating predictive risk surfaces and validation metrics.</p>
 <hr>
 </section>
 <section id="nowcasting-and-forecasting-disease-incidence-under-reporting-delays" class="level2" data-number="3">
 <h2 data-number="3" class="anchored" data-anchor-id="nowcasting-and-forecasting-disease-incidence-under-reporting-delays"><span class="header-section-number">3</span> Nowcasting and Forecasting Disease Incidence Under Reporting Delays</h2>
-<p><strong>Objective:</strong> Correct for under-reporting and reporting delays in animal disease data.</p>
-<p><strong>Data:</strong> - Time-stamped notification data with known lags - Partial reporting histories</p>
-<p><strong>Methods:</strong> - Bayesian nowcasting - State-space models - Probabilistic forecasting</p>
-<p><strong>Deliverable:</strong> Forecasts with credible intervals and comparison of methodological approaches.</p>
+<p><strong>Objective:</strong><br>
+</p>
+<p>Correct for under-reporting and reporting delays in animal disease data.</p>
+<p><strong>Data:</strong><br>
+</p>
+<ul>
+<li>Time-stamped notification data with known lags<br>
+</li>
+<li>Partial reporting histories</li>
+</ul>
+<p><strong>Methods:</strong><br>
+</p>
+<ul>
+<li>Bayesian nowcasting<br>
+</li>
+<li>State-space models<br>
+</li>
+<li>Probabilistic forecasting</li>
+</ul>
+<p><strong>Deliverable:</strong><br>
+</p>
+<p>Forecasts with credible intervals and comparison of methodological approaches.</p>
 <hr>
 </section>
 <section id="ai-assisted-signal-extraction-from-event-based-surveillance-text" class="level2" data-number="4">
 <h2 data-number="4" class="anchored" data-anchor-id="ai-assisted-signal-extraction-from-event-based-surveillance-text"><span class="header-section-number">4</span> AI-Assisted Signal Extraction from Event-Based Surveillance Text</h2>
-<p><strong>Objective:</strong> Extract and classify animal health signals from unstructured text sources.</p>
-<p><strong>Data:</strong> - News articles - Official reports - Social media or RSS feeds (curated sample)</p>
-<p><strong>Methods:</strong> - NLP pipelines - Transformer-based classification - Named entity recognition - Weak supervision</p>
-<p><strong>Deliverable:</strong> Automated system producing structured signals linked to diseases, species, and locations.</p>
+<p><strong>Objective:</strong><br>
+</p>
+<p>Extract and classify animal health signals from unstructured text sources.</p>
+<p><strong>Data:</strong><br>
+</p>
+<ul>
+<li>News articles<br>
+</li>
+<li>Official reports<br>
+</li>
+<li>Social media or RSS feeds (curated sample)</li>
+</ul>
+<p><strong>Methods:</strong><br>
+</p>
+<ul>
+<li>NLP pipelines<br>
+</li>
+<li>Transformer-based classification<br>
+</li>
+<li>Named entity recognition<br>
+</li>
+<li>Weak supervision</li>
+</ul>
+<p><strong>Deliverable:</strong><br>
+</p>
+<p>Automated system producing structured signals linked to diseases, species, and locations.</p>
 <hr>
 </section>
 <section id="cross-country-comparability-and-bias-assessment-in-surveillance-data" class="level2" data-number="5">
 <h2 data-number="5" class="anchored" data-anchor-id="cross-country-comparability-and-bias-assessment-in-surveillance-data"><span class="header-section-number">5</span> Cross-Country Comparability and Bias Assessment in Surveillance Data</h2>
-<p><strong>Objective:</strong> Quantify and adjust for heterogeneity in surveillance capacity and reporting practices.</p>
-<p><strong>Data:</strong> - WAHIS indicators - Country-level metadata (capacity indicators, reporting frequency)</p>
-<p><strong>Methods:</strong> - Latent variable models - Causal inference - Domain adaptation techniques</p>
-<p><strong>Deliverable:</strong> Metrics and visualizations highlighting comparability issues and adjusted estimates.</p>
+<p><strong>Objective:</strong><br>
+</p>
+<p>Quantify and adjust for heterogeneity in surveillance capacity and reporting practices.</p>
+<p><strong>Data:</strong><br>
+</p>
+<ul>
+<li>WAHIS indicators<br>
+</li>
+<li>Country-level metadata (capacity indicators, reporting frequency)</li>
+</ul>
+<p><strong>Methods:</strong><br>
+</p>
+<ul>
+<li>Latent variable models<br>
+</li>
+<li>Causal inference<br>
+</li>
+<li>Domain adaptation techniques</li>
+</ul>
+<p><strong>Deliverable:</strong><br>
+</p>
+<p>Metrics and visualizations highlighting comparability issues and adjusted estimates.</p>
 <hr>
 </section>
 <section id="antimicrobial-use-and-resistance-pattern-discovery-and-prediction" class="level2" data-number="6">
 <h2 data-number="6" class="anchored" data-anchor-id="antimicrobial-use-and-resistance-pattern-discovery-and-prediction"><span class="header-section-number">6</span> Antimicrobial Use and Resistance: Pattern Discovery and Prediction</h2>
-<p><strong>Objective:</strong> Explore relationships between antimicrobial use (AMU) and resistance (AMR) indicators.</p>
-<p><strong>Data:</strong> - Aggregated AMU and AMR datasets (animal sector) - Contextual production data</p>
-<p><strong>Methods:</strong> - Multivariate analysis - Causal graphs - Machine learning regression and clustering</p>
-<p><strong>Deliverable:</strong> Analytical pipeline identifying patterns, risk factors, and predictive signals.</p>
+<p><strong>Objective:</strong><br>
+</p>
+<p>Explore relationships between antimicrobial use (AMU) and resistance (AMR) indicators.</p>
+<p><strong>Data:</strong><br>
+</p>
+<ul>
+<li>Aggregated AMU and AMR datasets (animal sector)<br>
+</li>
+<li>Contextual production data</li>
+</ul>
+<p><strong>Methods:</strong><br>
+</p>
+<ul>
+<li>Multivariate analysis<br>
+</li>
+<li>Causal graphs<br>
+</li>
+<li>Machine learning regression and clustering</li>
+</ul>
+<p><strong>Deliverable:</strong><br>
+</p>
+<p>Analytical pipeline identifying patterns, risk factors, and predictive signals.</p>
 <hr>
 </section>
 <section id="one-health-integration-linking-animal-health-environment-and-climate-signals" class="level2" data-number="7">
 <h2 data-number="7" class="anchored" data-anchor-id="one-health-integration-linking-animal-health-environment-and-climate-signals"><span class="header-section-number">7</span> One Health Integration: Linking Animal Health, Environment, and Climate Signals</h2>
-<p><strong>Objective:</strong> Assess how environmental and climate variables modulate animal disease risk.</p>
-<p><strong>Data:</strong> - Disease occurrence data - Climate variables (temperature, rainfall) - Land-use proxies</p>
-<p><strong>Methods:</strong> - Joint models - Feature attribution methods - Interpretable ML</p>
-<p><strong>Deliverable:</strong> Quantitative assessment of environmental drivers with policy-relevant interpretation.</p>
+<p><strong>Objective:</strong><br>
+</p>
+<p>Assess how environmental and climate variables modulate animal disease risk.</p>
+<p><strong>Data:</strong><br>
+</p>
+<ul>
+<li>Disease occurrence data<br>
+</li>
+<li>Climate variables (temperature, rainfall)<br>
+</li>
+<li>Land-use proxies</li>
+</ul>
+<p><strong>Methods:</strong><br>
+</p>
+<ul>
+<li>Joint models<br>
+</li>
+<li>Feature attribution methods<br>
+</li>
+<li>Interpretable ML</li>
+</ul>
+<p><strong>Deliverable:</strong><br>
+</p>
+<p>Quantitative assessment of environmental drivers with policy-relevant interpretation.</p>
 <hr>
 </section>
 <section id="automated-quality-assessment-of-animal-health-data-submissions" class="level2" data-number="8">
 <h2 data-number="8" class="anchored" data-anchor-id="automated-quality-assessment-of-animal-health-data-submissions"><span class="header-section-number">8</span> Automated Quality Assessment of Animal Health Data Submissions</h2>
-<p><strong>Objective:</strong> Detect inconsistencies, outliers, and implausible values in reported datasets.</p>
-<p><strong>Data:</strong> - Historical surveillance submissions with known data quality issues</p>
-<p><strong>Methods:</strong> - Rule-based checks combined with ML anomaly detection - Explainable AI</p>
-<p><strong>Deliverable:</strong> Scalable data quality scoring framework and dashboard-ready outputs.</p>
+<p><strong>Objective:</strong><br>
+</p>
+<p>Detect inconsistencies, outliers, and implausible values in reported datasets.</p>
+<p><strong>Data:</strong><br>
+</p>
+<ul>
+<li>Historical surveillance submissions with known data quality issues</li>
+</ul>
+<p><strong>Methods:</strong><br>
+</p>
+<ul>
+<li>Rule-based checks combined with ML anomaly detection<br>
+</li>
+<li>Explainable AI</li>
+</ul>
+<p><strong>Deliverable:</strong><br>
+</p>
+<p>Scalable data quality scoring framework and dashboard-ready outputs.</p>
 <hr>
 </section>
 <section id="scenario-modelling-for-disease-spread-under-control-strategies" class="level2" data-number="9">
 <h2 data-number="9" class="anchored" data-anchor-id="scenario-modelling-for-disease-spread-under-control-strategies"><span class="header-section-number">9</span> Scenario Modelling for Disease Spread Under Control Strategies</h2>
-<p><strong>Objective:</strong> Compare intervention strategies (movement restrictions, vaccination) using simulation.</p>
-<p><strong>Data:</strong> - Synthetic or pilot outbreak scenarios with parameter ranges</p>
-<p><strong>Methods:</strong> - Compartmental and agent-based models - Stochastic simulations</p>
-<p><strong>Deliverable:</strong> Decision-support outputs comparing scenarios under uncertainty.</p>
+<p><strong>Objective:</strong><br>
+</p>
+<p>Compare intervention strategies (movement restrictions, vaccination) using simulation.</p>
+<p><strong>Data:</strong><br>
+</p>
+<ul>
+<li>Synthetic or pilot outbreak scenarios with parameter ranges</li>
+</ul>
+<p><strong>Methods:</strong><br>
+</p>
+<ul>
+<li>Compartmental and agent-based models<br>
+</li>
+<li>Stochastic simulations</li>
+</ul>
+<p><strong>Deliverable:</strong><br>
+</p>
+<p>Decision-support outputs comparing scenarios under uncertainty.</p>
 <hr>
 </section>
 <section id="translation-of-analytical-outputs-into-decision-ready-indicators" class="level2" data-number="10">
 <h2 data-number="10" class="anchored" data-anchor-id="translation-of-analytical-outputs-into-decision-ready-indicators"><span class="header-section-number">10</span> Translation of Analytical Outputs into Decision-Ready Indicators</h2>
-<p><strong>Objective:</strong> Bridge advanced analytics and policy needs by designing interpretable indicators.</p>
-<p><strong>Data:</strong> - Outputs from one or more analytical pipelines above</p>
-<p><strong>Methods:</strong> - Indicator construction - Uncertainty communication - Visualization science</p>
-<p><strong>Deliverable:</strong> A reproducible workflow producing indicators aligned with WOAH reporting needs.</p>
+<p><strong>Objective:</strong><br>
+</p>
+<p>Bridge advanced analytics and policy needs by designing interpretable indicators.</p>
+<p><strong>Data:</strong><br>
+</p>
+<ul>
+<li>Outputs from one or more analytical pipelines above</li>
+</ul>
+<p><strong>Methods:</strong><br>
+</p>
+<ul>
+<li>Indicator construction<br>
+</li>
+<li>Uncertainty communication<br>
+</li>
+<li>Visualization science</li>
+</ul>
+<p><strong>Deliverable:</strong><br>
+</p>
+<p>A reproducible workflow producing indicators aligned with WOAH reporting needs.</p>
 <hr>
 </section>
 <section id="composite-observatory-indicators-from-heterogeneous-data-streams" class="level2" data-number="11">
 <h2 data-number="11" class="anchored" data-anchor-id="composite-observatory-indicators-from-heterogeneous-data-streams"><span class="header-section-number">11</span> Composite Observatory Indicators from Heterogeneous Data Streams</h2>
-<p><strong>Challenge:</strong> Design and validate composite indicators to monitor countries’ implementation of WOAH standards.</p>
-<p><strong>Data:</strong> - WAHIS quantitative indicators - Observatory qualitative assessments - Country metadata (income group, livestock sector structure)</p>
-<p><strong>Methods:</strong> - Latent variable models - Multi-criteria decision analysis - Uncertainty propagation</p>
-<p><strong>Deliverables:</strong> - Composite indicator methodology with uncertainty quantification - Sensitivity and robustness analyses - Documentation suitable for Observatory publication</p>
+<p><strong>Challenge:</strong><br>
+</p>
+<p>Design and validate composite indicators to monitor countries’ implementation of WOAH standards.</p>
+<p><strong>Data:</strong><br>
+</p>
+<ul>
+<li>WAHIS quantitative indicators<br>
+</li>
+<li>Observatory qualitative assessments<br>
+</li>
+<li>Country metadata (income group, livestock sector structure)</li>
+</ul>
+<p><strong>Methods:</strong><br>
+</p>
+<ul>
+<li>Latent variable models<br>
+</li>
+<li>Multi-criteria decision analysis<br>
+</li>
+<li>Uncertainty propagation</li>
+</ul>
+<p><strong>Deliverables:</strong><br>
+</p>
+<ul>
+<li>Composite indicator methodology with uncertainty quantification<br>
+</li>
+<li>Sensitivity and robustness analyses<br>
+</li>
+<li>Documentation suitable for Observatory publication</li>
+</ul>
 <hr>
 </section>
 <section id="bias-and-signal-separation-in-observatory-monitoring-data" class="level2" data-number="12">
 <h2 data-number="12" class="anchored" data-anchor-id="bias-and-signal-separation-in-observatory-monitoring-data"><span class="header-section-number">12</span> Bias and Signal Separation in Observatory Monitoring Data</h2>
-<p><strong>Challenge:</strong> Distinguish true performance changes from reporting, compliance, or capacity effects.</p>
-<p><strong>Data:</strong> - Time series of Observatory-related indicators - Reporting histories</p>
-<p><strong>Methods:</strong> - Hierarchical Bayesian models - Measurement error models - Causal inference / sensitivity analysis</p>
-<p><strong>Deliverables:</strong> - Bias-adjusted time series - Diagnostic tools for signal vs reporting effects - Methodological guidance for interpretation</p>
+<p><strong>Challenge:</strong><br>
+</p>
+<p>Distinguish true performance changes from reporting, compliance, or capacity effects.</p>
+<p><strong>Data:</strong><br>
+</p>
+<ul>
+<li>Time series of Observatory-related indicators<br>
+</li>
+<li>Reporting histories</li>
+</ul>
+<p><strong>Methods:</strong><br>
+</p>
+<ul>
+<li>Hierarchical Bayesian models<br>
+</li>
+<li>Measurement error models<br>
+</li>
+<li>Causal inference / sensitivity analysis</li>
+</ul>
+<p><strong>Deliverables:</strong><br>
+</p>
+<ul>
+<li>Bias-adjusted time series<br>
+</li>
+<li>Diagnostic tools for signal vs reporting effects<br>
+</li>
+<li>Methodological guidance for interpretation</li>
+</ul>
 <hr>
 </section>
 <section id="linking-animal-health-performance-to-economic-losses" class="level2" data-number="13">
 <h2 data-number="13" class="anchored" data-anchor-id="linking-animal-health-performance-to-economic-losses"><span class="header-section-number">13</span> Linking Animal Health Performance to Economic Losses</h2>
-<p><strong>Challenge:</strong> Quantify economic losses associated with animal diseases using sparse or partial data.</p>
-<p><strong>Data:</strong> - Disease occurrence (WAHIS) - Livestock population and production proxies - GBADs pilot economic datasets</p>
-<p><strong>Methods:</strong> - Economic–epidemiological models - Imputation and data fusion - Scenario-based valuation</p>
-<p><strong>Deliverables:</strong> - Loss estimates with uncertainty bounds - Disease-specific economic impact profiles - Reusable valuation framework</p>
+<p><strong>Challenge:</strong><br>
+</p>
+<p>Quantify economic losses associated with animal diseases using sparse or partial data.</p>
+<p><strong>Data:</strong><br>
+</p>
+<ul>
+<li>Disease occurrence (WAHIS)<br>
+</li>
+<li>Livestock population and production proxies<br>
+</li>
+<li>GBADs pilot economic datasets</li>
+</ul>
+<p><strong>Methods:</strong><br>
+</p>
+<ul>
+<li>Economic–epidemiological models<br>
+</li>
+<li>Imputation and data fusion<br>
+</li>
+<li>Scenario-based valuation</li>
+</ul>
+<p><strong>Deliverables:</strong><br>
+</p>
+<ul>
+<li>Loss estimates with uncertainty bounds<br>
+</li>
+<li>Disease-specific economic impact profiles<br>
+</li>
+<li>Reusable valuation framework</li>
+</ul>
 <hr>
 </section>
 <section id="predictive-modelling-of-animal-health-burden-under-alternative-investment-scenarios" class="level2" data-number="14">
 <h2 data-number="14" class="anchored" data-anchor-id="predictive-modelling-of-animal-health-burden-under-alternative-investment-scenarios"><span class="header-section-number">14</span> Predictive Modelling of Animal Health Burden Under Alternative Investment Scenarios</h2>
-<p><strong>Challenge:</strong> Estimate how changes in surveillance or control investment affect disease burden and losses.</p>
-<p><strong>Data:</strong> - Synthetic or pilot GBADs scenarios - Real surveillance data</p>
-<p><strong>Methods:</strong> - Counterfactual modelling - Decision analysis - Probabilistic simulations</p>
-<p><strong>Deliverables:</strong> - Investment–impact scenarios - Comparative burden trajectories - Policy-oriented summary outputs</p>
+<p><strong>Challenge:</strong><br>
+</p>
+<p>Estimate how changes in surveillance or control investment affect disease burden and losses.</p>
+<p><strong>Data:</strong><br>
+</p>
+<ul>
+<li>Synthetic or pilot GBADs scenarios<br>
+</li>
+<li>Real surveillance data</li>
+</ul>
+<p><strong>Methods:</strong><br>
+</p>
+<ul>
+<li>Counterfactual modelling<br>
+</li>
+<li>Decision analysis<br>
+</li>
+<li>Probabilistic simulations</li>
+</ul>
+<p><strong>Deliverables:</strong><br>
+</p>
+<ul>
+<li>Investment–impact scenarios<br>
+</li>
+<li>Comparative burden trajectories<br>
+</li>
+<li>Policy-oriented summary outputs</li>
+</ul>
 <hr>
 </section>
 <section id="harmonising-epidemiological-and-economic-metrics-across-countries" class="level2" data-number="15">
 <h2 data-number="15" class="anchored" data-anchor-id="harmonising-epidemiological-and-economic-metrics-across-countries"><span class="header-section-number">15</span> Harmonising Epidemiological and Economic Metrics Across Countries</h2>
-<p><strong>Challenge:</strong> Build a framework linking epidemiological indicators (incidence, mortality) to economic burden metrics.</p>
-<p><strong>Data:</strong> - Multi-country pilot datasets</p>
-<p><strong>Methods:</strong> - Metric harmonisation - Scaling and standardisation - Cross-country comparability analysis</p>
-<p><strong>Deliverables:</strong> - Harmonised indicator framework - Cross-country comparison tools - Documentation for joint Observatory–GBADs use</p>
+<p><strong>Challenge:</strong><br>
+</p>
+<p>Build a framework linking epidemiological indicators (incidence, mortality) to economic burden metrics.</p>
+<p><strong>Data:</strong><br>
+</p>
+<ul>
+<li>Multi-country pilot datasets</li>
+</ul>
+<p><strong>Methods:</strong><br>
+</p>
+<ul>
+<li>Metric harmonisation<br>
+</li>
+<li>Scaling and standardisation<br>
+</li>
+<li>Cross-country comparability analysis</li>
+</ul>
+<p><strong>Deliverables:</strong><br>
+</p>
+<ul>
+<li>Harmonised indicator framework<br>
+</li>
+<li>Cross-country comparison tools<br>
+</li>
+<li>Documentation for joint Observatory–GBADs use</li>
+</ul>
 <hr>
 </section>
 <section id="trade-disruptions-following-animal-health-events" class="level2" data-number="16">
 <h2 data-number="16" class="anchored" data-anchor-id="trade-disruptions-following-animal-health-events"><span class="header-section-number">16</span> Trade Disruptions Following Animal Health Events</h2>
-<p><strong>Problem:</strong> Animal disease outbreaks often lead to asymmetric and poorly quantified trade impacts.</p>
-<p><strong>Objective:</strong> Quantify how outbreaks affect bilateral and regional trade flows over time.</p>
-<p><strong>Data (pilot):</strong> - Disease outbreak timelines - Aggregated livestock/product trade data - Country and product metadata</p>
-<p><strong>Methods:</strong> - Interrupted time series - Difference-in-differences - Bayesian causal models</p>
-<p><strong>Deliverables:</strong> - Quantified trade impact estimates - Visual timelines of disruption and recovery - Methodological note on attribution</p>
+<p><strong>Problem:</strong><br>
+</p>
+<p>Animal disease outbreaks often lead to asymmetric and poorly quantified trade impacts.</p>
+<p><strong>Objective:</strong><br>
+</p>
+<p>Quantify how outbreaks affect bilateral and regional trade flows over time.</p>
+<p><strong>Data (pilot):</strong><br>
+</p>
+<ul>
+<li>Disease outbreak timelines<br>
+</li>
+<li>Aggregated livestock/product trade data<br>
+</li>
+<li>Country and product metadata</li>
+</ul>
+<p><strong>Methods:</strong><br>
+</p>
+<ul>
+<li>Interrupted time series<br>
+</li>
+<li>Difference-in-differences<br>
+</li>
+<li>Bayesian causal models</li>
+</ul>
+<p><strong>Deliverables:</strong><br>
+</p>
+<ul>
+<li>Quantified trade impact estimates<br>
+</li>
+<li>Visual timelines of disruption and recovery<br>
+</li>
+<li>Methodological note on attribution</li>
+</ul>
 <hr>
 </section>
 <section id="predicting-trade-vulnerability-to-animal-health-shocks" class="level2" data-number="17">
 <h2 data-number="17" class="anchored" data-anchor-id="predicting-trade-vulnerability-to-animal-health-shocks"><span class="header-section-number">17</span> Predicting Trade Vulnerability to Animal Health Shocks</h2>
-<p><strong>Problem:</strong> Some trade relationships are more fragile than others, but vulnerability is rarely quantified.</p>
-<p><strong>Objective:</strong> Develop indicators of trade vulnerability to animal health events.</p>
-<p><strong>Data (pilot):</strong> - Trade networks - Historical outbreaks - Production and dependency proxies</p>
-<p><strong>Methods:</strong> - Network analysis - Risk scoring models - Graph-based ML</p>
-<p><strong>Deliverables:</strong> - Trade vulnerability indicators - Network-based risk visualisations - Ranking of high-risk trade relationships</p>
+<p><strong>Problem:</strong><br>
+</p>
+<p>Some trade relationships are more fragile than others, but vulnerability is rarely quantified.</p>
+<p><strong>Objective:</strong><br>
+</p>
+<p>Develop indicators of trade vulnerability to animal health events.</p>
+<p><strong>Data (pilot):</strong><br>
+</p>
+<ul>
+<li>Trade networks<br>
+</li>
+<li>Historical outbreaks<br>
+</li>
+<li>Production and dependency proxies</li>
+</ul>
+<p><strong>Methods:</strong><br>
+</p>
+<ul>
+<li>Network analysis<br>
+</li>
+<li>Risk scoring models<br>
+</li>
+<li>Graph-based ML</li>
+</ul>
+<p><strong>Deliverables:</strong><br>
+</p>
+<ul>
+<li>Trade vulnerability indicators<br>
+</li>
+<li>Network-based risk visualisations<br>
+</li>
+<li>Ranking of high-risk trade relationships</li>
+</ul>
 <hr>
 </section>
 <section id="disease-risk-along-trade-and-movement-networks" class="level2" data-number="18">
 <h2 data-number="18" class="anchored" data-anchor-id="disease-risk-along-trade-and-movement-networks"><span class="header-section-number">18</span> Disease Risk Along Trade and Movement Networks</h2>
-<p><strong>Problem:</strong> Trade and movement routes can amplify disease spread, but are often treated crudely.</p>
-<p><strong>Objective:</strong> Model disease risk propagation along trade-related networks.</p>
-<p><strong>Data (pilot):</strong> - Livestock/product trade matrices - Outbreak locations - Optional mobility proxies</p>
-<p><strong>Methods:</strong> - Network epidemiology - Spatio-network models - Simulation approaches</p>
-<p><strong>Deliverables:</strong> - Risk propagation metrics - Network-informed risk maps - Scenario-based simulations</p>
+<p><strong>Problem:</strong><br>
+</p>
+<p>Trade and movement routes can amplify disease spread, but are often treated crudely.</p>
+<p><strong>Objective:</strong><br>
+</p>
+<p>Model disease risk propagation along trade-related networks.</p>
+<p><strong>Data (pilot):</strong><br>
+</p>
+<ul>
+<li>Livestock/product trade matrices<br>
+</li>
+<li>Outbreak locations<br>
+</li>
+<li>Optional mobility proxies</li>
+</ul>
+<p><strong>Methods:</strong><br>
+</p>
+<ul>
+<li>Network epidemiology<br>
+</li>
+<li>Spatio-network models<br>
+</li>
+<li>Simulation approaches</li>
+</ul>
+<p><strong>Deliverables:</strong><br>
+</p>
+<ul>
+<li>Risk propagation metrics<br>
+</li>
+<li>Network-informed risk maps<br>
+</li>
+<li>Scenario-based simulations</li>
+</ul>
 <hr>
 </section>
 <section id="science-based-regionalisation-and-zoning-indicators" class="level2" data-number="19">
 <h2 data-number="19" class="anchored" data-anchor-id="science-based-regionalisation-and-zoning-indicators"><span class="header-section-number">19</span> Science-Based Regionalisation and Zoning Indicators</h2>
-<p><strong>Problem:</strong> Regionalisation decisions are critical but analytically under-supported.</p>
-<p><strong>Objective:</strong> Design quantitative indicators supporting zoning/regionalisation under outbreaks.</p>
-<p><strong>Data (pilot):</strong> - Subnational outbreak data (or synthetic) - Trade exposure proxies - Control measures metadata</p>
-<p><strong>Methods:</strong> - Spatial risk aggregation - Scenario modelling - Uncertainty-aware indicators</p>
-<p><strong>Deliverables:</strong> - Zoning and regionalisation indicators - Scenario comparisons under uncertainty - Decision-support visual outputs</p>
+<p><strong>Problem:</strong><br>
+</p>
+<p>Regionalisation decisions are critical but analytically under-supported.</p>
+<p><strong>Objective:</strong><br>
+</p>
+<p>Design quantitative indicators supporting zoning/regionalisation under outbreaks.</p>
+<p><strong>Data (pilot):</strong><br>
+</p>
+<ul>
+<li>Subnational outbreak data (or synthetic)<br>
+</li>
+<li>Trade exposure proxies<br>
+</li>
+<li>Control measures metadata</li>
+</ul>
+<p><strong>Methods:</strong><br>
+</p>
+<ul>
+<li>Spatial risk aggregation<br>
+</li>
+<li>Scenario modelling<br>
+</li>
+<li>Uncertainty-aware indicators</li>
+</ul>
+<p><strong>Deliverables:</strong><br>
+</p>
+<ul>
+<li>Zoning and regionalisation indicators<br>
+</li>
+<li>Scenario comparisons under uncertainty<br>
+</li>
+<li>Decision-support visual outputs</li>
+</ul>
 <hr>
 </section>
 <section id="consistency-of-sanitary-measures-with-observed-risk" class="level2" data-number="20">
 <h2 data-number="20" class="anchored" data-anchor-id="consistency-of-sanitary-measures-with-observed-risk"><span class="header-section-number">20</span> Consistency of Sanitary Measures with Observed Risk</h2>
-<p><strong>Problem:</strong> Trade restrictions may not always align with epidemiological risk.</p>
-<p><strong>Objective:</strong> Compare observed trade measures with estimated disease risk.</p>
-<p><strong>Data (pilot):</strong> - Outbreak and risk estimates - Trade policy proxies (binary/ordinal)</p>
-<p><strong>Methods:</strong> - Risk–response analysis - Classification and clustering</p>
-<p><strong>Deliverables:</strong> - Risk–response consistency metrics - Typology of trade measures vs risk - Analytical framework for proportionality assessment</p>
+<p><strong>Problem:</strong><br>
+</p>
+<p>Trade restrictions may not always align with epidemiological risk.</p>
+<p><strong>Objective:</strong><br>
+</p>
+<p>Compare observed trade measures with estimated disease risk.</p>
+<p><strong>Data (pilot):</strong><br>
+</p>
+<ul>
+<li>Outbreak and risk estimates<br>
+</li>
+<li>Trade policy proxies (binary/ordinal)</li>
+</ul>
+<p><strong>Methods:</strong><br>
+</p>
+<ul>
+<li>Risk–response analysis<br>
+</li>
+<li>Classification and clustering</li>
+</ul>
+<p><strong>Deliverables:</strong><br>
+</p>
+<ul>
+<li>Risk–response consistency metrics<br>
+</li>
+<li>Typology of trade measures vs risk<br>
+</li>
+<li>Analytical framework for proportionality assessment</li>
+</ul>
 
 
 </section>
