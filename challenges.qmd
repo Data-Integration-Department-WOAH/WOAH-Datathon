@@ -4,512 +4,147 @@ date: last-modified
 format:
   html:
     embed-resources: true
-    toc: true
-    number-sections: true
+toc: true
+number-sections: true
+---
+  
+  Below is a list of challenges that are provided for guidance or source of inspiration. Once a topic is chosen by a team, the outline does not have to be followed strictly, excursions in some of the other topics and beyond are welcome.
+
+  
+## Early Detection, Nowcasting and Forecasting of Animal Health Events
+  
+  **Objective:**  
+  Strengthen WOAH’s and Members’ capacity to anticipate, detect, and respond to emerging animal health threats by integrating early detection, nowcasting, and short-term forecasting approaches. Scientifically, this challenge addresses fundamental issues such as reporting delays, under-ascertainment, and weak early signals that limit situational awareness during the initial phases of outbreaks. Politically and institutionally, timely and credible intelligence is critical for transparency, rapid risk management, and maintaining trust among Members, trading partners, and the international community. Improved real-time insight supports proportionate response measures and reinforces WOAH’s role as a global reference for animal health information.
+
+**Data:**  
+  - WAHIS historical event notifications  
+- Syndromic surveillance indicators  
+- Reporting delay and completeness metadata  
+- Trade, movement, environmental, and contextual proxies  
+
+**Deliverable:**  
+  An integrated analytical workflow producing early warning signals, corrected real-time estimates of disease activity, and short-term forecasts with uncertainty explicitly quantified and communicated.
+
+---
+  
+## Spatio-Temporal Risk Mapping of Priority Transboundary Animal Diseases
+  
+  **Objective:**  
+  Support evidence-based prioritisation of prevention and control efforts by identifying where and when the risk of priority transboundary animal diseases is highest. From a scientific perspective, this challenge advances understanding of spatial heterogeneity, temporal dynamics, and the interaction between ecological, demographic, and production factors. Politically, robust risk maps provide a shared evidence base for regional cooperation, targeted capacity building, and efficient allocation of limited resources, while supporting dialogue among neighbouring countries on shared risks and responsibilities.
+
+**Data:**  
+  - WAHIS surveillance and outbreak data  
+- Livestock population, density, and production data  
+- Environmental and climatic variables  
+- Geographic and administrative boundary data  
+
+**Deliverable:**  
+  Clear and interpretable spatio-temporal risk maps highlighting disease hotspots, trends over time, and associated uncertainty.
+
+---
+  
+## AI-Assisted Signal Extraction from Event-Based Surveillance Text
+  
+  **Objective:**  
+  Enhance epidemic intelligence by leveraging artificial intelligence to extract meaningful signals from unstructured text sources relevant to animal health. Scientifically, this responds to the rapid growth of informal and semi-structured information streams that can complement official surveillance systems. Politically, strengthening event-based surveillance supports earlier awareness of potential threats while respecting the primacy of officially validated information and national reporting obligations. This challenge contributes to more agile horizon scanning and improved preparedness at global level.
+
+**Data:**  
+  - News articles and media reports  
+- Event-based surveillance feeds  
+- Annotated text corpora and reference datasets (where available)  
+
+**Deliverable:**  
+  A system capable of identifying, classifying, and summarising potential animal health events from text sources, with transparent links to official surveillance information.
+
+---
+  
+## Cross-Country Comparability and Bias Assessment in Surveillance and Observatory Data
+  
+  **Objective:**  
+  Improve the comparability and interpretability of international animal health indicators by identifying structural biases and separating true epidemiological signals from artefacts of surveillance and reporting systems. Scientifically, this addresses heterogeneity in data generation processes, surveillance sensitivity, and reporting incentives. Politically, fair and transparent comparisons are essential to avoid misinterpretation of indicators, protect trust among Members, and ensure that monitoring outputs are used constructively to support improvement rather than sanction.
+
+**Data:**  
+  - WAHIS surveillance data  
+- Observatory indicators and monitoring outputs  
+- Metadata on surveillance systems, capacities, and reporting practices  
+
+**Deliverable:**  
+  Adjusted indicators, diagnostic metrics, or analytical tools that explicitly highlight bias, uncertainty, and underlying trends across countries.
+
+---
+  
+## Antimicrobial Use and Resistance: Patterns, Biases and Global Monitoring
+  
+  **Objective:**  
+  Support global action on antimicrobial resistance by improving the analytical use of antimicrobial use and resistance data in animals. Scientifically, this challenge tackles sparse, heterogeneous, and incomplete data that complicate interpretation of global and regional patterns. Politically, AMR is a high-priority One Health issue, and credible monitoring is essential to inform policy dialogue, track progress against international commitments, and guide responsible antimicrobial stewardship across production systems.
+
+**Data:**  
+  - National antimicrobial use and resistance reports  
+- Laboratory surveillance data  
+- Livestock population and production statistics  
+
+**Deliverable:**  
+  Analytical outputs that reveal meaningful AMU and AMR patterns while explicitly accounting for reporting biases, data gaps, and uncertainty.
+
+---
+  
+## Automated Quality Assessment of Animal Health Data Submissions
+  
+  **Objective:**  
+  Strengthen confidence in official animal health information by enhancing systematic and transparent quality assessment of data submissions. Scientifically, data quality underpins the validity of all downstream analyses and indicators. Politically and institutionally, consistent quality checks reinforce WOAH’s credibility as a trusted source of official statistics and support Members in continuously improving their reporting practices.
+
+**Data:**  
+  - WAHIS country submissions  
+- Historical data revisions and corrections  
+- Data validation rules, standards, and metadata  
+
+**Deliverable:**  
+  A reproducible framework that automatically flags potential data quality issues and supports feedback and continuous improvement.
+
 ---
 
-Below is a list of challenges that are provided for guidance or source of inspiration. Once a topic is chosen by a team, the outline does not have to be followed strictly, excursions in some of the other topics and beyond are welcome.
-
-## Early Outbreak Detection from Multi-Source Surveillance Data
-
-**Objective:**
-Develop models for early detection of emerging animal health events.
-
-**Data:**
-
-- WAHIS event notifications (historical)
-- Syndromic surveillance indicators
-- Trade/movement proxies
-- Environmental covariates
-
-**Methods:**
-
-- Bayesian change-point detection
-- Spatio-temporal models
-- Anomaly detection\
-- LSTM / transformer-based time series models
-
-**Deliverable:**
-
-End-to-end pipeline producing alerts with uncertainty quantification and interpretability.
-
-------------------------------------------------------------------------
-
-## Spatio-Temporal Risk Mapping of Priority Transboundary Animal Diseases
-
-**Objective:**\
-
-Produce dynamic risk maps for a selected priority disease (e.g. ASF, HPAI, FMD).
-
-**Data:**\
-
-- Historical outbreak locations\
-- Livestock density\
-- Climate data\
-- Trade and movement indicators
-
-**Methods:**\
-
-- Hierarchical Bayesian models\
-- Gaussian processes\
-- Spatial ML (e.g. graph neural networks)
-
-**Deliverable:**\
-
-Reproducible pipeline generating predictive risk surfaces and validation metrics.
-
-------------------------------------------------------------------------
-
-## Nowcasting and Forecasting Disease Incidence Under Reporting Delays
-
-**Objective:**\
-
-Correct for under-reporting and reporting delays in animal disease data.
-
-**Data:**\
-
-- Time-stamped notification data with known lags\
-- Partial reporting histories
-
-**Methods:**\
-
-- Bayesian nowcasting\
-- State-space models\
-- Probabilistic forecasting
-
-**Deliverable:**\
-
-Forecasts with credible intervals and comparison of methodological approaches.
-
-------------------------------------------------------------------------
-
-## AI-Assisted Signal Extraction from Event-Based Surveillance Text
-
-**Objective:**\
-
-Extract and classify animal health signals from unstructured text sources.
-
-**Data:**\
-
-- News articles\
-- Official reports\
-- Social media or RSS feeds (curated sample)
-
-**Methods:**\
-
-- NLP pipelines\
-- Transformer-based classification\
-- Named entity recognition\
-- Weak supervision
-
-**Deliverable:**\
-
-Automated system producing structured signals linked to diseases, species, and locations.
-
-------------------------------------------------------------------------
-
-## Cross-Country Comparability and Bias Assessment in Surveillance Data
-
-**Objective:**\
-
-Quantify and adjust for heterogeneity in surveillance capacity and reporting practices.
-
-**Data:**\
-
-- WAHIS indicators\
-- Country-level metadata (capacity indicators, reporting frequency)
-
-**Methods:**\
-
-- Latent variable models\
-- Causal inference\
-- Domain adaptation techniques
-
-**Deliverable:**\
-
-Metrics and visualizations highlighting comparability issues and adjusted estimates.
-
-------------------------------------------------------------------------
-
-## Antimicrobial Use and Resistance: Pattern Discovery and Prediction
-
-**Objective:**\
-
-Explore relationships between antimicrobial use (AMU) and resistance (AMR) indicators.
-
-**Data:**\
-
-- Aggregated AMU and AMR datasets (animal sector)\
-- Contextual production data
-
-**Methods:**\
-
-- Multivariate analysis\
-- Causal graphs\
-- Machine learning regression and clustering
-
-**Deliverable:**\
-
-Analytical pipeline identifying patterns, risk factors, and predictive signals.
-
-------------------------------------------------------------------------
-
-## One Health Integration: Linking Animal Health, Environment, and Climate Signals
-
-**Objective:**\
-
-Assess how environmental and climate variables modulate animal disease risk.
-
-**Data:**\
-
-- Disease occurrence data\
-- Climate variables (temperature, rainfall)\
-- Land-use proxies
-
-**Methods:**\
-
-- Joint models\
-- Feature attribution methods\
-- Interpretable ML
-
-**Deliverable:**\
-
-Quantitative assessment of environmental drivers with policy-relevant interpretation.
-
-------------------------------------------------------------------------
-
-## Automated Quality Assessment of Animal Health Data Submissions
-
-**Objective:**\
-
-Detect inconsistencies, outliers, and implausible values in reported datasets.
-
-**Data:**\
-
-- Historical surveillance submissions with known data quality issues
-
-**Methods:**\
-
-- Rule-based checks combined with ML anomaly detection\
-- Explainable AI
-
-**Deliverable:**\
-
-Scalable data quality scoring framework and dashboard-ready outputs.
-
-------------------------------------------------------------------------
-
-## Scenario Modelling for Disease Spread Under Control Strategies
-
-**Objective:**\
-
-Compare intervention strategies (movement restrictions, vaccination) using simulation.
-
-**Data:**\
-
-- Synthetic or pilot outbreak scenarios with parameter ranges
-
-**Methods:**\
-
-- Compartmental and agent-based models\
-- Stochastic simulations
-
-**Deliverable:**\
-
-Decision-support outputs comparing scenarios under uncertainty.
-
-------------------------------------------------------------------------
-
-## Translation of Analytical Outputs into Decision-Ready Indicators
-
-**Objective:**\
-
-Bridge advanced analytics and policy needs by designing interpretable indicators.
-
-**Data:**\
-
-- Outputs from one or more analytical pipelines above
-
-**Methods:**\
-
-- Indicator construction\
-- Uncertainty communication\
-- Visualization science
-
-**Deliverable:**\
-
-A reproducible workflow producing indicators aligned with WOAH reporting needs.
-
-------------------------------------------------------------------------
-
-## Composite Observatory Indicators from Heterogeneous Data Streams
-
-**Challenge:**\
-
-Design and validate composite indicators to monitor countries’ implementation of WOAH standards.
-
-**Data:**\
-
-- WAHIS quantitative indicators\
-- Observatory qualitative assessments\
-- Country metadata (income group, livestock sector structure)
-
-**Methods:**\
-
-- Latent variable models\
-- Multi-criteria decision analysis\
-- Uncertainty propagation
-
-**Deliverables:**\
-
-- Composite indicator methodology with uncertainty quantification\
-- Sensitivity and robustness analyses\
-- Documentation suitable for Observatory publication
-
-------------------------------------------------------------------------
-
-## Bias and Signal Separation in Observatory Monitoring Data
-
-**Challenge:**\
-
-Distinguish true performance changes from reporting, compliance, or capacity effects.
-
-**Data:**\
-
-- Time series of Observatory-related indicators\
-- Reporting histories
-
-**Methods:**\
-
-- Hierarchical Bayesian models\
-- Measurement error models\
-- Causal inference / sensitivity analysis
-
-**Deliverables:**\
-
-- Bias-adjusted time series\
-- Diagnostic tools for signal vs reporting effects\
-- Methodological guidance for interpretation
-
-------------------------------------------------------------------------
-
-## Linking Animal Health Performance to Economic Losses
-
-**Challenge:**\
-
-Quantify economic losses associated with animal diseases using sparse or partial data.
-
-**Data:**\
-
-- Disease occurrence (WAHIS)\
-- Livestock population and production proxies\
-- GBADs pilot economic datasets
-
-**Methods:**\
-
-- Economic–epidemiological models\
-- Imputation and data fusion\
-- Scenario-based valuation
-
-**Deliverables:**\
-
-- Loss estimates with uncertainty bounds\
-- Disease-specific economic impact profiles\
-- Reusable valuation framework
-
-------------------------------------------------------------------------
-
-## Predictive Modelling of Animal Health Burden Under Alternative Investment Scenarios
-
-**Challenge:**\
-
-Estimate how changes in surveillance or control investment affect disease burden and losses.
-
-**Data:**\
-
-- Synthetic or pilot GBADs scenarios\
-- Real surveillance data
-
-**Methods:**\
-
-- Counterfactual modelling\
-- Decision analysis\
-- Probabilistic simulations
-
-**Deliverables:**\
-
-- Investment–impact scenarios\
-- Comparative burden trajectories\
-- Policy-oriented summary outputs
-
-------------------------------------------------------------------------
-
-## Harmonising Epidemiological and Economic Metrics Across Countries
-
-**Challenge:**\
-
-Build a framework linking epidemiological indicators (incidence, mortality) to economic burden metrics.
-
-**Data:**\
-
-- Multi-country pilot datasets
-
-**Methods:**\
-
-- Metric harmonisation\
-- Scaling and standardisation\
-- Cross-country comparability analysis
-
-**Deliverables:**\
-
-- Harmonised indicator framework\
-- Cross-country comparison tools\
-- Documentation for joint Observatory–GBADs use
-
-------------------------------------------------------------------------
-
-## Trade Disruptions Following Animal Health Events
-
-**Problem:**\
-
-Animal disease outbreaks often lead to asymmetric and poorly quantified trade impacts.
-
-**Objective:**\
-
-Quantify how outbreaks affect bilateral and regional trade flows over time.
-
-**Data (pilot):**\
-
-- Disease outbreak timelines\
-- Aggregated livestock/product trade data\
-- Country and product metadata
-
-**Methods:**\
-
-- Interrupted time series\
-- Difference-in-differences\
-- Bayesian causal models
-
-**Deliverables:**\
-
-- Quantified trade impact estimates\
-- Visual timelines of disruption and recovery\
-- Methodological note on attribution
-
-------------------------------------------------------------------------
-
-## Predicting Trade Vulnerability to Animal Health Shocks
-
-**Problem:**\
-
-Some trade relationships are more fragile than others, but vulnerability is rarely quantified.
-
-**Objective:**\
-
-Develop indicators of trade vulnerability to animal health events.
-
-**Data (pilot):**\
-
-- Trade networks\
-- Historical outbreaks\
-- Production and dependency proxies
-
-**Methods:**\
-
-- Network analysis\
-- Risk scoring models\
-- Graph-based ML
-
-**Deliverables:**\
-
-- Trade vulnerability indicators\
-- Network-based risk visualisations\
-- Ranking of high-risk trade relationships
-
-------------------------------------------------------------------------
-
-## Disease Risk Along Trade and Movement Networks
-
-**Problem:**\
-
-Trade and movement routes can amplify disease spread, but are often treated crudely.
-
-**Objective:**\
-
-Model disease risk propagation along trade-related networks.
-
-**Data (pilot):**\
-
-- Livestock/product trade matrices\
-- Outbreak locations\
-- Optional mobility proxies
-
-**Methods:**\
-
-- Network epidemiology\
-- Spatio-network models\
-- Simulation approaches
-
-**Deliverables:**\
-
-- Risk propagation metrics\
-- Network-informed risk maps\
-- Scenario-based simulations
-
-------------------------------------------------------------------------
-
-## Science-Based Regionalisation and Zoning Indicators
-
-**Problem:**\
-
-Regionalisation decisions are critical but analytically under-supported.
-
-**Objective:**\
-
-Design quantitative indicators supporting zoning/regionalisation under outbreaks.
-
-**Data (pilot):**\
-
-- Subnational outbreak data (or synthetic)\
-- Trade exposure proxies\
-- Control measures metadata
-
-**Methods:**\
-
-- Spatial risk aggregation\
-- Scenario modelling\
-- Uncertainty-aware indicators
-
-**Deliverables:**\
-
-- Zoning and regionalisation indicators\
-- Scenario comparisons under uncertainty\
-- Decision-support visual outputs
-
-------------------------------------------------------------------------
-
-## Consistency of Sanitary Measures with Observed Risk
-
-**Problem:**\
-
-Trade restrictions may not always align with epidemiological risk.
-
-**Objective:**\
-
-Compare observed trade measures with estimated disease risk.
-
-**Data (pilot):**\
-
-- Outbreak and risk estimates\
-- Trade policy proxies (binary/ordinal)
-
-**Methods:**\
-
-- Risk–response analysis\
-- Classification and clustering
-
-**Deliverables:**\
-
-- Risk–response consistency metrics\
-- Typology of trade measures vs risk\
-- Analytical framework for proportionality assessment
+<!-- ## Linking Animal Health Performance to Economic Losses -->
+
+<!--   **Objective:**   -->
+<!--   Demonstrate the economic relevance of animal health outcomes to support policy prioritisation and sustained investment in prevention and control. Scientifically, this challenge links epidemiological indicators with economic impact assessment. Politically, quantifying losses associated with animal diseases strengthens advocacy for animal health as a public good and informs decision-makers on the cost of inaction. -->
+
+<!-- **Data:**   -->
+<!--   - Disease occurrence and impact data   -->
+<!-- - Livestock production, value, and market data   -->
+<!-- - Cost and loss estimates from literature and reports   -->
+
+<!-- **Deliverable:**   -->
+<!--   Clear metrics, models, or visualisations linking animal health performance indicators to economic losses. -->
+
+---
+  
+## Trade Vulnerability and Disease Risk Along Trade and Movement Networks
+  
+  **Objective:**  
+  Assess how animal health events interact with trade and movement networks to generate vulnerability and disruption. Scientifically, this integrates network analysis with disease risk assessment. Politically, it informs discussions on trade resilience, proportional sanitary measures, and risk-based decision-making consistent with international standards.
+
+**Data:**  
+  - International and regional trade data  
+- Animal movement proxies and network data  
+- Disease outbreak records  
+
+**Deliverable:**  
+  Indicators, analyses, or dashboards identifying vulnerable trade links and pathways associated with animal health shocks.
+
+---
+  
+## Reconstructing Sources and Pathways of Transboundary Animal Disease Spread
+  
+  **Objective:**  
+  Improve understanding of how transboundary animal diseases emerge and spread across regions. Scientifically, this supports hypothesis generation on transmission pathways and drivers of spread. Politically, credible reconstruction of sources and pathways informs prevention strategies, regional cooperation, and evidence-based dialogue among affected countries.
+
+**Data:**  
+  - Outbreak timelines and geolocations  
+- Trade, movement, and ecological data  
+- Genomic or contextual metadata (where available)  
+
+**Deliverable:**  
+  Analytical reconstructions or visual narratives of likely sources and pathways of transboundary disease spread.
+
+---
+  
