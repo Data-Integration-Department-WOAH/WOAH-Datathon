@@ -8,8 +8,7 @@ toc: true
 number-sections: true
 ---
   
-  Below is a list of challenges that are provided for guidance or source of inspiration. Once a topic is chosen by a team, the outline does not have to be followed strictly, excursions in some of the other topics and beyond are welcome.
-
+  <!-- Below is a list of challenges that are provided for guidance or source of inspiration. Once a topic is chosen by a team, the outline does not have to be followed strictl. -->
   
 ## Early Detection, Nowcasting and Forecasting of Animal Health Events
   
@@ -147,4 +146,19 @@ number-sections: true
   Analytical reconstructions or visual narratives of likely sources and pathways of transboundary disease spread.
 
 ---
+
+## Understanding Mis- and Disinformation in Animal Health
+
+**Objective:**  
+Improve understanding of the nature, drivers, and dynamics of mis- and disinformation in the animal health domain in order to protect the effectiveness of disease prevention and control measures. Scientifically, this challenge addresses the growing recognition that information dynamics influence epidemiological outcomes by shaping perceptions, behaviours, and compliance with control measures. Politically and institutionally, mis- and disinformation can undermine trust in official institutions, weaken adherence to international standards, and complicate crisis management during outbreaks. By generating evidence on how false or misleading narratives emerge and spread, this topic supports more proactive, transparent, and credible communication by WOAH and its Members.
+
+**Data:**  
+- Official outbreak and disease information from WAHIS  
+- Official communications from international and national authorities  
+- Media news articles and other publicly available information sources  
+- Time-stamped contextual data related to major outbreak events  
+
+**Deliverable:**  
+Analytical outputs that (i) identify and classify prevalent types of mis- and disinformation in animal health and associated diseases, (ii) describe how such narratives evolve over time, particularly during high-impact outbreaks, and (iii) propose indicators or scoring frameworks to detect early signals, high-risk topics, sources, geographical areas, and diseases where mis- and disinformation is more likely to occur.
+
   
