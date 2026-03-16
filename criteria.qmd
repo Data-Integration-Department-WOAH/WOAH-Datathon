@@ -22,7 +22,7 @@ Key Points:
 -   Logical and reproducible workflow from raw data to final output.
 -   Validation against known or simulated benchmarks.
 
-Scoring Tip: 0–5 scale; 5 = methodologically robust, fully validated, no obvious flaws.
+Scoring Tip: 0–5 scale; 5 = methodologically robust, fully validated, no obvious flaws. 
 
 ## Innovation and Creativity
 

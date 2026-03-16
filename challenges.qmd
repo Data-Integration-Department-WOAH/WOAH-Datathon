@@ -197,7 +197,7 @@ Participants will analyse the dataset and produce short analytical outputs addre
 
 -   identification of Members with high or low AMU intensity
 
--   Forecasting mg/kg by Members and WOAH regions by 2050
+-   Forecasting mg/kg by Members and WOAH regions by 2050 
 
 -   brief interpretation of observed trends and methodological considerations when analysing national AMU data.
 

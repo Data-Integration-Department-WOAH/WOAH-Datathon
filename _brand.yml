@@ -54,5 +54,5 @@ typography:
   headings:
     family: "Sohne Schmal" #Optional: Font family for headings
     weight: 600 #Optional: Font weight for headings
-    color: "#FF4815" # Sections titles should be in orange
+    color: "#FF4815" # Sections titles should be in orange 
 

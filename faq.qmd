@@ -15,6 +15,6 @@ format:
 
 - Can team members be from different countries?: yes
 
-- Can team members be from different organizations?: yes
+- Can team members be from different organizations?: yes 
 
 
