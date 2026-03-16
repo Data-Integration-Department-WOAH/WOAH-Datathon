@@ -9,9 +9,11 @@ website:
         href: index.qmd
       - text: "Challenges"
         href: challenges.qmd  
+      - text: "Data sources"
+        href: data_source.qmd  
       - text: "Assessment criteria"
         href: criteria.qmd  
-      - text: "FAQ"
+      - text: "FAQs"
         href: faq.qmd          
 format:
   html:

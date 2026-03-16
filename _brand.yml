@@ -24,22 +24,22 @@ color:
     pastel-yellow: "#FFF2CE" # Only be used as background colours and never as the text colour
     pastel-pink: "#FFE7F0" # Only be used as background colours and never as the text colour
     pastel-green: "#DDF3E6" # Only be used as background colours and never as the text colour
-  primary: orange # Main accent color for links, buttons, etc.
+  primary: "#FF4815" # Main accent color for links, buttons, etc.
   secondary: dark-grey # Used for lighter text or disabled states. Only include if necessary.
   background: beige # Main background color, should have high contrast with foreground
 
 typography:
   fonts:
-    - family: "Test Söhne Schmal" #Font family name (Official WOAH font Söhne Schmal not easily available, test font dowloaded by Gilles from https://klim.co.nz/test-fonts/)
+    - family: "Sohne Schmal" #Font family name (Official WOAH font Söhne Schmal not easily available, test font dowloaded by Gilles from https://klim.co.nz/test-fonts/)
       source: file #Source of the font (file, google, bunny, or system)
       files: #REQUIRED list of font files for `source: file`, which must have at least one font file. Use placeholder names and comment out the source font section if proprietary fonts are used. (And include a Google Font alternative recommendation.)
-        - path: fonts/sohne-schmal/SöhneSchmal-Buch.ttf #Each file corresponds to a weight and style, both default to "normal".
+        - path: fonts/SohneSchmal-Buch.otf #Each file corresponds to a weight and style, both default to "normal".
           weight: 400 #Optional: specify weight for this file
           style: normal #Optional: specify style for this file
-        - path: fonts/sohne-schmal/SöhneSchmal-Kräftig.ttf
+        - path: fonts/SohneSchmal-Kraftig.otf
           weight: 600
           style: normal
-        - path: fonts/sohne-schmal/SöhneSchmal-Halbfett.ttf
+        - path: fonts/SohneSchmal-Halbfett.otf
           weight: 500
           style: normal
     - family: "Times Now"
@@ -52,7 +52,7 @@ typography:
           weight: 300
           style: italic
   headings:
-    family: "Test Söhne Schmal" #Optional: Font family for headings
+    family: "Sohne Schmal" #Optional: Font family for headings
     weight: 600 #Optional: Font weight for headings
-    color: orange # Sections titles should be in orange
+    color: "#FF4815" # Sections titles should be in orange
 

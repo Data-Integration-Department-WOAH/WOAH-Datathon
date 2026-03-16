@@ -1,0 +1,29 @@
+---
+title: "Data Sources"
+date: last-modified
+format:
+  html:
+    embed-resources: true
+    toc: true
+    number-sections: false
+---
+
+
+| DATASOURCE/DATASET                          | url                                                                                                                                                          |
+|:--------------------------------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| WAHIS                                       | [https://wahis.woah.org/#/home](https://wahis.woah.org/#/home)                                                                                               |
+| EIOS                                        | [https://www.who.int/initiatives/eios](https://www.who.int/initiatives/eios)                                                                                 |
+| FAOSTAT                                     | [https://www.fao.org/faostat/en/%23data](https://www.fao.org/faostat/en/%23data) |
+| WorldClim                                   | [https://worldclim.org/](https://worldclim.org/)                                                                                                             |
+| FAO HiH Geospatial data                     | [https://www.fao.org/hih-geospatial-platform/en/](https://www.fao.org/hih-geospatial-platform/en/)                                                           |
+| Global Forest Watch data portal             | [https://www.globalforestwatch.org/](https://www.globalforestwatch.org/)                                                                                     |
+| SPS notifications eping - WTO               | [https://eping.wto.org/en/Search/Index](https://eping.wto.org/en/Search/Index)                                                                               |
+| GLW                                         | [https://data.apps.fao.org/catalog/dataset/glw](https://data.apps.fao.org/catalog/dataset/glw)                                                               |
+| Geographic and administrative boundary GADM | [https://gadm.org/](https://gadm.org/)                                                                                                                       |
+| WOAH Observatory                            | [https://www.woah.org/en/document/observatory-annual-report-indicator-matrix/](https://www.woah.org/en/document/observatory-annual-report-indicator-matrix/) |
+| ANIMUSE                                     | [https://amu.woah.org/amu-system-portal/amu-data](https://amu.woah.org/amu-system-portal/amu-data)                                                           |
+| WTO Data                                    | [https://stats.wto.org/](https://stats.wto.org/)                                                                                                             |
+| OpenSky                                     |                                                                                                                                                              |
+| IPUMS                                       | [https://www.ipums.org/](https://www.ipums.org/)                                                                                                             |
+| OpenStreetMap                               |                                                                                                                                                              |
+| Eurostat                                   | [https://ec.europa.eu/eurostat/data/database](https://ec.europa.eu/eurostat/data/database)                                                                   |
