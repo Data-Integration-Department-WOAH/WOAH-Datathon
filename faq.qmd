@@ -8,7 +8,7 @@ format:
     number-sections: false
 ---
 
-
+ 
 ## 
 
 - Can a team consists of a single person?: yes

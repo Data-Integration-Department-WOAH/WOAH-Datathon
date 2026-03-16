@@ -8,7 +8,7 @@ format:
     number-sections: false
 ---
 
-
+ 
 The material submitted submitted by each team will be assessed by a panel of experts based on the following criteria:
 
 ## Scientific/Technical Accuracy

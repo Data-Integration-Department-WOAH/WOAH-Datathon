@@ -217,5 +217,5 @@ Strengthen antimicrobial surveillance and support data verification by using art
 -   Other reputable online sources with validated product information
 
 **Deliverables**:
-An AI-powered system capable of automatically extracting product name, package size, active ingredient, concentration, route of administration, and target animal species and consolidating these into a structured global repository. Analytical output will highlight regional and global trends, identifying the most widely used products. For example, if a small subset of products accounts for the majority of veterinary antibiotics across countries, these can serve as priority references for data verification, reducing the need for complete global coverage of the repository.
+An AI-powered system capable of automatically extracting product name, package size, active ingredient, concentration, route of administration, and target animal species and consolidating these into a structured global repository. Analytical output will highlight regional and global trends, identifying the most widely used products. For example, if a small subset of products accounts for the majority of veterinary antibiotics across countries, these can serve as priority references for data verification, reducing the need for complete global coverage of the repository. 
 
