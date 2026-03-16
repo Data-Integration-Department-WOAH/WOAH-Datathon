@@ -24,11 +24,10 @@ Data are restricted to a few priority diseases (e.g. Avian influenza, African sw
 
 - Syndromic surveillance indicators
 
-- Trade, movement (FAOSTAT (live animal trade (?)), UN Comtrade), environmental (ERA5, WorldClim), and contextual proxies (FAOSTAT, WorldBank) (F AO HiH Geospatial data (land cover, crop & livestock-related layers) – Gridded Livestock of the World (GLW)
+- Trade, movement (FAOSTAT, UN Comtrade), environmental (ERA5, WorldClim), and contextual proxies (FAOSTAT, WorldBank, FAO HiH Geospatial data (land cover, crop & livestock-related layers, Gridded Livestock of the World (GLW)
 
--> https://www.fao.org/agroinformatics/training-and-resources/data-sets/en;
 
--> Global Forest Watch data portal – deforestation, active fire, land change indicators (API & downloads): https://www.globalforestwatch.org/ )
+- Global Forest Watch data portal – deforestation, active fire, land change indicators (API & downloads): https://www.globalforestwatch.org/ )
 
 - SPS notifications
 
@@ -48,11 +47,11 @@ Enhance epidemic intelligence by using artificial intelligence to extract releva
 
 **Data:**
 
-- News articles and media reports (GDELT ,RSS feeds from veterinary journals, EIOS, Social media?)
+- News articles and media reports (GDELT ,RSS feeds from veterinary journals, EIOS, Social media)
 
 - Event-based surveillance feeds
 
-- Annotated text corpora and reference datasets (where available) (PubMed / PubMed Central Corpora)
+
 
 **Deliverable:**
 
@@ -135,13 +134,13 @@ Improve understanding of the nature, drivers and dynamics of mis- and disinforma
 
 - Media news articles and other publicly available information sources ( GDELT
 
-Media Cloud
+- Media Cloud
 
-RSS aggregators
+- RSS aggregators
 
-Social Media
+- Social Media
 
-National news archives
+- National news archives
 
 - Time-stamped contextual data related to major outbreak events
 
@@ -220,158 +219,4 @@ Strengthen antimicrobial surveillance and support data verification by using art
 **Deliverables**:
 An AI-powered system capable of automatically extracting product name, package size, active ingredient, concentration, route of administration, and target animal species and consolidating these into a structured global repository. Analytical output will highlight regional and global trends, identifying the most widely used products. For example, if a small subset of products accounts for the majority of veterinary antibiotics across countries, these can serve as priority references for data verification, reducing the need for complete global coverage of the repository.
 
-
-
-<!--   <!-- Below is a list of challenges that are provided for guidance or source of inspiration. Once a topic is chosen by a team, the outline does not have to be followed strictl. --> -->
-
-<!-- ## Early Detection, Nowcasting and Forecasting of Animal Health Events -->
-
-<!--   **Objective:**   -->
-<!--   Strengthen WOAH’s and Members’ capacity to anticipate, detect, and respond to emerging animal health threats by integrating early detection, nowcasting, and short-term forecasting approaches. Scientifically, this challenge addresses fundamental issues such as reporting delays, under-ascertainment, and weak early signals that limit situational awareness during the initial phases of outbreaks. Politically and institutionally, timely and credible intelligence is critical for transparency, rapid risk management, and maintaining trust among Members, trading partners, and the international community. Improved real-time insight supports proportionate response measures and reinforces WOAH’s role as a global reference for animal health information. -->
-
-<!-- **Data:**   -->
-<!--   - WAHIS historical event notifications   -->
-<!-- - Syndromic surveillance indicators   -->
-<!-- - Reporting delay and completeness metadata   -->
-<!-- - Trade, movement, environmental, and contextual proxies   -->
-
-<!-- **Deliverable:**   -->
-<!--   An integrated analytical workflow producing early warning signals, corrected real-time estimates of disease activity, and short-term forecasts with uncertainty explicitly quantified and communicated. -->
-
-<!-- --- -->
-
-<!-- ## Spatio-Temporal Risk Mapping of Priority Transboundary Animal Diseases -->
-
-<!--   **Objective:**   -->
-<!--   Support evidence-based prioritisation of prevention and control efforts by identifying where and when the risk of priority transboundary animal diseases is highest. From a scientific perspective, this challenge advances understanding of spatial heterogeneity, temporal dynamics, and the interaction between ecological, demographic, and production factors. Politically, robust risk maps provide a shared evidence base for regional cooperation, targeted capacity building, and efficient allocation of limited resources, while supporting dialogue among neighbouring countries on shared risks and responsibilities. -->
-
-<!-- **Data:**   -->
-<!--   - WAHIS surveillance and outbreak data   -->
-<!-- - Livestock population, density, and production data   -->
-<!-- - Environmental and climatic variables   -->
-<!-- - Geographic and administrative boundary data   -->
-
-<!-- **Deliverable:**   -->
-<!--   Clear and interpretable spatio-temporal risk maps highlighting disease hotspots, trends over time, and associated uncertainty. -->
-
-<!-- --- -->
-
-<!-- ## AI-Assisted Signal Extraction from Event-Based Surveillance Text -->
-
-<!--   **Objective:**   -->
-<!--   Enhance epidemic intelligence by leveraging artificial intelligence to extract meaningful signals from unstructured text sources relevant to animal health. Scientifically, this responds to the rapid growth of informal and semi-structured information streams that can complement official surveillance systems. Politically, strengthening event-based surveillance supports earlier awareness of potential threats while respecting the primacy of officially validated information and national reporting obligations. This challenge contributes to more agile horizon scanning and improved preparedness at global level. -->
-
-<!-- **Data:**   -->
-<!--   - News articles and media reports   -->
-<!-- - Event-based surveillance feeds   -->
-<!-- - Annotated text corpora and reference datasets (where available)   -->
-
-<!-- **Deliverable:**   -->
-<!--   A system capable of identifying, classifying, and summarising potential animal health events from text sources, with transparent links to official surveillance information. -->
-
-<!-- --- -->
-
-<!-- ## Cross-Country Comparability and Bias Assessment in Surveillance and Observatory Data -->
-
-<!--   **Objective:**   -->
-<!--   Improve the comparability and interpretability of international animal health indicators by identifying structural biases and separating true epidemiological signals from artefacts of surveillance and reporting systems. Scientifically, this addresses heterogeneity in data generation processes, surveillance sensitivity, and reporting incentives. Politically, fair and transparent comparisons are essential to avoid misinterpretation of indicators, protect trust among Members, and ensure that monitoring outputs are used constructively to support improvement rather than sanction. -->
-
-<!-- **Data:**   -->
-<!--   - WAHIS surveillance data   -->
-<!-- - Observatory indicators and monitoring outputs   -->
-<!-- - Metadata on surveillance systems, capacities, and reporting practices   -->
-
-<!-- **Deliverable:**   -->
-<!--   Adjusted indicators, diagnostic metrics, or analytical tools that explicitly highlight bias, uncertainty, and underlying trends across countries. -->
-
-<!-- --- -->
-
-<!-- ## Antimicrobial Use and Resistance: Patterns, Biases and Global Monitoring -->
-
-<!--   **Objective:**   -->
-<!--   Support global action on antimicrobial resistance by improving the analytical use of antimicrobial use and resistance data in animals. Scientifically, this challenge tackles sparse, heterogeneous, and incomplete data that complicate interpretation of global and regional patterns. Politically, AMR is a high-priority One Health issue, and credible monitoring is essential to inform policy dialogue, track progress against international commitments, and guide responsible antimicrobial stewardship across production systems. -->
-
-<!-- **Data:**   -->
-<!--   - National antimicrobial use and resistance reports   -->
-<!-- - Laboratory surveillance data   -->
-<!-- - Livestock population and production statistics   -->
-
-<!-- **Deliverable:**   -->
-<!--   Analytical outputs that reveal meaningful AMU and AMR patterns while explicitly accounting for reporting biases, data gaps, and uncertainty. -->
-
-<!-- --- -->
-
-<!-- ## Automated Quality Assessment of Animal Health Data Submissions -->
-
-<!--   **Objective:**   -->
-<!--   Strengthen confidence in official animal health information by enhancing systematic and transparent quality assessment of data submissions. Scientifically, data quality underpins the validity of all downstream analyses and indicators. Politically and institutionally, consistent quality checks reinforce WOAH’s credibility as a trusted source of official statistics and support Members in continuously improving their reporting practices. -->
-
-<!-- **Data:**   -->
-<!--   - WAHIS country submissions   -->
-<!-- - Historical data revisions and corrections   -->
-<!-- - Data validation rules, standards, and metadata   -->
-
-<!-- **Deliverable:**   -->
-<!--   A reproducible framework that automatically flags potential data quality issues and supports feedback and continuous improvement. -->
-
-<!-- --- -->
-
-<!-- <!-- ## Linking Animal Health Performance to Economic Losses --> -->
-
-<!-- <!--   **Objective:**   --> -->
-<!-- <!--   Demonstrate the economic relevance of animal health outcomes to support policy prioritisation and sustained investment in prevention and control. Scientifically, this challenge links epidemiological indicators with economic impact assessment. Politically, quantifying losses associated with animal diseases strengthens advocacy for animal health as a public good and informs decision-makers on the cost of inaction. --> -->
-
-<!-- <!-- **Data:**   --> -->
-<!-- <!--   - Disease occurrence and impact data   --> -->
-<!-- <!-- - Livestock production, value, and market data   --> -->
-<!-- <!-- - Cost and loss estimates from literature and reports   --> -->
-
-<!-- <!-- **Deliverable:**   --> -->
-<!-- <!--   Clear metrics, models, or visualisations linking animal health performance indicators to economic losses. --> -->
-
-<!-- --- -->
-
-<!-- ## Trade Vulnerability and Disease Risk Along Trade and Movement Networks -->
-
-<!--   **Objective:**   -->
-<!--   Assess how animal health events interact with trade and movement networks to generate vulnerability and disruption. Scientifically, this integrates network analysis with disease risk assessment. Politically, it informs discussions on trade resilience, proportional sanitary measures, and risk-based decision-making consistent with international standards. -->
-
-<!-- **Data:**   -->
-<!--   - International and regional trade data   -->
-<!-- - Animal movement proxies and network data   -->
-<!-- - Disease outbreak records   -->
-
-<!-- **Deliverable:**   -->
-<!--   Indicators, analyses, or dashboards identifying vulnerable trade links and pathways associated with animal health shocks. -->
-
-<!-- --- -->
-
-<!-- ## Reconstructing Sources and Pathways of Transboundary Animal Disease Spread -->
-
-<!--   **Objective:**   -->
-<!--   Improve understanding of how transboundary animal diseases emerge and spread across regions. Scientifically, this supports hypothesis generation on transmission pathways and drivers of spread. Politically, credible reconstruction of sources and pathways informs prevention strategies, regional cooperation, and evidence-based dialogue among affected countries. -->
-
-<!-- **Data:**   -->
-<!--   - Outbreak timelines and geolocations   -->
-<!-- - Trade, movement, and ecological data   -->
-<!-- - Genomic or contextual metadata (where available)   -->
-
-<!-- **Deliverable:**   -->
-<!--   Analytical reconstructions or visual narratives of likely sources and pathways of transboundary disease spread. -->
-
-<!-- --- -->
-
-<!-- ## Understanding Mis- and Disinformation in Animal Health -->
-
-<!-- **Objective:**   -->
-<!-- Improve understanding of the nature, drivers, and dynamics of mis- and disinformation in the animal health domain in order to protect the effectiveness of disease prevention and control measures. Scientifically, this challenge addresses the growing recognition that information dynamics influence epidemiological outcomes by shaping perceptions, behaviours, and compliance with control measures. Politically and institutionally, mis- and disinformation can undermine trust in official institutions, weaken adherence to international standards, and complicate crisis management during outbreaks. By generating evidence on how false or misleading narratives emerge and spread, this topic supports more proactive, transparent, and credible communication by WOAH and its Members. -->
-
-<!-- **Data:**   -->
-<!-- - Official outbreak and disease information from WAHIS   -->
-<!-- - Official communications from international and national authorities   -->
-<!-- - Media news articles and other publicly available information sources   -->
-<!-- - Time-stamped contextual data related to major outbreak events   -->
-
-<!-- **Deliverable:**   -->
-<!-- Analytical outputs that (i) identify and classify prevalent types of mis- and disinformation in animal health and associated diseases, (ii) describe how such narratives evolve over time, particularly during high-impact outbreaks, and (iii) propose indicators or scoring frameworks to detect early signals, high-risk topics, sources, geographical areas, and diseases where mis- and disinformation is more likely to occur. -->
 
