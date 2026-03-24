@@ -35,16 +35,17 @@ The datathon is open to international, multidisciplinary teams (1–6 members), 
 
 Teams may include members from academia (students or faculty), public institutions, international organisations, NGOs or the private sector.
 
-## Datathon Format
+## Timeline
 
--   Launch: Q2 2026
--   Duration: 3–4 months (remote participation)
+-   Launch: March 2026
+-   Start of challenge work: May 2026
+-   Duration: 6 months (remote participation)
 -   Team work: Independent and asynchronous
 -   Support: Documentation, data descriptions and periodic technical clarifications
 
 Final submission: Analytical pipeline + results report on a git repo by September 30, 2026
 
-## Data & Outputs
+## Organisation and Deliverables
 
 Each team will:
 
@@ -56,6 +57,21 @@ Each team will:
 
 -   Document methods and results in a concise technical report
 
--   All code must be reproducible and submitted in a public or shared repository.
+-   All code must be reproducible and submitted as a git push to a public repository (e.g., GitHub, GitLab) with clear instructions for replication.
 
-**Contact:** dataintegration.dept \@ woah.org
+
+## Stay Informed
+
+
+### Mailing list 
+
+To stay up to date with the latest news regarding  the WOAH Datathon, please register to the 
+**[datathon mailing list here.](https://forms.office.com/e/RPa8ZQDSTD)**
+
+### FAQs
+For any general question, please check the **[FAQs](./faq.html)** page before contacting us.
+
+### Contact
+If needed, write to us through  **dataintegration.dept \@ w o a h . o r g** with subject line **"WOAH Datathon"**
+
+

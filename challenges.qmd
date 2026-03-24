@@ -24,7 +24,7 @@ Data are restricted to a few priority diseases (e.g. Avian influenza, African sw
 
 - Syndromic surveillance indicators
 
-- Trade, movement (FAOSTAT, UN Comtrade), environmental (ERA5, WorldClim), and contextual proxies (FAOSTAT, WorldBank, FAO HiH Geospatial data (land cover, crop & livestock-related layers, Gridded Livestock of the World (GLW)
+- Trade, movement (FAOSTAT, UN Comtrade), environmental (ERA5, WorldClim), and contextual proxies (FAOSTAT, WorldBank, FAO HiH Geospatial data, Gridded Livestock of the World)
 
 
 - Global Forest Watch data portal – deforestation, active fire, land change indicators (API & downloads): https://www.globalforestwatch.org/ )
