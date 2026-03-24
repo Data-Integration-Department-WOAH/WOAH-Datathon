@@ -49,7 +49,7 @@ Final submission: Analytical pipeline + results report on a git repo by Septembe
 
 Each team will:
 
--   Select one challenge either from the [list](;/challenges.html) or self-proposed (subject to approval)
+-   Select one challenge either from the [list](./challenges.html) or self-proposed (subject to approval)
 
 -   Develop a complete data science pipeline, including data processing, modelling and validation
 
