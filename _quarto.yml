@@ -13,6 +13,8 @@ website:
         href: data_source.qmd  
       - text: "Assessment criteria"
         href: criteria.qmd  
+      - text: "Registration"
+        href: registration.qmd  
       - text: "FAQs"
         href: faq.qmd          
 format:
