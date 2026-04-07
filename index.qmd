@@ -17,7 +17,7 @@ The World Organisation for Animal Health (WOAH) invites multidisciplinary teams 
 
 Participants will work remotely over several months to address real‑world analytical challenges using pilot datasets provided by WOAH and partners. The datathon aims to stimulate innovation, methodological rigor and decision‑relevant analytics in animal health.
 
-Winning teams will receive prize money, the opportunity to be featured in the Animal Echo and to present their work at a dedicated side event during the WOAH Global Session in 2027.
+The top three winning teams will share 20000€ in prize money, the opportunity to be featured in the Animal Echo and to present their work at a dedicated side event during the WOAH General Session in 2027.
 
 ## Who Can Participate
 
