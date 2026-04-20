@@ -17,6 +17,9 @@ website:
         href: registration.qmd  
       - text: "FAQs"
         href: faq.qmd          
+    right:
+      - text: "TeamUp"
+        href: teamup.qmd
 format:
   html:
     theme:
