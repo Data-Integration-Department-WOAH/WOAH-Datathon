@@ -17,6 +17,7 @@ library(googlesheets4)
 library(dplyr)
 library(htmltools)
 library(stringr)
+library(rlang)
 
 # ── CONFIG ────────────────────────────────────────────────────────────────────
 SHEET_URL <- "https://docs.google.com/spreadsheets/d/1_cDDUJcERRd3MrDHoIJPBdKcqUKQS1ZHHqKLzIGkiJk/edit?usp=sharing"  # <-- replace with your sheet URL

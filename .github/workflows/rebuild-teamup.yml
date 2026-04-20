@@ -66,7 +66,8 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 */12 * * *'  # Rebuilds at 00:00 and 12:00 UTC
+    - cron: '0 0 * * *'     # Rebuilds once a day at midnight UTC
+# - cron: '0 */12 * * *'  # Rebuilds at 00:00 and 12:00 UTC
   workflow_dispatch:
 
 permissions:
@@ -98,7 +99,7 @@ jobs:
       - name: Install R packages
         run: |
           # Install the 'engine' packages Quarto needs first
-          install.packages(c("rmarkdown", "knitr", "curl", "fs"))
+          install.packages(c("rmarkdown", "knitr", "curl", "fs","rlang"))
           # Install your project-specific packages
           install.packages(c("googlesheets4", "dplyr", "htmltools", "stringr", "glue"))
         shell: Rscript {0}
