@@ -41,7 +41,7 @@ Teams may include members from academia (students or faculty), public institutio
 -   Deadline for registration: May 31th 2026
 -   Team work: Independent and asynchronous (remote participation)
 -   Support: Documentation, data descriptions and periodic technical clarifications
-- Final submission: analytical pipeline + report on a git repo by **October 31st, 2026.**
+- Final submission: analytical pipeline + report on a git repo by **October 31st, 2026.** 
 
 ## Organisation and Deliverables
 

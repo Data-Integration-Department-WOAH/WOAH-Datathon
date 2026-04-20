@@ -67,7 +67,7 @@ on:
       - main
   schedule:
     - cron: '0 0 * * *'     # Rebuilds once a day at midnight UTC
-# - cron: '0 */12 * * *'  # Rebuilds at 00:00 and 12:00 UTC
+# - cron: '0 */12 * * *'  # Rebuilds at 00:00 and 12:00 UTC 
   workflow_dispatch:
 
 permissions:
