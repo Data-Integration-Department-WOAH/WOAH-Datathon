@@ -1,0 +1,165 @@
+---
+title: "TeamUp"
+format:
+  html:
+    page-layout: full
+    toc: false
+    css: teamup.css
+
+execute:
+  echo: false
+  warning: false
+  message: false
+---
+
+```{r setup}
+library(googlesheets4)
+library(dplyr)
+library(htmltools)
+library(stringr)
+
+# ── CONFIG ────────────────────────────────────────────────────────────────────
+SHEET_URL <- "https://docs.google.com/spreadsheets/d/1_cDDUJcERRd3MrDHoIJPBdKcqUKQS1ZHHqKLzIGkiJk/edit?usp=sharing"  # <-- replace with your sheet URL
+
+# Expected column names from your Google Form:
+# name | skills | level | role_seeking | team_status | contact | bio
+# ─────────────────────────────────────────────────────────────────────────────
+
+gs4_deauth()  # remove if your sheet is private (will trigger OAuth)
+participants <- tryCatch(
+  read_sheet(SHEET_URL),
+  error = function(e) NULL
+)
+```
+
+::: {.teamup-hero}
+<div class="hero-label">WOAH DATATHON</div>
+# Find Your Team
+<p class="hero-sub">Connect with fellow participants · Build something great together</p>
+
+```{r form-link}
+# Replace with your actual Google Form URL
+form_url <- "https://forms.gle/EHUkhVCdrPezKj85A"
+htmltools::HTML(glue::glue(
+  '<a href="{form_url}" target="_blank" class="cta-btn">
+    <span>+ Add your profile</span>
+  </a>'
+))
+```
+:::
+
+```{r filters}
+htmltools::HTML('
+<div class="filter-bar">
+  <div class="filter-group">
+    <span class="filter-label">FILTER BY</span>
+    <button class="filter-btn active" onclick="filterCards(\'all\')">All</button>
+    <button class="filter-btn" onclick="filterCards(\'looking\')">🟢 Looking</button>
+    <button class="filter-btn" onclick="filterCards(\'partial\')">🟡 Need 1 more</button>
+  </div>
+  <div class="filter-group">
+    <input class="search-input" type="text" placeholder="Search skills..." oninput="searchCards(this.value)" />
+  </div>
+</div>
+')
+```
+
+```{r cards}
+# ── Skill tag colours ─────────────────────────────────────────────────────────
+skill_color <- function(skill) {
+  skill <- tolower(trimws(skill))
+  colors <- list(
+    "ml" = "#ff6b35", "machine learning" = "#ff6b35",
+    "nlp" = "#a855f7", "deep learning" = "#a855f7",
+    "python" = "#3b82f6", "r" = "#10b981",
+    "sql" = "#f59e0b", "data viz" = "#ec4899",
+    "visualization" = "#ec4899", "statistics" = "#06b6d4",
+    "data engineering" = "#84cc16", "cloud" = "#6366f1",
+    "frontend" = "#f43f5e"
+  )
+  colors[[skill]] %||% "#64748b"
+}
+
+# ── Status helpers ─────────────────────────────────────────────────────────────
+status_info <- function(status) {
+  status <- tolower(trimws(status %||% ""))
+  if (str_detect(status, "full")) return(list(dot = "🔴", label = "Team full",   cls = "status-full"))
+  if (str_detect(status, "1|one|more")) return(list(dot = "🟡", label = "Need 1 more", cls = "status-partial"))
+  list(dot = "🟢", label = "Looking for team", cls = "status-looking")
+}
+
+# ── Render one card ────────────────────────────────────────────────────────────
+render_card <- function(row) {
+  s    <- status_info(row$team_status)
+  skills_raw <- str_split(row$skills %||% "", "[,;]")[[1]]
+  skill_tags <- paste(sapply(trimws(skills_raw), function(sk) {
+    col <- skill_color(sk)
+    sprintf('<span class="skill-tag" style="border-color:%s;color:%s">%s</span>', col, col, sk)
+  }), collapse = "")
+
+  data_status <- gsub("status-", "", s$cls)
+
+  sprintf('
+<div class="participant-card" data-status="%s" data-skills="%s">
+  <div class="card-top">
+    <div class="avatar">%s</div>
+    <div class="card-meta">
+      <div class="participant-name">%s</div>
+      <div class="participant-level">%s</div>
+    </div>
+    <div class="status-badge %s">%s %s</div>
+  </div>
+  <p class="participant-bio">%s</p>
+  <div class="skill-tags">%s</div>
+  <div class="card-footer">
+    <span class="role-seeking">🎯 %s</span>
+    <a href="https://discord.com/users/%s" target="_blank" class="contact-btn">Contact →</a>
+  </div>
+</div>',
+    data_status,
+    tolower(row$skills %||% ""),
+    toupper(substr(row$name %||% "?", 1, 1)),
+    row$name %||% "Anonymous",
+    row$level %||% "Participant",
+    s$cls, s$dot, s$label,
+    row$bio %||% "",
+    skill_tags,
+    row$role_seeking %||% "Open to anything",
+    row$contact %||% ""
+  )
+}
+
+# ── Render grid ────────────────────────────────────────────────────────────────
+if (is.null(participants) || nrow(participants) == 0) {
+  htmltools::HTML('
+<div class="empty-state">
+  <div class="empty-icon">🛰</div>
+  <p>No profiles yet — be the first to join!</p>
+</div>')
+} else {
+  cards_html <- paste(apply(participants, 1, render_card), collapse = "\n")
+  htmltools::HTML(sprintf('<div class="cards-grid" id="cardsGrid">%s</div>', cards_html))
+}
+```
+
+```{r js}
+htmltools::HTML('
+<script>
+function filterCards(status) {
+  document.querySelectorAll(".filter-btn").forEach(b => b.classList.remove("active"));
+  event.target.classList.add("active");
+  document.querySelectorAll(".participant-card").forEach(card => {
+    card.style.display =
+      status === "all" || card.dataset.status === status ? "" : "none";
+  });
+}
+function searchCards(query) {
+  const q = query.toLowerCase();
+  document.querySelectorAll(".participant-card").forEach(card => {
+    card.style.display =
+      card.dataset.skills.includes(q) || q === "" ? "" : "none";
+  });
+}
+</script>
+')
+```

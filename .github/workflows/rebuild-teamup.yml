@@ -1,6 +1,5 @@
 # .github/workflows/rebuild-teamup.yml
 # Rebuilds and republishes the Quarto site every hour so new sign-ups appear automatically.
-
 name: Rebuild TeamUp page
 
 on:
