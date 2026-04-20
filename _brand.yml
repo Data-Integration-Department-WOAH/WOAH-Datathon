@@ -42,15 +42,15 @@ typography:
         - path: fonts/SohneSchmal-Halbfett.otf
           weight: 500
           style: normal
-    - family: "Times Now"
-      source: file #Source of the font (file, google, bunny, or system)
-      files: #REQUIRED list of font files for `source: file`, which must have at least one font file. Use placeholder names and comment out the source font section if proprietary fonts are used. (And include a Google Font alternative recommendation.)
-        - path: fonts/times-now/TimesNow-SemiLight.ttf #Each file corresponds to a weight and style, both default to "normal".
-          weight: 300 #Optional: specify weight for this file
-          style: normal #Optional: specify style for this file
-        - path: fonts/times-now/TimesNow-SemiLightItalic.ttf
-          weight: 300
-          style: italic
+    # - family: "Times Now"
+    #   source: file #Source of the font (file, google, bunny, or system)
+    #   files: #REQUIRED list of font files for `source: file`, which must have at least one font file. Use placeholder names and comment out the source font section if proprietary fonts are used. (And include a Google Font alternative recommendation.)
+    #     - path: fonts/times-now/TimesNow-SemiLight.ttf #Each file corresponds to a weight and style, both default to "normal".
+    #       weight: 300 #Optional: specify weight for this file
+    #       style: normal #Optional: specify style for this file
+    #     - path: fonts/times-now/TimesNow-SemiLightItalic.ttf
+    #       weight: 300
+    #       style: italic
   headings:
     family: "Sohne Schmal" #Optional: Font family for headings
     weight: 600 #Optional: Font weight for headings
