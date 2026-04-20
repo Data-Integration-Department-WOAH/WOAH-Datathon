@@ -59,7 +59,7 @@
 #         id: deployment
 #         uses: actions/deploy-pages@v4 
 
-name: Rebuild TeamUp page
+name: Rebuild TeamUp page 
 
 on:
   push:
@@ -101,7 +101,7 @@ jobs:
           # Install the 'engine' packages Quarto needs first
           install.packages(c("rmarkdown", "knitr", "curl", "fs","rlang"))
           # Install your project-specific packages
-          install.packages(c("googlesheets4", "dplyr", "htmltools", "stringr", "glue"))
+          install.packages(c("googlesheets4", "dplyr", "htmltools", "stringr", "glue"))  
         shell: Rscript {0}
 
       - name: Set up Quarto
