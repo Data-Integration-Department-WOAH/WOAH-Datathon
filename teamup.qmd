@@ -105,6 +105,26 @@ render_card <- function(row) {
     sprintf('<span class="skill-tag" style="border-color:%s;color:%s">%s</span>', col, col, sk)
   }), collapse = "")
 
+  # contact_links <- ""
+  # if (nzchar(row$github %||% "")) {
+  #   handle <- gsub("^@|https?://(www\\.)?github\\.com/", "", row$github)
+  #   contact_links <- paste0(contact_links,
+  #     sprintf('<a href="https://github.com/%s" target="_blank" class="contact-link">GitHub</a>', handle))
+  # }
+  # if (nzchar(row$linkedin %||% "")) {
+  #   url <- ifelse(grepl("^http", row$linkedin), row$linkedin,
+  #                 paste0("https://linkedin.com/in/", gsub("^@", "", row$linkedin)))
+  #   contact_links <- paste0(contact_links,
+  #     sprintf('<a href="%s" target="_blank" class="contact-link">LinkedIn</a>', url))
+  # }
+  # if (nzchar(row$email %||% "")) {
+  #   contact_links <- paste0(contact_links,
+  #     sprintf('<a href="mailto:%s" class="contact-link">Email</a>', row$email))
+  # }
+  # if (nzchar(row$contact_other %||% "")) {
+  #   contact_links <- paste0(contact_links,
+  #     sprintf('<span class="contact-plain">%s</span>', row$contact_other))
+  # }
   contact_links <- ""
   if (nzchar(row$github %||% "")) {
     handle <- gsub("^@|https?://(www\\.)?github\\.com/", "", row$github)
@@ -120,10 +140,6 @@ render_card <- function(row) {
   if (nzchar(row$email %||% "")) {
     contact_links <- paste0(contact_links,
       sprintf('<a href="mailto:%s" class="contact-link">Email</a>', row$email))
-  }
-  if (nzchar(row$contact_other %||% "")) {
-    contact_links <- paste0(contact_links,
-      sprintf('<span class="contact-plain">%s</span>', row$contact_other))
   }
 
   sprintf('
