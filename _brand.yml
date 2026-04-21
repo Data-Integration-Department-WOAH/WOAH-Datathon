@@ -3,7 +3,7 @@ meta:
     short: WOAH
     full: World Organisation for Animal Health
   link:
-    home: https://www.woah.org
+    home: https://www.woah.org 
 
 # logo:
 #   small: logos/woah-icon.png # A small image, ideally icon-sized. Can be a path to a file or the name of a file in `logo.images`

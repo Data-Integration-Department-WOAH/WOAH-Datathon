@@ -9,7 +9,7 @@ format:
     number-sections: false
 ---
 
-Welcome to the WOAH Datathon web page!  
+Welcome to the WOAH Datathon web page!   
 
 ## Overview 
 

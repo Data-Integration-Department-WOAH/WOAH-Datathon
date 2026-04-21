@@ -1,0 +1,258 @@
+/* ── TEAMUP.CSS — cosmo-compatible light theme ───────────────────────── */
+/* Uses Quarto/Bootstrap CSS variables so it inherits cosmo's palette.    */
+
+/* ── HERO ──────────────────────────────────────────────────────────────── */
+.teamup-hero {
+  text-align: center;
+  padding: 3rem 1rem 2rem;
+  border-bottom: 1px solid var(--bs-border-color);
+  margin-bottom: 2rem;
+}
+
+.hero-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--bs-primary);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.teamup-hero h1 {
+  font-size: clamp(2rem, 6vw, 3.5rem) !important;
+  font-weight: 700 !important;
+  color: var(--bs-emphasis-color) !important;
+  margin-bottom: 0.5rem !important;
+  border: none !important;
+}
+
+.hero-sub {
+  color: var(--bs-secondary-color);
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 0.6rem 1.6rem;
+  background-color: var(--bs-primary);
+  color: #fff !important;
+  text-decoration: none !important;
+  border-radius: var(--bs-border-radius);
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: background-color 0.15s, box-shadow 0.15s;
+}
+
+.cta-btn:hover {
+  background-color: var(--bs-primary-text-emphasis, #0056b3);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+}
+
+/* ── FILTER BAR ───────────────────────────────────────────────────────── */
+.filter-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding: 0.9rem 1.1rem;
+  background: var(--bs-tertiary-bg);
+  border: 1px solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius);
+  margin-bottom: 1.75rem;
+}
+
+.filter-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.filter-label {
+  font-size: 0.65rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--bs-secondary-color);
+  font-weight: 600;
+}
+
+.filter-btn {
+  padding: 0.3rem 0.8rem;
+  background: var(--bs-body-bg);
+  border: 1px solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius-sm);
+  color: var(--bs-secondary-color);
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+  color: #fff;
+}
+
+.search-input {
+  background: var(--bs-body-bg);
+  border: 1px solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius-sm);
+  color: var(--bs-body-color);
+  font-size: 0.85rem;
+  padding: 0.3rem 0.8rem;
+  outline: none;
+  width: 200px;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.search-input:focus {
+  border-color: var(--bs-primary);
+  box-shadow: 0 0 0 0.2rem rgba(var(--bs-primary-rgb), 0.15);
+}
+
+/* ── CARDS GRID ───────────────────────────────────────────────────────── */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.1rem;
+}
+
+/* ── PARTICIPANT CARD ─────────────────────────────────────────────────── */
+.participant-card {
+  background: var(--bs-body-bg);
+  border: 1px solid var(--bs-border-color);
+  border-radius: var(--bs-border-radius-lg);
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.participant-card:hover {
+  box-shadow: 0 6px 20px rgba(0,0,0,0.09);
+  transform: translateY(-2px);
+}
+
+.card-top {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--bs-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.card-meta { flex: 1; min-width: 0; }
+
+.participant-name {
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--bs-emphasis-color);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.participant-level {
+  font-size: 0.72rem;
+  color: var(--bs-secondary-color);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-top: 0.1rem;
+}
+
+.status-badge {
+  font-size: 0.68rem;
+  padding: 0.2rem 0.55rem;
+  border-radius: var(--bs-border-radius-pill);
+  white-space: nowrap;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.status-looking { background-color: #d1fae5; color: #065f46; }
+.status-partial  { background-color: #fef3c7; color: #92400e; }
+.status-full     { background-color: #fee2e2; color: #991b1b; }
+
+.participant-bio {
+  font-size: 0.83rem;
+  color: var(--bs-secondary-color);
+  line-height: 1.55;
+  margin: 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.skill-tag {
+  font-size: 0.68rem;
+  padding: 0.18rem 0.5rem;
+  border-radius: var(--bs-border-radius-sm);
+  border: 1px solid;
+  background: transparent;
+  font-weight: 500;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0.6rem;
+  border-top: 1px solid var(--bs-border-color);
+  margin-top: auto;
+  background: transparent !important;
+}
+
+.role-seeking {
+  font-size: 0.75rem;
+  color: var(--bs-secondary-color);
+}
+
+.contact-btn {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--bs-primary) !important;
+  text-decoration: none !important;
+}
+
+.contact-btn:hover { text-decoration: underline !important; }
+
+/* ── EMPTY STATE ──────────────────────────────────────────────────────── */
+.empty-state {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: var(--bs-secondary-color);
+  border: 2px dashed var(--bs-border-color);
+  border-radius: var(--bs-border-radius-lg);
+}
+
+.empty-icon { font-size: 2.5rem; margin-bottom: 0.75rem; }
+
+/* ── RESPONSIVE ───────────────────────────────────────────────────────── */
+@media (max-width: 600px) {
+  .filter-bar { flex-direction: column; align-items: flex-start; }
+  .search-input { width: 100%; }
+  .cards-grid { grid-template-columns: 1fr; }
+}

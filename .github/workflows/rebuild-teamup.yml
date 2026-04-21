@@ -59,7 +59,7 @@
 #         id: deployment
 #         uses: actions/deploy-pages@v4 
 
-name: Rebuild TeamUp page 
+name: Rebuild TeamUp page   
 
 on:
   push:
