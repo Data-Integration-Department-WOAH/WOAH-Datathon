@@ -27,8 +27,24 @@ SHEET_URL <- "https://docs.google.com/spreadsheets/d/1_cDDUJcERRd3MrDHoIJPBdKcqU
 # ─────────────────────────────────────────────────────────────────────────────
 
 gs4_deauth()  # remove if your sheet is private (will trigger OAuth)
+# participants <- tryCatch(
+#   read_sheet(SHEET_URL),
+#   error = function(e) NULL
+# )
 participants <- tryCatch(
-  read_sheet(SHEET_URL),
+  read_sheet(SHEET_URL) |>
+    rename(
+      timestamp     = `Timestamp`,
+      email_form    = `Email Address`,      # the auto-collected form email
+      name          = `Full name`,
+      skills        = `Skills`,
+      bio           = `Short bio`,
+      role_seeking  = `Role looking for`,
+      email         = `email address`,
+      linkedin      = `LinkIn profile`,
+      github        = `Github profile`,
+      contact_other = `Other contact handle`
+    ),
   error = function(e) NULL
 )
 ```
@@ -51,17 +67,15 @@ htmltools::HTML(glue::glue(
 
 ```{r filters}
 htmltools::HTML('
-<div class="filter-bar">
-  <div class="filter-group">
-    <span class="filter-label">FILTER BY</span>
-    <button class="filter-btn active" onclick="filterCards(\'all\')">All</button>
-    <button class="filter-btn" onclick="filterCards(\'looking\')">🟢 Looking</button>
-    <button class="filter-btn" onclick="filterCards(\'partial\')">🟡 Need 1 more</button>
-  </div>
-  <div class="filter-group">
-    <input class="search-input" type="text" placeholder="Search skills..." oninput="searchCards(this.value)" />
-  </div>
-</div>
+<script>
+function searchCards(query) {
+  const q = query.toLowerCase();
+  document.querySelectorAll(".participant-card").forEach(card => {
+    card.style.display =
+      card.dataset.skills.includes(q) || q === "" ? "" : "none";
+  });
+}
+</script>
 ')
 ```
 
@@ -81,66 +95,63 @@ skill_color <- function(skill) {
   colors[[skill]] %||% "#64748b"
 }
 
-# ── Status helpers ─────────────────────────────────────────────────────────────
-status_info <- function(status) {
-  status <- tolower(trimws(status %||% ""))
-  if (str_detect(status, "full")) return(list(dot = "🔴", label = "Team full",   cls = "status-full"))
-  if (str_detect(status, "1|one|more")) return(list(dot = "🟡", label = "Need 1 more", cls = "status-partial"))
-  list(dot = "🟢", label = "Looking for team", cls = "status-looking")
-}
 
-# ── Render one card ────────────────────────────────────────────────────────────
+
+# ── Render one card ───────────────────────────────────────────────────────────
 render_card <- function(row) {
-  s    <- status_info(row$team_status)
   skills_raw <- str_split(row$skills %||% "", "[,;]")[[1]]
   skill_tags <- paste(sapply(trimws(skills_raw), function(sk) {
     col <- skill_color(sk)
     sprintf('<span class="skill-tag" style="border-color:%s;color:%s">%s</span>', col, col, sk)
   }), collapse = "")
 
-  data_status <- gsub("status-", "", s$cls)
+  contact_links <- ""
+  if (nzchar(row$github %||% "")) {
+    handle <- gsub("^@|https?://(www\\.)?github\\.com/", "", row$github)
+    contact_links <- paste0(contact_links,
+      sprintf('<a href="https://github.com/%s" target="_blank" class="contact-link">GitHub</a>', handle))
+  }
+  if (nzchar(row$linkedin %||% "")) {
+    url <- ifelse(grepl("^http", row$linkedin), row$linkedin,
+                  paste0("https://linkedin.com/in/", gsub("^@", "", row$linkedin)))
+    contact_links <- paste0(contact_links,
+      sprintf('<a href="%s" target="_blank" class="contact-link">LinkedIn</a>', url))
+  }
+  if (nzchar(row$email %||% "")) {
+    contact_links <- paste0(contact_links,
+      sprintf('<a href="mailto:%s" class="contact-link">Email</a>', row$email))
+  }
+  if (nzchar(row$contact_other %||% "")) {
+    contact_links <- paste0(contact_links,
+      sprintf('<span class="contact-plain">%s</span>', row$contact_other))
+  }
 
   sprintf('
-<div class="participant-card" data-status="%s" data-skills="%s">
+<div class="participant-card" data-skills="%s">
   <div class="card-top">
     <div class="avatar">%s</div>
     <div class="card-meta">
       <div class="participant-name">%s</div>
-      <div class="participant-level">%s</div>
     </div>
-    <div class="status-badge %s">%s %s</div>
   </div>
   <p class="participant-bio">%s</p>
   <div class="skill-tags">%s</div>
   <div class="card-footer">
     <span class="role-seeking">🎯 %s</span>
-    <a href="https://discord.com/users/%s" target="_blank" class="contact-btn">Contact →</a>
+    <div class="contact-links">%s</div>
   </div>
 </div>',
-    data_status,
     tolower(row$skills %||% ""),
     toupper(substr(row$name %||% "?", 1, 1)),
     row$name %||% "Anonymous",
-    row$level %||% "Participant",
-    s$cls, s$dot, s$label,
     row$bio %||% "",
     skill_tags,
     row$role_seeking %||% "Open to anything",
-    row$contact %||% ""
+    contact_links
   )
 }
 
-# ── Render grid ────────────────────────────────────────────────────────────────
-# if (is.null(participants) || nrow(participants) == 0) {
-#   htmltools::HTML('
-# <div class="empty-state">
-#   <div class="empty-icon">🛰</div>
-#   <p>No profiles yet — be the first to join!</p>
-# </div>')
-# } else {
-#   cards_html <- paste(apply(participants, 1, render_card), collapse = "\n")
-#   htmltools::HTML(sprintf('<div class="cards-grid" id="cardsGrid">%s</div>', cards_html))
-# }
+
 if (is.null(participants) || nrow(participants) == 0) {
   htmltools::HTML('
 <div class="empty-state">
