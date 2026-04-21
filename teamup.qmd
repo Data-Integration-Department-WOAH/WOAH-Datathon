@@ -131,6 +131,16 @@ render_card <- function(row) {
 }
 
 # ── Render grid ────────────────────────────────────────────────────────────────
+# if (is.null(participants) || nrow(participants) == 0) {
+#   htmltools::HTML('
+# <div class="empty-state">
+#   <div class="empty-icon">🛰</div>
+#   <p>No profiles yet — be the first to join!</p>
+# </div>')
+# } else {
+#   cards_html <- paste(apply(participants, 1, render_card), collapse = "\n")
+#   htmltools::HTML(sprintf('<div class="cards-grid" id="cardsGrid">%s</div>', cards_html))
+# }
 if (is.null(participants) || nrow(participants) == 0) {
   htmltools::HTML('
 <div class="empty-state">
@@ -138,7 +148,10 @@ if (is.null(participants) || nrow(participants) == 0) {
   <p>No profiles yet — be the first to join!</p>
 </div>')
 } else {
-  cards_html <- paste(apply(participants, 1, render_card), collapse = "\n")
+  cards_html <- paste(
+    lapply(seq_len(nrow(participants)), function(i) render_card(participants[i, ])),
+    collapse = "\n"
+  )
   htmltools::HTML(sprintf('<div class="cards-grid" id="cardsGrid">%s</div>', cards_html))
 }
 ```
