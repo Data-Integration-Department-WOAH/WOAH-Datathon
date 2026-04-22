@@ -111,9 +111,10 @@ render_card <- function(row) {
 
   contact_links <- ""
   if (nzchar(row$github %||% "")) {
-    handle <- gsub("^@|https?://(www\\.)?github\\.com/", "", row$github)
+    github_url <- ifelse(grepl("^http", row$github), row$github,
+                    paste0("https://github.com/", gsub("^@", "", trimws(row$github))))
     contact_links <- paste0(contact_links,
-      sprintf('<a href="https://github.com/%s" target="_blank" class="contact-link">GitHub</a>', handle))
+      sprintf('<a href="%s" target="_blank" class="contact-link">GitHub</a>', github_url))
   }
   if (nzchar(row$linkedin %||% "")) {
     url <- ifelse(grepl("^http", row$linkedin), row$linkedin,
