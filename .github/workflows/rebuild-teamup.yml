@@ -40,7 +40,7 @@ jobs:
           install.packages(c("rmarkdown", "knitr", "curl", "fs","rlang"))
           # Install your project-specific packages
           install.packages(c("googlesheets4", "dplyr", "htmltools", "stringr", "glue"))  
-          install.packages(c("dplyr","tidyr","ggplot2","purrr","readxl","patchwork","janitor","countrycode","rnaturalearth","rnaturalearthdata"))
+          install.packages(c("dplyr","tidyr","ggplot2","purrr","readxl","patchwork","janitor","countrycode","sf","rnaturalearth","rnaturalearthdata"))
         shell: Rscript {0}
 
       - name: Set up Quarto
