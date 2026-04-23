@@ -9,7 +9,9 @@ format:
 ---
 
  
-The material submitted submitted by each team will be assessed by a panel of experts based on the following criteria:
+The material submitted by each team will be assessed by a panel of experts based on the following criteria:
+
+
 
 ## Scientific/Technical Accuracy
 
@@ -62,3 +64,9 @@ Key Points:
 -   Versioning or modular design supporting reuse.
 
 Scoring Tip: 0–5 scale; 5 = fully reproducible and well-documented workflow.
+
+## Submission instructions
+
+Submissions must be hosted as a private GitHub repository. Participants without a GitHub account should create one — it's free."
+
+
