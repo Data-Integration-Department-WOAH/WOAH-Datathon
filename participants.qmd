@@ -9,7 +9,7 @@ format:
 ```{r}
 #| label: setup
 #| include: false
-#| #| echo: false
+#| echo: false
 library(dplyr)
 library(tidyr)
 library(ggplot2)
