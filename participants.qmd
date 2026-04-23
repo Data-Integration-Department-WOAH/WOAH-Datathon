@@ -1,5 +1,9 @@
 ---
 title: "Enrolment Overview"
+date: last-modified
+format:
+  html:
+    embed-resources: true
 ---
 
 ```{r}
@@ -8,14 +12,14 @@ title: "Enrolment Overview"
 #| #| echo: false
 library(tidyverse)
 library(readxl)
-library(janitor)
 library(patchwork)
+library(janitor)
 library(countrycode)
 library(rnaturalearth)
 library(rnaturalearthdata)
 library(sf)
 
-df <- read_excel("WOAH Datathon registration form(1-282).xlsx") |>
+df <- read_excel("WOAH Datathon registration form.xlsx") |>
   clean_names()
 ```
 
