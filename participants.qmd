@@ -87,7 +87,7 @@ world |>
   scale_fill_viridis_c(option = "plasma", na.value = "grey90", name = "Registrations") +
   labs(
     title = "WOAH Datathon Registrations by Country",
-    caption = "Note: only first country used for multi-country entries"
+    caption = "Note: country names are per participants self description; only first country used for multi-country entries"
   ) +
   theme_minimal() +
   theme(panel.grid = element_blank(), axis.text = element_blank(), axis.ticks = element_blank())

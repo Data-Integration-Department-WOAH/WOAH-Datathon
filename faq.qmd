@@ -3,18 +3,53 @@ title: "Frequently Asked Questions"
 date: last-modified
 format:
   html:
-    embed-resources: false
-    toc: true
-    number-sections: false
+    number-sections: true
 ---
 
- 
-## 
-
-- Can a team consists of a single person?: yes
-
-- Can team members be from different countries?: yes
-
-- Can team members be from different organizations?: yes 
 
 
+## Can a team consists of a single person?
+
+yes
+
+
+## Can team members be from different countries?
+
+yes
+
+
+## Can team members be from different organizations?
+
+yes 
+
+##  What  spatial and temporal ranges we are expected to be covered
+
+There is strict expectation but see below.
+
+## Is the analysis expected to be global, using all available WOAH data, or can we focus our analysis on a specific region, continent, or group of countries? 
+
+Focusing on a specific region, continent, or group of countries is perfectly acceptable.
+
+
+## Does the choice of the geographic scale have any weight in the final scoring?
+
+The choice of a particular region will have no impact on the final assessment.
+
+Data science quality being equal, a study with a global scope will be likely better rated than a study with a regional scope.
+
+##  Can we focus on a specific group of diseases of our interest, or should we include all diseases available in the dataset?
+
+Focusing on a specific group of diseases is perfectly acceptable.
+
+## What is the anticipated weekly time commitment for the datathon?
+
+It is anticipated that several weeks of cumulated full time work  are required to reach a competitive level, whatever the challenge chosen.
+
+## Can we use other data sources than those listed on the datathon website?
+
+Absolutely! We encourage participants to use any relevant data sources that can enhance their analysis and insights. 
+However, it is important to ensure that any additional data used is properly cited and adheres to any applicable data usage policies or restrictions.
+
+##  Can the size of a team exceed six people?
+
+No, the maximum team size is six people. 

@@ -67,6 +67,6 @@ Scoring Tip: 0–5 scale; 5 = fully reproducible and well-documented workflow.
 
 ## Submission instructions
 
-Submissions must be hosted as a private GitHub repository. Participants without a GitHub account should create one — it's free."
+Submissions must be hosted as a **private GitHub repository**. Participants without a GitHub account should create one — it's free.
 
 
