@@ -53,3 +53,30 @@ However, it is important to ensure that any additional data used is properly cit
 ##  Can the size of a team exceed six people?
 
 No, the maximum team size is six people. 
+
+
+## How should team inform WOAH of the challenge chosen
+
+The datathon organising team does not need to be informed  about what team works on what topic, as long as it is one of the topics suggested on the web page.
+
+## How we may obtain the data 
+
+Most data are open data freely accesible to  anyone. 
+Identifying relevant data and retrieving them is part of the challenge.
+We will arrange by the end of May the provision data that are not freely accessible.
+
+
+
+
+## How ownership and future use of the pipeline developed during the Datathon will be handled?
+
+
+- Participants retain ownership of their code, models and analytical methods.
+- Participants are encouraged to release their submitted code under an open licence (such as MIT, Apache 2.0, or CC BY 4.0). Teams choosing to do so will be recognised accordingly. 
+- Regardless of licence choice, participants grant WOAH a non-exclusive, royalty-free, perpetual licence to use and adapt their submission for institutional and scientific purposes.
+
+## Does the data extraction step have to be an automated processes integrated into the submitted code, or can we present our analyses based on a static database?
+
+Some of the relevant data can not be retrieved through an automated process, and we understand that.
+However, we encourage participants to automate the data extraction process as much as possible.
+In the case of manual data extraction, the static data base should be part of the deliverable and clear documentation on the data retrieval process should be provided.
