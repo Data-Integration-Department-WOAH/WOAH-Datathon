@@ -3,7 +3,7 @@ title: "Enrolment Overview"
 date: last-modified
 format:
   html:
-    embed-resources: true
+    embed-resources: true 
 ---
 
 ```{r}

@@ -6,7 +6,7 @@ format:
   html:
     embed-resources: false
     toc: true
-    number-sections: false
+    number-sections: false 
 ---
 
 Welcome to the WOAH Datathon web page!   
