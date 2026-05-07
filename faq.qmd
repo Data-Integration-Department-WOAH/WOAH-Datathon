@@ -24,7 +24,7 @@ yes
 
 ##  What  spatial and temporal ranges we are expected to be covered
 
-There is strict expectation but see below.
+There is no strict expectation but see below.
 
 ## Is the analysis expected to be global, using all available WOAH data, or can we focus our analysis on a specific region, continent, or group of countries? 
 
