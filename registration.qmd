@@ -10,16 +10,16 @@ format:
 
 ## Instructions
 
-Teams or individuals willing to register to the datathon should fill the registration form. The form will be open until May 31th 2026. 
+Teams or individuals willing to register to the datathon should fill the registration form. The form is open until May 31th 2026. 
 In case of teams, each individual team member has to register separately, but they should all use the same team name. 
 
-## Registration form
+<!-- ## Registration form -->
 
-To register, please fill this [form](https://forms.cloud.microsoft/e/mysxaJNq6m). The form will be open until May 31th 2026.  
+<!-- To register, please fill this [form](https://forms.cloud.microsoft/e/mysxaJNq6m). The form will be open until May 31th 2026.   -->
  
 
 ## Teaming up
 
- Individual participants seeking team mates can register on the 
-  [TeamUp forum](./teamup.html) and find other participants with similar interests.
+ Individual participants seeking team mates can enter their contact detail on the 
+  [TeamUp forum](./teamup.html) and find other participants with related interests.
 
