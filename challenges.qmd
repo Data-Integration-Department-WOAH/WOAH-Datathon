@@ -10,7 +10,7 @@ format:
 
  
   
-## Early detection, nowcasting and forecasting of animal health events
+## Early detection, nowcasting and forecasting of animal health events  
 
 **Objective:**
 
