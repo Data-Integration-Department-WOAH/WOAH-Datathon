@@ -42,4 +42,7 @@ format:
 
 <!-- - Go to [Service Catalog](https://wahis-support.woah.org/support/solutions/articles/51000048118-Service-Catalog-Catalogue-de-services-Cat-logo-de-servicios) -->
 
-- Request [access to the weekly extraction of WAHIS immediate notifications and follow-up reports](https://wahis-support.woah.org/support/catalog/items/45)
+- Request [access to the weekly extraction of WAHIS immediate notifications and follow-up reports (INFUR)](https://wahis-support.woah.org/support/catalog/items/45)
+
+- INFUR  [bulk data extraction](./data/infur_20260702.xlsx) (2005-01-01 to 2026-07-02)
+
