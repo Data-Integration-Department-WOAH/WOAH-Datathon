@@ -70,6 +70,6 @@ To stay up to date with the latest news regarding  the WOAH Datathon, please reg
 For any general question, please check the **[FAQs](./faq.html)** page before contacting us.
 
 ### Contact
-If needed, write to us through  **dataintegration.dept \@ w o a h . o r g** with subject line **"WOAH Datathon"**
+If needed, write to us through  **diad \@ w o a h . o r g** with subject line **"WOAH Datathon"**
 
 

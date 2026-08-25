@@ -1,0 +1,55 @@
+---
+title: "Final Submission Instructions"
+date: last-modified
+format:
+  html:
+    embed-resources: false
+    toc: true
+    number-sections: false 
+---
+
+## Deadline
+
+**October 31, 2026.** Repository access must be granted to the organisers by this date; see [Access](#access) below.
+
+## What to submit
+
+Each team submits a single private git repository containing:
+
+1.  **Analytical pipeline** — the code implementing data processing, modelling and validation.
+2.  **Technical report** — documentation of methods, results and their interpretation.
+3.  **README** — an overview of the submission and step-by-step instructions to reproduce the results.
+
+These map directly onto the [assessment criteria](./criteria.html), in particular *Reproducibility and Documentation*.
+
+## Repository structure
+
+Structure the repository as follows:
+
+```
+your-repo/
+├── README.md      # overview, team name, challenge chosen, replication steps, dependencies
+├── report/        # technical report (Markdown, PDF, or Word)
+├── code/          # analytical pipeline: scripts, notebooks, pipeline config
+└── data/          # optional: static datasets, only if extraction could not be automated
+```
+
+-   **`README.md`** should state the team name, the challenge selected, and exactly how to reproduce the pipeline end to end (environment/dependencies, run order, expected outputs).
+-   **`data/`** is only required when part of the data could not be retrieved through an automated process — see the [FAQ](./faq.html#does-the-data-extraction-step-have-to-be-an-automated-processes-integrated-into-the-submitted-code-or-can-we-present-our-analyses-based-on-a-static-database) on manual data extraction. In that case, document the retrieval process in the README.
+-   Repository naming is not prescribed — any name is fine as long as access is granted per below.
+
+## Access {#access}
+
+Submissions are hosted as a **private repository**. To submit, add the GitHub organisation **`Data-Integration-Department-WOAH`** as a collaborator on the repository, with at least read access:
+
+1.  On GitHub, go to your repository → **Settings → Collaborators and teams**.
+2.  Under **Manage access**, click **Add people**.
+3.  Search for and add **`Data-Integration-Department-WOAH`**.
+
+Granting this access **is** the act of submission — no separate form or email is required. Do this once the repository is final, and no later than October 31, 2026.
+
+If you are hosting on a platform other than GitHub (e.g. GitLab), organisation-based access isn't available. In that case, email **diad \@ w o a h . o r g** with subject line **"WOAH Datathon Submission — \<Team Name\>"**, including the repository URL and the access you have granted.
+
+## Questions
+
+Check the [FAQs](./faq.html) first. For anything else, contact **diad \@ w o a h . o r g** with subject line **"WOAH Datathon"**.
