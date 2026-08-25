@@ -32,14 +32,14 @@
     "href": "index.html#organisation-and-deliverables",
     "title": "International Datathon on Animal Health Organised by the World Organisation for Animal Health (WOAH)",
     "section": "Organisation and Deliverables",
-    "text": "Organisation and Deliverables\nEach team will:\n\nSelect one challenge either from the list or self-proposed (subject to approval)\nDevelop a complete data science pipeline, including data processing, modelling and validation\nProduce analytical outputs based on pilot or historical datasets\nDocument methods and results in a concise technical report\nAll code must be reproducible and submitted as a git push to a public repository (e.g., GitHub, GitLab) with clear instructions for replication."
+    "text": "Organisation and Deliverables\nEach team will:\n\nSelect one challenge either from the list or self-proposed (subject to approval)\nDevelop a complete data science pipeline, including data processing, modelling and validation\nProduce analytical outputs based on pilot or historical datasets\nDocument methods and results in a concise technical report\nAll code must be reproducible and submitted as a git push to a private repository, with the organisers granted access — see the Submission page for full instructions."
   },
   {
     "objectID": "index.html#stay-informed",
     "href": "index.html#stay-informed",
     "title": "International Datathon on Animal Health Organised by the World Organisation for Animal Health (WOAH)",
     "section": "Stay Informed",
-    "text": "Stay Informed\n\nMailing list\nTo stay up to date with the latest news regarding the WOAH Datathon, please register to the datathon mailing list here.\n\n\nFAQs\nFor any general question, please check the FAQs page before contacting us.\n\n\nContact\nIf needed, write to us through dataintegration.dept @ w o a h . o r g with subject line “WOAH Datathon”"
+    "text": "Stay Informed\n\nMailing list\nTo stay up to date with the latest news regarding the WOAH Datathon, please register to the datathon mailing list here.\n\n\nFAQs\nFor any general question, please check the FAQs page before contacting us.\n\n\nContact\nIf needed, write to us through diad @ w o a h . o r g with subject line “WOAH Datathon”"
   },
   {
     "objectID": "teamup.qmd_SAVE.html",
@@ -144,7 +144,7 @@
     "href": "data_source.html",
     "title": "Data Sources",
     "section": "",
-    "text": "DATASOURCE/DATASET\nurl\n\n\n\n\nWAHIS\nhttps://wahis.woah.org/#/home\n\n\nEIOS\nhttps://www.who.int/initiatives/eios\n\n\nFAOSTAT\nhttps://www.fao.org/faostat/en/%23data\n\n\nWorldClim\nhttps://worldclim.org/\n\n\nFAO HiH Geospatial data\nhttps://www.fao.org/hih-geospatial-platform/en/\n\n\nGlobal Forest Watch data portal\nhttps://www.globalforestwatch.org/\n\n\nSPS notifications eping - WTO\nhttps://eping.wto.org/en/Search/Index\n\n\nGLW\nhttps://data.apps.fao.org/catalog/dataset/glw\n\n\nGeographic and administrative boundary GADM\nhttps://gadm.org/\n\n\nWOAH Observatory\nhttps://www.woah.org/en/document/observatory-annual-report-indicator-matrix/\n\n\nANIMUSE\nhttps://amu.woah.org/amu-system-portal/amu-data\n\n\nWTO Data\nhttps://stats.wto.org/\n\n\nOpenSky\n\n\n\nIPUMS\nhttps://www.ipums.org/\n\n\nOpenStreetMap\n\n\n\nEurostat\nhttps://ec.europa.eu/eurostat/data/database"
+    "text": "DATASOURCE/DATASET\nurl\n\n\n\n\nWAHIS\nhttps://wahis.woah.org/#/home\n\n\nEIOS\nhttps://www.who.int/initiatives/eios\n\n\nFAOSTAT\nhttps://www.fao.org/faostat/en/%23data\n\n\nWorldClim\nhttps://worldclim.org/\n\n\nFAO HiH Geospatial data\nhttps://www.fao.org/hih-geospatial-platform/en/\n\n\nGlobal Forest Watch data portal\nhttps://www.globalforestwatch.org/\n\n\nSPS notifications eping - WTO\nhttps://eping.wto.org/en/Search/Index\n\n\nGLW\nhttps://data.apps.fao.org/catalog/dataset/glw\n\n\nGeographic and administrative boundary GADM\nhttps://gadm.org/\n\n\nWOAH Observatory\nhttps://www.woah.org/en/document/observatory-annual-report-indicator-matrix/\n\n\nANIMUSE\nhttps://amu.woah.org/amu-system-portal/amu-data\n\n\nWTO Data\nhttps://stats.wto.org/\n\n\nOpenSky\n\n\n\nIPUMS\nhttps://www.ipums.org/\n\n\nOpenStreetMap\nhttps://www.openstreetmap.org/\n\n\nEurostat\nhttps://ec.europa.eu/eurostat/data/database"
   },
   {
     "objectID": "challenges_OLD.html",
@@ -403,7 +403,7 @@
     "href": "criteria.html#submission-instructions",
     "title": "Datathon Deliverable Assessment Criteria",
     "section": "Submission instructions",
-    "text": "Submission instructions\nSubmissions must be hosted as a private GitHub repository. Participants without a GitHub account should create one — it’s free."
+    "text": "Submission instructions\nSee the Submission page for full instructions on repository structure and how to grant the organisers access. Submissions must be hosted as a private GitHub repository. Participants without a GitHub account should create one — it’s free."
   },
   {
     "objectID": "faq.html",
@@ -438,7 +438,7 @@
     "href": "faq.html#what-spatial-and-temporal-ranges-we-are-expected-to-be-covered",
     "title": "Frequently Asked Questions",
     "section": "4 What spatial and temporal ranges we are expected to be covered",
-    "text": "4 What spatial and temporal ranges we are expected to be covered\nThere is strict expectation but see below."
+    "text": "4 What spatial and temporal ranges we are expected to be covered\nThere is no strict expectation but see below."
   },
   {
     "objectID": "faq.html#is-the-analysis-expected-to-be-global-using-all-available-woah-data-or-can-we-focus-our-analysis-on-a-specific-region-continent-or-group-of-countries",
@@ -515,14 +515,14 @@
     "href": "registration.html",
     "title": "Registration",
     "section": "",
-    "text": "Teams or individuals willing to register to the datathon should fill the registration form. The form will be open until May 31th 2026. In case of teams, each individual team member has to register separately, but they should all use the same team name."
+    "text": "Teams or individuals willing to register to the datathon should fill the registration form. The form is open until May 31th 2026. In case of teams, each individual team member has to register separately, but they should all use the same team name."
   },
   {
     "objectID": "registration.html#instructions",
     "href": "registration.html#instructions",
     "title": "Registration",
     "section": "",
-    "text": "Teams or individuals willing to register to the datathon should fill the registration form. The form will be open until May 31th 2026. In case of teams, each individual team member has to register separately, but they should all use the same team name."
+    "text": "Teams or individuals willing to register to the datathon should fill the registration form. The form is open until May 31th 2026. In case of teams, each individual team member has to register separately, but they should all use the same team name."
   },
   {
     "objectID": "registration.html#registration-form",
@@ -536,7 +536,7 @@
     "href": "registration.html#teaming-up",
     "title": "Registration",
     "section": "Teaming up",
-    "text": "Teaming up\nIndividual participants seeking team mates can register on the TeamUp forum and find other participants with similar interests."
+    "text": "Teaming up\nIndividual participants seeking team mates can enter their contact detail on the TeamUp forum and find other participants with related interests."
   },
   {
     "objectID": "teamup.html",
@@ -544,5 +544,68 @@
     "title": "TeamUp",
     "section": "",
     "text": "WOAH DATATHON\n\n\nFind Your Team\n\nConnect with fellow participants · Build something great together\n\n\n\n\n  + Add your profile\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  \n    S\n    \n      Said Abdi Ahmed\n    \n  \n  Dedicated and hard-working Humanitarian with a strong passion for helping others and a comprehensive background in providing professional support to vulnerable household in Somali regions. Offers well-developed knowledge of Sociology and excellent problem solving skills\n  Vet doctor\n  \n    🎯 Epidemiologist on livestock disease\n    GitHubLinkedIn\n  \n\n\n\n  \n    P\n    \n      Pratik Kiju\n    \n  \n  I am a veterinarian with a strong passion for One Health, ecology, and infectious disease dynamics. I recently graduated as an Erasmus Scholar from the Joint Master’s Programme in Infectious Diseases and One Health (IDOH). I am eager to apply my academic training and international experience to roles that advance disease surveillance, ecological health, and collaborative global health initiatives.\n  R codingQGISScientific writingBenchlingAMR (Whole Genome sequencing)Da Vinci ResolveMicrosoft Office\n  \n    🎯 team in animal disease surveillance or AMR surveillance\n    GitHubLinkedIn\n  \n\n\n\n  \n    D\n    \n      Daouda OUEDRAOGO\n    \n  \n  As a veterinary surgeon with a Master’s degree in the epidemiology of communicable diseases and health risk management, I am passionate about research and a job well done. With a solid understanding of the challenges facing the livestock sector in Africa, I am particularly interested in current issues such as climate change, the ‘One Health’ concept, and zoonotic diseases. My sense of duty and my commitment to voluntary work are reflected in my involvement in animal welfare, environmental protection and the promotion of the ‘One Health’ approach.\n  Epidemiologydata analysisveterinary medecineAnimal health science\n  \n    🎯 Veterinary epidemiologist\n    GitHubLinkedIn\n  \n\n\n\n  \n    M\n    \n      Melkie Dagnaw fenta\n    \n  \n  I am an Assistant Professor of Veterinary Clinical Medicine at the University of Gondar, Ethiopia. I hold an M.Sc. in Biostatistics and my research focuses on antimicrobial resistance, zoonotic diseases, veterinary epidemiology, and systematic review and meta-analysis within a One Health framework. skills,  Evidence synthesis ,  Statistical data analysis,  complex data management and  mathematical modeling,. Software skills  R, python , MATLAB..\n  Statistical  and clinical data designdata analysis in advanced tools\n  \n    🎯 participating Writing up\n    GitHubLinkedInNA\n  \n\n\n\n  \n    N\n    \n      Nicolas Decoopman\n    \n  \n  I analyze and structure complex systems to design robust and operational solutions. A veterinarian by training, I have retained scientific rigor and sound judgment in high-risk situations. I possess a diagnostic approach to massive architectures. My expertise combines data engineering, distributed systems, and operational implementation: from data ingestion to the delivery of decision-making tools in production.\n  Data science\n  \n    🎯 Vet Data scientist\n    GitHubLinkedInhttps://ncsdecoopman.github.io/\n  \n\n\n\n  \n    M\n    \n      Matilde de Carvalho Noverça Rebelo Lages\n    \n  \n  I am a veterinary student at the University of Porto, Portugal, with a strong interest in veterinary public health, animal welfare, and One Health approaches. My experience includes animal population management programs - particularly sterilization and vaccination campaigns in Cabo Verde and São Tomé e Príncipe. I am passionate about using data-driven methodologies to improve animal health programs and their impact on communities, with a focus on zoonotic diseases and population control strategies.\n  Animal population management · Veterinary public health · Data analysis · Scientific writing · One Health\n  \n    🎯 General support\n    GitHubLinkedInNA\n  \n\n\n\n  \n    P\n    \n      Pablo Espinosa\n    \n  \n  Epidemiologist and public health researcher with a strong background in infectious disease modeling, real-world data analysis, and health systems. I have experience developing predictive models (SIR, ARIMA), evaluating cost-effectiveness of public health interventions, and working with surveillance and outbreak data. My work integrates statistical rigor with decision-making, aiming to generate actionable insights for health policy and disease control. Currently a PhD candidate in Epidemiology and Public Health.\n  Epidemiologybiostatisticsinfectious disease modeling (SIRtime seriesARIMA)real-world data analysishealth data interpretationoutbreak analysissurveillance systemscost-effectiveness and cost-benefit analysisR programmingSTATAMATLABepidemiological study designdata cleaning and validationstatistical inferencepublic health decision-makingscientific writingreproducible research\n  \n    🎯 I am looking to contribute as an Epidemiological Data Scientist and Disease Modeler, focusing on study design, modeling strategy, interpretation of results, and translation of findings into actionable insights. I am particularly interested in collaborating with teams that combine data science, machine learning, and geospatial analysis.\n    GitHubLinkedInNA\n  \n\n\n\n  \n    J\n    \n      John Juma\n    \n  \n  I am a bioinformatician and genomic epidemiologist studying pathogens by leveraging genomics and phylodynamic modelling to understand the transmission dynamics. In my routine responsibilities, I prepare, curate datasets from different sources including genomic, epidemiological, environmental/climatic e.t.c and integrate these datasets for analyses that focus on pathogen evolution and spread.\n  Bioinformatics/Computational biologyProgramming in RPython and BASHWorkflow orchestration - NextflowJob scheduling - SLURMCloud computing - AWSStatistical modellingPhylodynamicsAMR profilingPathogen genomicsCommunicationReporting and Writing\n  \n    🎯 AMR surveillance, Antibiotics usage and AI\n    GitHubLinkedInNA\n  \n\n\n\n  \n    M\n    \n      Magdalena Ojeda\n    \n  \n  Data Analyst / Reporting role, supporting epidemiology or veterinary teams with data structuring, quality, and translating results into clear insights and visual outputs.\n\nFor the Datathon, I’m keen to contribute in reporting, data exploration, and translating findings into meaningful visuals and narratives.\n  SQLPower BI and a bit of Python\n  \n    🎯 Data Scientist, Epidemiologist / Veterinary Specialist, and Data Engineer\n    GitHubLinkedInNA\n  \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n  🔄 This page is updated daily — check back for new participants!"
+  },
+  {
+    "objectID": "data_source.html#obtaining-wahis-data",
+    "href": "data_source.html#obtaining-wahis-data",
+    "title": "Data Sources",
+    "section": "Obtaining WAHIS data",
+    "text": "Obtaining WAHIS data\n\nSign up to WAHIS support: https://wahis-support.woah.org/support/home\nBrowse Help articles on https://wahis-support.woah.org/support/solutions\nGo to Service Catalog\nRequest Access the weekly extraction of WAHIS immediate notifications and follow-up reports"
+  },
+  {
+    "objectID": "data_source.html#main-data-sources",
+    "href": "data_source.html#main-data-sources",
+    "title": "Data Sources",
+    "section": "",
+    "text": "DATASOURCE/DATASET\nurl\n\n\n\n\nWAHIS\nhttps://wahis.woah.org/#/home\n\n\nEIOS\nhttps://www.who.int/initiatives/eios\n\n\nFAOSTAT\nhttps://www.fao.org/faostat/en/%23data\n\n\nWorldClim\nhttps://worldclim.org/\n\n\nFAO HiH Geospatial data\nhttps://www.fao.org/hih-geospatial-platform/en/\n\n\nGlobal Forest Watch data portal\nhttps://www.globalforestwatch.org/\n\n\nSPS notifications eping - WTO\nhttps://eping.wto.org/en/Search/Index\n\n\nGLW\nhttps://data.apps.fao.org/catalog/dataset/glw\n\n\nGeographic and administrative boundary GADM\nhttps://gadm.org/\n\n\nWOAH Observatory\nhttps://www.woah.org/en/document/observatory-annual-report-indicator-matrix/\n\n\nANIMUSE\nhttps://amu.woah.org/amu-system-portal/amu-data\n\n\nWTO Data\nhttps://stats.wto.org/\n\n\nOpenSky\n\n\n\nIPUMS\nhttps://www.ipums.org/\n\n\nOpenStreetMap\nhttps://www.openstreetmap.org/\n\n\nEurostat\nhttps://ec.europa.eu/eurostat/data/database"
+  },
+  {
+    "objectID": "data_source.html#obtaining-wahis-immediate-notifications-and-follow-up-reports-infur-data",
+    "href": "data_source.html#obtaining-wahis-immediate-notifications-and-follow-up-reports-infur-data",
+    "title": "Data Sources",
+    "section": "Obtaining WAHIS immediate notifications and follow-up reports (INFUR) data",
+    "text": "Obtaining WAHIS immediate notifications and follow-up reports (INFUR) data\n\n\n\n\n\nINFUR bulk data extraction (2005-01-01 to 2026-07-02)"
+  },
+  {
+    "objectID": "submission.html",
+    "href": "submission.html",
+    "title": "Final Submission Instructions",
+    "section": "",
+    "text": "October 31, 2026. Repository access must be granted to the organisers by this date; see Access below.\nAny commit to the repository after October 31, 2026 is forbidden. Only the state of the repository as of the deadline will be assessed."
+  },
+  {
+    "objectID": "submission.html#deadline",
+    "href": "submission.html#deadline",
+    "title": "Final Submission Instructions",
+    "section": "",
+    "text": "October 31, 2026. Repository access must be granted to the organisers by this date; see Access below.\nAny commit to the repository after October 31, 2026 is forbidden. Only the state of the repository as of the deadline will be assessed."
+  },
+  {
+    "objectID": "submission.html#what-to-submit",
+    "href": "submission.html#what-to-submit",
+    "title": "Final Submission Instructions",
+    "section": "What to submit",
+    "text": "What to submit\nEach team submits a single private git repository containing:\n\nAnalytical pipeline — the code implementing data processing, modelling and validation.\nTechnical report — documentation of methods, results and their interpretation.\nREADME — an overview of the submission and step-by-step instructions to reproduce the results.\n\nThese map directly onto the assessment criteria, in particular Reproducibility and Documentation."
+  },
+  {
+    "objectID": "submission.html#repository-structure",
+    "href": "submission.html#repository-structure",
+    "title": "Final Submission Instructions",
+    "section": "Repository structure",
+    "text": "Repository structure\nStructure the repository as follows:\nyour-repo/\n├── README.md      # overview, team name, challenge chosen, replication steps, dependencies\n├── report/        # technical report (Markdown, PDF, or Word)\n├── code/          # analytical pipeline: scripts, notebooks, pipeline config\n└── data/          # optional: static datasets, only if extraction could not be automated\n\nREADME.md should state the team name, the challenge selected, and exactly how to reproduce the pipeline end to end (environment/dependencies, run order, expected outputs).\ndata/ is only required when part of the data could not be retrieved through an automated process — see the FAQ on manual data extraction. In that case, document the retrieval process in the README.\nRepository naming is not prescribed — any name is fine as long as access is granted per below."
+  },
+  {
+    "objectID": "submission.html#access",
+    "href": "submission.html#access",
+    "title": "Final Submission Instructions",
+    "section": "Access",
+    "text": "Access\nSubmissions are hosted as a private repository. To submit, add the GitHub organisation Data-Integration-Department-WOAH as a collaborator on the repository, with at least read access:\n\nOn GitHub, go to your repository → Settings → Collaborators and teams.\nUnder Manage access, click Add people.\nSearch for and add Data-Integration-Department-WOAH.\n\nGranting this access is the act of submission — no separate form or email is required. Do this once the repository is final, and no later than October 31, 2026.\nIf you are hosting on a platform other than GitHub (e.g. GitLab), organisation-based access isn’t available. In that case, email diad @ w o a h . o r g with subject line “WOAH Datathon Submission — &lt;Team Name&gt;”, including the repository URL and the access you have granted."
+  },
+  {
+    "objectID": "submission.html#questions",
+    "href": "submission.html#questions",
+    "title": "Final Submission Instructions",
+    "section": "Questions",
+    "text": "Questions\nCheck the FAQs first. For anything else, contact diad @ w o a h . o r g with subject line “WOAH Datathon”."
   }
 ]
