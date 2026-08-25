@@ -12,6 +12,8 @@ format:
 
 **October 31, 2026.** Repository access must be granted to the organisers by this date; see [Access](#access) below.
 
+Any commit to the repository after October 31, 2026 is forbidden. Only the state of the repository as of the deadline will be assessed.
+
 ## What to submit
 
 Each team submits a single private git repository containing:
