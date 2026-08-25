@@ -12,7 +12,9 @@ website:
       - text: "Data sources"
         href: data_source.qmd  
       - text: "Assessment criteria"
-        href: criteria.qmd  
+        href: criteria.qmd
+      - text: "Submission"
+        href: submission.qmd
       - text: "Registration"
         href: registration.qmd  
       - text: "Participants"

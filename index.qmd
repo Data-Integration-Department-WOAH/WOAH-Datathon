@@ -55,7 +55,7 @@ Each team will:
 
 -   Document methods and results in a concise technical report
 
--   All code must be reproducible and submitted as a git push to a public repository (e.g., GitHub, GitLab) with clear instructions for replication.
+-   All code must be reproducible and submitted as a git push to a private repository, with the organisers granted access — see the [Submission](./submission.html) page for full instructions.
 
 
 ## Stay Informed
