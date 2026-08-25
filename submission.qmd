@@ -26,19 +26,19 @@ These map directly onto the [assessment criteria](./criteria.html), in particula
 
 ## Repository structure
 
-Structure the repository as follows:
+<!-- Structure the repository as follows: -->
 
-```
-your-repo/
-├── README.md      # overview, team name, challenge chosen, replication steps, dependencies
-├── report/        # technical report (Markdown, PDF, or Word)
-├── code/          # analytical pipeline: scripts, notebooks, pipeline config
-└── data/          # optional: static datasets, only if extraction could not be automated
-```
+<!-- ``` -->
+<!-- your-repo/ -->
+<!-- ├── README.md      # overview, team name, challenge chosen, replication steps, dependencies -->
+<!-- ├── report/        # technical report (Markdown, PDF, or Word) -->
+<!-- ├── code/          # analytical pipeline: scripts, notebooks, pipeline config -->
+<!-- └── data/          # optional: static datasets, only if extraction could not be automated -->
+<!-- ``` -->
 
--   **`README.md`** should state the team name, the challenge selected, and exactly how to reproduce the pipeline end to end (environment/dependencies, run order, expected outputs).
--   **`data/`** is only required when part of the data could not be retrieved through an automated process — see the [FAQ](./faq.html#does-the-data-extraction-step-have-to-be-an-automated-processes-integrated-into-the-submitted-code-or-can-we-present-our-analyses-based-on-a-static-database) on manual data extraction. In that case, document the retrieval process in the README.
--   Repository naming is not prescribed — any name is fine as long as access is granted per below.
+<!-- -   **`README.md`** should state the team name, the challenge selected, and exactly how to reproduce the pipeline end to end (environment/dependencies, run order, expected outputs). -->
+<!-- -   **`data/`** is only required when part of the data could not be retrieved through an automated process — see the [FAQ](./faq.html#does-the-data-extraction-step-have-to-be-an-automated-processes-integrated-into-the-submitted-code-or-can-we-present-our-analyses-based-on-a-static-database) on manual data extraction. In that case, document the retrieval process in the README. -->
+<!-- -   Repository naming is not prescribed — any name is fine as long as access is granted per below. -->
 
 ## Access {#access}
 
