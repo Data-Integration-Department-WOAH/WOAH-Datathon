@@ -24,7 +24,7 @@ Each team submits a single private git repository containing:
 
 These map directly onto the [assessment criteria](./criteria.html), in particular *Reproducibility and Documentation*.
 
-## Repository structure
+<!-- ## Repository structure -->
 
 <!-- Structure the repository as follows: -->
 
