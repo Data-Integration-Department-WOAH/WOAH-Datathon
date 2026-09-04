@@ -42,7 +42,7 @@ These map directly onto the [assessment criteria](./criteria.html), in particula
 
 ## Access {#access}
 
-Submissions are hosted as a **private repository**. To submit, add the GitHub organisation **`Data-Integration-Department-WOAH`** as a collaborator on the repository, with at least read access:
+Submissions are hosted as a **private repository**. To submit, add the GitHub organisation **`diad-woah`** as a collaborator on the repository, with at least read access:
 
 1.  On GitHub, go to your repository → **Settings → Collaborators and teams**.
 2.  Under **Manage access**, click **Add people**.
