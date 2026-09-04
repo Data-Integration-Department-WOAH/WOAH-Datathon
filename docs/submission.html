@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-08-25">
+<meta name="dcterms.date" content="2026-09-04">
 
 <title>Final Submission Instructions – WOAH Datathon</title>
 <style>
@@ -155,7 +155,6 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#deadline" id="toc-deadline" class="nav-link active" data-scroll-target="#deadline">Deadline</a></li>
   <li><a href="#what-to-submit" id="toc-what-to-submit" class="nav-link" data-scroll-target="#what-to-submit">What to submit</a></li>
-  <li><a href="#repository-structure" id="toc-repository-structure" class="nav-link" data-scroll-target="#repository-structure">Repository structure</a></li>
   <li><a href="#access" id="toc-access" class="nav-link" data-scroll-target="#access">Access</a></li>
   <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions</a></li>
   </ul>
@@ -177,7 +176,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">August 25, 2026</p>
+      <p class="date">September 4, 2026</p>
     </div>
   </div>
   
@@ -203,24 +202,22 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>README</strong> — an overview of the submission and step-by-step instructions to reproduce the results.</li>
 </ol>
 <p>These map directly onto the <a href="./criteria.html">assessment criteria</a>, in particular <em>Reproducibility and Documentation</em>.</p>
-</section>
-<section id="repository-structure" class="level2">
-<h2 class="anchored" data-anchor-id="repository-structure">Repository structure</h2>
-<p>Structure the repository as follows:</p>
-<pre><code>your-repo/
-├── README.md      # overview, team name, challenge chosen, replication steps, dependencies
-├── report/        # technical report (Markdown, PDF, or Word)
-├── code/          # analytical pipeline: scripts, notebooks, pipeline config
-└── data/          # optional: static datasets, only if extraction could not be automated</code></pre>
-<ul>
-<li><strong><code>README.md</code></strong> should state the team name, the challenge selected, and exactly how to reproduce the pipeline end to end (environment/dependencies, run order, expected outputs).</li>
-<li><strong><code>data/</code></strong> is only required when part of the data could not be retrieved through an automated process — see the <a href="./faq.html#does-the-data-extraction-step-have-to-be-an-automated-processes-integrated-into-the-submitted-code-or-can-we-present-our-analyses-based-on-a-static-database">FAQ</a> on manual data extraction. In that case, document the retrieval process in the README.</li>
-<li>Repository naming is not prescribed — any name is fine as long as access is granted per below.</li>
-</ul>
+<!-- ## Repository structure -->
+<!-- Structure the repository as follows: -->
+<!-- ``` -->
+<!-- your-repo/ -->
+<!-- ├── README.md      # overview, team name, challenge chosen, replication steps, dependencies -->
+<!-- ├── report/        # technical report (Markdown, PDF, or Word) -->
+<!-- ├── code/          # analytical pipeline: scripts, notebooks, pipeline config -->
+<!-- └── data/          # optional: static datasets, only if extraction could not be automated -->
+<!-- ``` -->
+<!-- -   **`README.md`** should state the team name, the challenge selected, and exactly how to reproduce the pipeline end to end (environment/dependencies, run order, expected outputs). -->
+<!-- -   **`data/`** is only required when part of the data could not be retrieved through an automated process — see the [FAQ](./faq.html#does-the-data-extraction-step-have-to-be-an-automated-processes-integrated-into-the-submitted-code-or-can-we-present-our-analyses-based-on-a-static-database) on manual data extraction. In that case, document the retrieval process in the README. -->
+<!-- -   Repository naming is not prescribed — any name is fine as long as access is granted per below. -->
 </section>
 <section id="access" class="level2">
 <h2 class="anchored" data-anchor-id="access">Access</h2>
-<p>Submissions are hosted as a <strong>private repository</strong>. To submit, add the GitHub organisation <strong><code>Data-Integration-Department-WOAH</code></strong> as a collaborator on the repository, with at least read access:</p>
+<p>Submissions are hosted as a <strong>private repository</strong>. To submit, add the GitHub organisation <strong><code>diad-woah</code></strong> as a collaborator on the repository, with at least read access:</p>
 <ol type="1">
 <li>On GitHub, go to your repository → <strong>Settings → Collaborators and teams</strong>.</li>
 <li>Under <strong>Manage access</strong>, click <strong>Add people</strong>.</li>
