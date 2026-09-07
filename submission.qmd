@@ -8,7 +8,7 @@ format:
     number-sections: false 
 ---
 
-## Deadline
+## Deadline 
 
 **October 31, 2026.** Repository access must be granted to the organisers by this date; see [Access](#access) below.
 
@@ -46,7 +46,7 @@ Submissions are hosted as a **private repository**. To submit, add the GitHub or
 
 1.  On GitHub, go to your repository → **Settings → Collaborators and teams**.
 2.  Under **Manage access**, click **Add people**.
-3.  Search for and add **`Data-Integration-Department-WOAH`**.
+3.  Search for and add **`diad-woah`**.
 
 Granting this access **is** the act of submission — no separate form or email is required. Do this once the repository is final, and no later than October 31, 2026.
 
