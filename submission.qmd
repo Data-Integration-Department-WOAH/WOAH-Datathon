@@ -20,7 +20,7 @@ Every submitting team must include a signed Open Source Sharing Agreement in its
 
 By signing, the Team Leader confirms on behalf of all team members that the submission is released under the [MIT licence](https://opensource.org/license/mit), and that it is the team's original work and does not infringe third-party rights. Team members keep ownership of their intellectual property.
 
-[Download the Open Source Sharing Agreement (.docx)](files/Open_Source_Sharing_Agreement.docx){.btn .btn-primary download="Open_Source_Sharing_Agreement.docx"}
+[Download the Open Source Sharing Agreement (.docx)](./Open_Source_Sharing_Agreement.docx){.btn .btn-primary download="Open_Source_Sharing_Agreement.docx"}
 
 The Team Leader fills in and signs the agreement for the whole team:
 

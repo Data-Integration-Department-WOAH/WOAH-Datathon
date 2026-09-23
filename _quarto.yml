@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: "docs"
+  resources:
+    - "Open_Source_Sharing_Agreement.docx"
 website:
   title: "WOAH Datathon"
   navbar:
