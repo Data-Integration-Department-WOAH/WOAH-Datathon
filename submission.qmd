@@ -10,9 +10,27 @@ format:
 
 ## Deadline 
 
-**October 31, 2026.** Repository access must be granted to the organisers by this date; see [Access](#access) below.
+**October 31, 2026.** Repository access must be granted to the organisers by this date; see [Access](#access) below. The signed [Open Source Sharing Agreement](#agreement) must be in the repository by the same date.
 
 Any commit to the repository after October 31, 2026 is forbidden. Only the state of the repository as of the deadline will be assessed.
+
+## Open Source Sharing Agreement {#agreement}
+
+Every submitting team must include a signed Open Source Sharing Agreement in its repository. A submission without it is incomplete and will not be assessed.
+
+By signing, the Team Leader confirms on behalf of all team members that the submission is released under the [MIT licence](https://opensource.org/license/mit), and that it is the team's original work and does not infringe third-party rights. Team members keep ownership of their intellectual property.
+
+[Download the Open Source Sharing Agreement (.docx)](files/Open_Source_Sharing_Agreement.docx){.btn .btn-primary download="Open_Source_Sharing_Agreement.docx"}
+
+The Team Leader fills in and signs the agreement for the whole team:
+
+1.  At the top, enter the date and the Team Leader's full name.
+2.  In the table under Article 2, list every team member (Team Leader included): full name, role (Team Leader or team member) and team name.
+3.  At the end, complete the Team Leader name and signature. Leave the WOAH block blank; WOAH countersigns.
+4.  Save the signed agreement as a PDF named `Open_Source_Sharing_Agreement_signed.pdf` and commit it to the root of the repository, no later than October 31, 2026. Do not email it.
+
+Read the full agreement before signing. 
+<!-- For questions about its terms, contact **diad \@ w o a h . o r g** before the deadline. -->
 
 ## What to submit
 
@@ -21,8 +39,9 @@ Each team submits a single private git repository containing:
 1.  **Analytical pipeline** — the code implementing data processing, modelling and validation.
 2.  **Technical report** — documentation of methods, results and their interpretation.
 3.  **README** — an overview of the submission and step-by-step instructions to reproduce the results.
+4.  **Signed Open Source Sharing Agreement**, saved as `Open_Source_Sharing_Agreement_signed.pdf` at the root of the repository. See [Open Source Sharing Agreement](#agreement) above.
 
-These map directly onto the [assessment criteria](./criteria.html), in particular *Reproducibility and Documentation*.
+Items 1 to 3 map directly onto the [assessment criteria](./criteria.html), in particular *Reproducibility and Documentation*.
 
 <!-- ## Repository structure -->
 
@@ -48,7 +67,7 @@ Submissions are hosted as a **private repository**. To submit, add the GitHub or
 2.  Under **Manage access**, click **Add people**.
 3.  Search for and add **`diad-woah`**.
 
-Granting this access **is** the act of submission — no separate form or email is required. Do this once the repository is final, and no later than October 31, 2026.
+Granting this access **is** the act of submission. No separate form or email is required. Do this once the repository is final, including the signed agreement, and no later than October 31, 2026.
 
 If you are hosting on a platform other than GitHub (e.g. GitLab), organisation-based access isn't available. In that case, email **diad \@ w o a h . o r g** with subject line **"WOAH Datathon Submission — \<Team Name\>"**, including the repository URL and the access you have granted.
 
