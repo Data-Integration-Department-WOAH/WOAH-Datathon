@@ -6,7 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2026-09-04">
+<meta name="dcterms.date" content="2026-09-23">
 
 <title>Final Submission Instructions – WOAH Datathon</title>
 <style>
@@ -154,6 +154,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#deadline" id="toc-deadline" class="nav-link active" data-scroll-target="#deadline">Deadline</a></li>
+  <li><a href="#agreement" id="toc-agreement" class="nav-link" data-scroll-target="#agreement">Open Source Sharing Agreement</a></li>
   <li><a href="#what-to-submit" id="toc-what-to-submit" class="nav-link" data-scroll-target="#what-to-submit">What to submit</a></li>
   <li><a href="#access" id="toc-access" class="nav-link" data-scroll-target="#access">Access</a></li>
   <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions</a></li>
@@ -176,7 +177,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">September 4, 2026</p>
+      <p class="date">September 23, 2026</p>
     </div>
   </div>
   
@@ -190,8 +191,22 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="deadline" class="level2">
 <h2 class="anchored" data-anchor-id="deadline">Deadline</h2>
-<p><strong>October 31, 2026.</strong> Repository access must be granted to the organisers by this date; see <a href="#access">Access</a> below.</p>
+<p><strong>October 31, 2026.</strong> Repository access must be granted to the organisers by this date; see <a href="#access">Access</a> below. The signed <a href="#agreement">Open Source Sharing Agreement</a> must be in the repository by the same date.</p>
 <p>Any commit to the repository after October 31, 2026 is forbidden. Only the state of the repository as of the deadline will be assessed.</p>
+</section>
+<section id="agreement" class="level2">
+<h2 class="anchored" data-anchor-id="agreement">Open Source Sharing Agreement</h2>
+<p>Every submitting team must include a signed Open Source Sharing Agreement in its repository. A submission without it is incomplete and will not be assessed.</p>
+<p>By signing, the Team Leader confirms on behalf of all team members that the submission is released under the <a href="https://opensource.org/license/mit">MIT licence</a>, and that it is the team’s original work and does not infringe third-party rights. Team members keep ownership of their intellectual property.</p>
+<p><a href="./Open_Source_Sharing_Agreement.docx" class="btn btn-primary" download="Open_Source_Sharing_Agreement.docx">Download the Open Source Sharing Agreement (.docx)</a></p>
+<p>The Team Leader fills in and signs the agreement for the whole team:</p>
+<ol type="1">
+<li>At the top, enter the date and the Team Leader’s full name.</li>
+<li>In the table under Article 2, list every team member (Team Leader included): full name, role (Team Leader or team member) and team name.</li>
+<li>At the end, complete the Team Leader name and signature. Leave the WOAH block blank; WOAH countersigns.</li>
+<li>Save the signed agreement as a PDF named <code>Open_Source_Sharing_Agreement_signed.pdf</code> and commit it to the root of the repository, no later than October 31, 2026. Do not email it.</li>
+</ol>
+<p>Read the full agreement before signing. <!-- For questions about its terms, contact **diad \@ w o a h . o r g** before the deadline. --></p>
 </section>
 <section id="what-to-submit" class="level2">
 <h2 class="anchored" data-anchor-id="what-to-submit">What to submit</h2>
@@ -200,8 +215,9 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Analytical pipeline</strong> — the code implementing data processing, modelling and validation.</li>
 <li><strong>Technical report</strong> — documentation of methods, results and their interpretation.</li>
 <li><strong>README</strong> — an overview of the submission and step-by-step instructions to reproduce the results.</li>
+<li><strong>Signed Open Source Sharing Agreement</strong>, saved as <code>Open_Source_Sharing_Agreement_signed.pdf</code> at the root of the repository. See <a href="#agreement">Open Source Sharing Agreement</a> above.</li>
 </ol>
-<p>These map directly onto the <a href="./criteria.html">assessment criteria</a>, in particular <em>Reproducibility and Documentation</em>.</p>
+<p>Items 1 to 3 map directly onto the <a href="./criteria.html">assessment criteria</a>, in particular <em>Reproducibility and Documentation</em>.</p>
 <!-- ## Repository structure -->
 <!-- Structure the repository as follows: -->
 <!-- ``` -->
@@ -221,9 +237,9 @@ ul.task-list li input[type="checkbox"] {
 <ol type="1">
 <li>On GitHub, go to your repository → <strong>Settings → Collaborators and teams</strong>.</li>
 <li>Under <strong>Manage access</strong>, click <strong>Add people</strong>.</li>
-<li>Search for and add <strong><code>Data-Integration-Department-WOAH</code></strong>.</li>
+<li>Search for and add <strong><code>diad-woah</code></strong>.</li>
 </ol>
-<p>Granting this access <strong>is</strong> the act of submission — no separate form or email is required. Do this once the repository is final, and no later than October 31, 2026.</p>
+<p>Granting this access <strong>is</strong> the act of submission. No separate form or email is required. Do this once the repository is final, including the signed agreement, and no later than October 31, 2026.</p>
 <p>If you are hosting on a platform other than GitHub (e.g.&nbsp;GitLab), organisation-based access isn’t available. In that case, email <strong>diad @ w o a h . o r g</strong> with subject line <strong>“WOAH Datathon Submission — &lt;Team Name&gt;”</strong>, including the repository URL and the access you have granted.</p>
 </section>
 <section id="questions" class="level2">
